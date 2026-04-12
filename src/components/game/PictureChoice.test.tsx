@@ -43,6 +43,7 @@ test('submits a correct picture choice', async () => {
 
   render(<PictureChoice promptWord={promptWord} options={options} onAnswer={onAnswer} />)
   expect(screen.getByRole('img', { name: 'cat' })).toBeInTheDocument()
+  expect(screen.getByText(/常用句：This is a cat\./)).toBeInTheDocument()
   await user.click(screen.getByRole('button', { name: /cat/i }))
 
   expect(onAnswer).toHaveBeenCalledWith(expect.objectContaining({ correct: true }))

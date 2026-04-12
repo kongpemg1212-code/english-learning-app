@@ -18,6 +18,9 @@ export function PictureChoice({ promptWord, options, onAnswer }: ChoiceGameProps
           找到正确的英文单词
         </h2>
         <p style={{ margin: 0, color: 'var(--color-text-light)' }}>{promptWord.meaningZh}</p>
+        {promptWord.example ? (
+          <p style={{ margin: 0, color: 'var(--color-text-light)' }}>常用句：{promptWord.example}</p>
+        ) : null}
       </div>
 
       {feedback ? <AnswerFeedback state="correct" message={feedback} /> : null}

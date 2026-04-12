@@ -25,6 +25,9 @@ export function SpellBlocks({ word, onAnswer }: SpellBlocksProps) {
       <div style={{ display: 'grid', gap: '6px' }}>
         <p style={{ margin: 0, color: 'var(--color-text-light)' }}>拼写补全</p>
         <h2 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>补上缺失的字母</h2>
+        {word.example ? (
+          <p style={{ margin: 0, color: 'var(--color-text-light)' }}>常用句：{word.example}</p>
+        ) : null}
         <p style={{ margin: 0, fontSize: '2rem' }}>
           {word.word.slice(0, middleIndex)}
           _

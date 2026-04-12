@@ -18,6 +18,11 @@ const result = await build({
   platform: 'browser',
   target: ['es2020'],
   jsx: 'automatic',
+  define: {
+    'import.meta.env.VITE_SUPABASE_URL': 'undefined',
+    'import.meta.env.VITE_SUPABASE_ANON_KEY': 'undefined',
+    'import.meta.env.VITE_PUBLIC_APP_URL': 'undefined',
+  },
   outdir,
   write: false,
   loader: {

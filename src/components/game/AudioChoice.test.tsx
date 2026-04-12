@@ -48,6 +48,7 @@ test('submits a correct audio choice', async () => {
   vi.stubGlobal('SpeechSynthesisUtterance', FakeUtterance)
 
   render(<AudioChoice promptWord={promptWord} options={options} onAnswer={onAnswer} />)
+  expect(screen.getByText(/常用句：This is a cat\./)).toBeInTheDocument()
 
   await user.click(screen.getByRole('button', { name: '播放发音' }))
   expect(speak).toHaveBeenCalled()

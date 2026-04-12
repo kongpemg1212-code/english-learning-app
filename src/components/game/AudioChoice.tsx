@@ -18,6 +18,9 @@ export function AudioChoice({ promptWord, options, onAnswer }: ChoiceGameProps) 
         <h2 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>
           听一听，选出刚才听到的单词
         </h2>
+        {promptWord.example ? (
+          <p style={{ margin: 0, color: 'var(--color-text-light)' }}>常用句：{promptWord.example}</p>
+        ) : null}
       </div>
 
       <Button

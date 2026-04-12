@@ -21,6 +21,9 @@ export function MatchPairs({ words, onAnswer }: MatchPairsProps) {
       <div style={{ display: 'grid', gap: '6px', textAlign: 'center' }}>
         <p style={{ margin: 0, color: 'var(--color-text-light)' }}>拖拽配对</p>
         <h2 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>把单词和中文连起来</h2>
+        {words[0]?.example ? (
+          <p style={{ margin: 0, color: 'var(--color-text-light)' }}>常用句：{words[0].example}</p>
+        ) : null}
       </div>
 
       {feedback ? <AnswerFeedback state="correct" message={feedback} /> : null}
