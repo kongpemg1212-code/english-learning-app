@@ -12,12 +12,60 @@ const navItems: { route: AppRoute; label: string }[] = [
 type AppShellProps = PropsWithChildren<{
   currentRoute: AppRoute
   onNavigate: (route: AppRoute) => void
+  signedInEmail?: string
+  currentPackName?: string
+  onSignOut?: () => void
 }>
 
-export function AppShell({ children, currentRoute, onNavigate }: AppShellProps) {
+export function AppShell({
+  children,
+  currentRoute,
+  onNavigate,
+  signedInEmail,
+  currentPackName,
+  onSignOut,
+}: AppShellProps) {
   return (
     <div style={{ minHeight: '100vh', paddingBottom: '92px' }}>
       <div style={{ width: 'min(960px, calc(100% - 24px))', margin: '0 auto', paddingTop: '12px' }}>
+        {signedInEmail ? (
+          <header
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: '12px',
+              padding: '14px 16px',
+              marginBottom: '12px',
+              borderRadius: 'var(--radius-lg)',
+              background: 'rgba(255,255,255,0.82)',
+              border: '1px solid var(--color-surface-border)',
+              boxShadow: 'var(--shadow-card)',
+            }}
+          >
+            <div style={{ display: 'grid', gap: '2px' }}>
+              <strong>{signedInEmail}</strong>
+              {currentPackName ? (
+                <span style={{ color: 'var(--color-text-light)' }}>当前词库：{currentPackName}</span>
+              ) : null}
+            </div>
+            <button
+              type="button"
+              onClick={onSignOut}
+              style={{
+                minHeight: '40px',
+                padding: '0 16px',
+                borderRadius: 'var(--radius-pill)',
+                border: '1px solid var(--color-surface-border)',
+                background: 'rgba(255,255,255,0.92)',
+                cursor: 'pointer',
+                fontWeight: 700,
+              }}
+            >
+              退出登录
+            </button>
+          </header>
+        ) : null}
         {children}
       </div>
 
