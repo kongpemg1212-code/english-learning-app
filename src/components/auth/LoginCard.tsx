@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { sendMagicLink } from '../../lib/supabase'
 import { Button } from '../ui/Button'
@@ -8,9 +8,57 @@ type LoginCardProps = {
   configured: boolean
 }
 
+const COOLDOWN_KEY = 'word-garden-login-cooldown-until'
+const COOLDOWN_SECONDS = 60
+
 export function LoginCard({ configured }: LoginCardProps) {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState<string | null>(null)
+  const [sending, setSending] = useState(false)
+  const [now, setNow] = useState(() => Date.now())
+  const [cooldownUntil, setCooldownUntil] = useState<number>(() => {
+    try {
+      return Number(window.localStorage.getItem(COOLDOWN_KEY) ?? 0)
+    } catch {
+      return 0
+    }
+  })
+
+  const remainingSeconds = Math.max(0, Math.ceil((cooldownUntil - now) / 1000))
+
+  useEffect(() => {
+    if (remainingSeconds <= 0) {
+      return
+    }
+
+    const timer = window.setInterval(() => {
+      if (Date.now() >= cooldownUntil) {
+        setCooldownUntil(0)
+        setNow(Date.now())
+        try {
+          window.localStorage.removeItem(COOLDOWN_KEY)
+        } catch {
+          // ignore localStorage failures
+        }
+      } else {
+        setNow(Date.now())
+      }
+    }, 1000)
+
+    return () => {
+      window.clearInterval(timer)
+    }
+  }, [cooldownUntil, remainingSeconds])
+
+  function startCooldown(seconds = COOLDOWN_SECONDS) {
+    const nextUntil = Date.now() + seconds * 1000
+    setCooldownUntil(nextUntil)
+    try {
+      window.localStorage.setItem(COOLDOWN_KEY, String(nextUntil))
+    } catch {
+      // ignore localStorage failures
+    }
+  }
 
   async function handleSend() {
     if (!configured) {
@@ -24,10 +72,20 @@ export function LoginCard({ configured }: LoginCardProps) {
     }
 
     try {
+      setSending(true)
       await sendMagicLink(email.trim())
+      startCooldown()
       setMessage('登录链接已经发送到邮箱，请点击邮件继续登录。如果刚更新过页面，请先刷新一次再重试。')
     } catch (error) {
-      setMessage(error instanceof Error ? error.message : '发送登录链接失败。')
+      const text = error instanceof Error ? error.message : '发送登录链接失败。'
+      if (text.toLowerCase().includes('rate limit')) {
+        startCooldown()
+        setMessage('当前邮箱发送太频繁，请等待约 60 秒后再试，同时检查收件箱和垃圾邮件。')
+      } else {
+        setMessage(text)
+      }
+    } finally {
+      setSending(false)
     }
   }
 
@@ -56,7 +114,12 @@ export function LoginCard({ configured }: LoginCardProps) {
             }}
           />
         </label>
-        <Button onClick={() => void handleSend()}>发送免密码登录链接</Button>
+        <Button
+          onClick={() => void handleSend()}
+          disabled={sending || remainingSeconds > 0}
+        >
+          {remainingSeconds > 0 ? `请等待 ${remainingSeconds}s` : '发送免密码登录链接'}
+        </Button>
         {message ? <p style={{ margin: 0, color: 'var(--color-text-light)' }}>{message}</p> : null}
         {!configured ? (
           <p style={{ margin: 0, color: '#b25b00' }}>
