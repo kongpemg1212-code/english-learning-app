@@ -1,0 +1,158 @@
+[
+  {
+    "id": "yle-months-january",
+    "word": "January",
+    "normalizedWord": "january",
+    "meaningZh": "一月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-months-february",
+    "word": "February",
+    "normalizedWord": "february",
+    "meaningZh": "二月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-months-march",
+    "word": "March",
+    "normalizedWord": "march",
+    "meaningZh": "三月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-months-april",
+    "word": "April",
+    "normalizedWord": "april",
+    "meaningZh": "四月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-months-may",
+    "word": "May",
+    "normalizedWord": "may",
+    "meaningZh": "五月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-months-june",
+    "word": "June",
+    "normalizedWord": "june",
+    "meaningZh": "六月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-months-july",
+    "word": "July",
+    "normalizedWord": "july",
+    "meaningZh": "七月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-months-august",
+    "word": "August",
+    "normalizedWord": "august",
+    "meaningZh": "八月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-months-september",
+    "word": "September",
+    "normalizedWord": "september",
+    "meaningZh": "九月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-months-october",
+    "word": "October",
+    "normalizedWord": "october",
+    "meaningZh": "十月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-months-november",
+    "word": "November",
+    "normalizedWord": "november",
+    "meaningZh": "十一月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-months-december",
+    "word": "December",
+    "normalizedWord": "december",
+    "meaningZh": "十二月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "yle-days-of-the-week-monday",
+    "word": "Monday",
+    "normalizedWord": "monday",
+    "meaningZh": "星期一",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-days-of-the-week-tuesday",
+    "word": "Tuesday",
+    "normalizedWord": "tuesday",
+    "meaningZh": "星期二",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-days-of-the-week-wednesday",
+    "word": "Wednesday",
+    "normalizedWord": "wednesday",
+    "meaningZh": "星期三",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-days-of-the-week-thursday",
+    "word": "Thursday",
+    "normalizedWord": "thursday",
+    "meaningZh": "星期四",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-days-of-the-week-friday",
+    "word": "Friday",
+    "normalizedWord": "friday",
+    "meaningZh": "星期五",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-days-of-the-week-saturday",
+    "word": "Saturday",
+    "normalizedWord": "saturday",
+    "meaningZh": "星期六",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-days-of-the-week-sunday",
+    "word": "Sunday",
+    "normalizedWord": "sunday",
+    "meaningZh": "星期日",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  }
+]

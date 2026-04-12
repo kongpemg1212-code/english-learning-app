@@ -1,0 +1,340 @@
+[
+  {
+    "id": "yle-work-actor",
+    "word": "actor",
+    "normalizedWord": "actor",
+    "meaningZh": "男/女演员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-work-artist",
+    "word": "artist",
+    "normalizedWord": "artist",
+    "meaningZh": "艺术家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-work-business-person",
+    "word": "business person",
+    "normalizedWord": "business person",
+    "meaningZh": "商人",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-work-chef",
+    "word": "chef",
+    "normalizedWord": "chef",
+    "meaningZh": "厨师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-work-doctor",
+    "word": "doctor",
+    "normalizedWord": "doctor",
+    "meaningZh": "医生",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-work-driver",
+    "word": "driver",
+    "normalizedWord": "driver",
+    "meaningZh": "司机",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-work-farmer",
+    "word": "farmer",
+    "normalizedWord": "farmer",
+    "meaningZh": "农民",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-work-fire-fighter",
+    "word": "fire fighter",
+    "normalizedWord": "fire fighter",
+    "meaningZh": "消防员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-work-judge",
+    "word": "judge",
+    "normalizedWord": "judge",
+    "meaningZh": "法官",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-work-manager",
+    "word": "manager",
+    "normalizedWord": "manager",
+    "meaningZh": "经理",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-work-mechanic",
+    "word": "mechanic",
+    "normalizedWord": "mechanic",
+    "meaningZh": "机械师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-work-musician",
+    "word": "musician",
+    "normalizedWord": "musician",
+    "meaningZh": "音乐家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-work-newsreader",
+    "word": "newsreader",
+    "normalizedWord": "newsreader",
+    "meaningZh": "新闻播音员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-work-nurse",
+    "word": "nurse",
+    "normalizedWord": "nurse",
+    "meaningZh": "护士",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-work-painter",
+    "word": "painter",
+    "normalizedWord": "painter",
+    "meaningZh": "画家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-work-photographer",
+    "word": "photographer",
+    "normalizedWord": "photographer",
+    "meaningZh": "摄影师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-work-pilot",
+    "word": "pilot",
+    "normalizedWord": "pilot",
+    "meaningZh": "飞行员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-work-police-officer",
+    "word": "police officer",
+    "normalizedWord": "police officer",
+    "meaningZh": "警察",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-work-reporter",
+    "word": "reporter",
+    "normalizedWord": "reporter",
+    "meaningZh": "记者",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-work-scientist",
+    "word": "scientist",
+    "normalizedWord": "scientist",
+    "meaningZh": "科学家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-work-secretary",
+    "word": "secretary",
+    "normalizedWord": "secretary",
+    "meaningZh": "秘书",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-work-soldier",
+    "word": "soldier",
+    "normalizedWord": "soldier",
+    "meaningZh": "士兵",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-work-teacher",
+    "word": "teacher",
+    "normalizedWord": "teacher",
+    "meaningZh": "教师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-work-veterinarian",
+    "word": "veterinarian",
+    "normalizedWord": "veterinarian",
+    "meaningZh": "兽医",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-work-vet",
+    "word": "vet",
+    "normalizedWord": "vet",
+    "meaningZh": "兽医",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-work-writer",
+    "word": "writer",
+    "normalizedWord": "writer",
+    "meaningZh": "作家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  }
+]

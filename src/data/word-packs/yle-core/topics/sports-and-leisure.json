@@ -1,0 +1,665 @@
+[
+  {
+    "id": "yle-sports-and-leisure-badminton",
+    "word": "badminton",
+    "normalizedWord": "badminton",
+    "meaningZh": "羽毛球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-sports-and-leisure-ball",
+    "word": "ball",
+    "normalizedWord": "ball",
+    "meaningZh": "球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-sports-and-leisure-baseball",
+    "word": "baseball",
+    "normalizedWord": "baseball",
+    "meaningZh": "棒球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-sports-and-leisure-basketball",
+    "word": "basketball",
+    "normalizedWord": "basketball",
+    "meaningZh": "篮球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-sports-and-leisure-bat",
+    "word": "bat",
+    "normalizedWord": "bat",
+    "meaningZh": "球拍/球棒",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-sports-and-leisure-beach",
+    "word": "beach",
+    "normalizedWord": "beach",
+    "meaningZh": "海滩",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-sports-and-leisure-bike",
+    "word": "bike",
+    "normalizedWord": "bike",
+    "meaningZh": "自行车",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-sports-and-leisure-board-game",
+    "word": "board game",
+    "normalizedWord": "board game",
+    "meaningZh": "桌游",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-sports-and-leisure-boat",
+    "word": "boat",
+    "normalizedWord": "boat",
+    "meaningZh": "船",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-sports-and-leisure-bounce",
+    "word": "bounce",
+    "normalizedWord": "bounce",
+    "meaningZh": "弹跳",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-sports-and-leisure-camera",
+    "word": "camera",
+    "normalizedWord": "camera",
+    "meaningZh": "相机",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-sports-and-leisure-catch",
+    "word": "catch",
+    "normalizedWord": "catch",
+    "meaningZh": "抓住",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-sports-and-leisure-doll",
+    "word": "doll",
+    "normalizedWord": "doll",
+    "meaningZh": "玩具娃娃",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-sports-and-leisure-draw",
+    "word": "draw",
+    "normalizedWord": "draw",
+    "meaningZh": "画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-sports-and-leisure-drawing",
+    "word": "drawing",
+    "normalizedWord": "drawing",
+    "meaningZh": "绘画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-sports-and-leisure-drive",
+    "word": "drive",
+    "normalizedWord": "drive",
+    "meaningZh": "驾驶",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-sports-and-leisure-enjoy",
+    "word": "enjoy",
+    "normalizedWord": "enjoy",
+    "meaningZh": "享受",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-sports-and-leisure-favourite",
+    "word": "favourite",
+    "normalizedWord": "favourite",
+    "meaningZh": "最喜欢的",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-sports-and-leisure-fish",
+    "word": "fish",
+    "normalizedWord": "fish",
+    "meaningZh": "钓鱼",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-sports-and-leisure-fishing",
+    "word": "fishing",
+    "normalizedWord": "fishing",
+    "meaningZh": "钓鱼",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-sports-and-leisure-fly",
+    "word": "fly",
+    "normalizedWord": "fly",
+    "meaningZh": "飞",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-sports-and-leisure-football",
+    "word": "football",
+    "normalizedWord": "football",
+    "meaningZh": "足球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-sports-and-leisure-game",
+    "word": "game",
+    "normalizedWord": "game",
+    "meaningZh": "游戏",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-sports-and-leisure-guitar",
+    "word": "guitar",
+    "normalizedWord": "guitar",
+    "meaningZh": "吉他",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-sports-and-leisure-hobby",
+    "word": "hobby",
+    "normalizedWord": "hobby",
+    "meaningZh": "爱好",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-sports-and-leisure-hockey",
+    "word": "hockey",
+    "normalizedWord": "hockey",
+    "meaningZh": "曲棍球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-sports-and-leisure-kick",
+    "word": "kick",
+    "normalizedWord": "kick",
+    "meaningZh": "踢",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-sports-and-leisure-kite",
+    "word": "kite",
+    "normalizedWord": "kite",
+    "meaningZh": "风筝",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-sports-and-leisure-paint",
+    "word": "paint",
+    "normalizedWord": "paint",
+    "meaningZh": "画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-sports-and-leisure-painting",
+    "word": "painting",
+    "normalizedWord": "painting",
+    "meaningZh": "绘画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-sports-and-leisure-play",
+    "word": "play",
+    "normalizedWord": "play",
+    "meaningZh": "玩",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-sports-and-leisure-pool",
+    "word": "pool",
+    "normalizedWord": "pool",
+    "meaningZh": "游泳池",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-sports-and-leisure-puppet",
+    "word": "puppet",
+    "normalizedWord": "puppet",
+    "meaningZh": "木偶",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-sports-and-leisure-race",
+    "word": "race",
+    "normalizedWord": "race",
+    "meaningZh": "比赛",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-sports-and-leisure-radio",
+    "word": "radio",
+    "normalizedWord": "radio",
+    "meaningZh": "收音机",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-sports-and-leisure-ride",
+    "word": "ride",
+    "normalizedWord": "ride",
+    "meaningZh": "骑",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-sports-and-leisure-run",
+    "word": "run",
+    "normalizedWord": "run",
+    "meaningZh": "跑",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  },
+  {
+    "id": "yle-sports-and-leisure-scooter",
+    "word": "scooter",
+    "normalizedWord": "scooter",
+    "meaningZh": "滑板车",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 38
+  },
+  {
+    "id": "yle-sports-and-leisure-see",
+    "word": "see",
+    "normalizedWord": "see",
+    "meaningZh": "看",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 39
+  },
+  {
+    "id": "yle-sports-and-leisure-sing",
+    "word": "sing",
+    "normalizedWord": "sing",
+    "meaningZh": "唱",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 40
+  },
+  {
+    "id": "yle-sports-and-leisure-skate",
+    "word": "skate",
+    "normalizedWord": "skate",
+    "meaningZh": "滑冰",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 41
+  },
+  {
+    "id": "yle-sports-and-leisure-sport",
+    "word": "sport",
+    "normalizedWord": "sport",
+    "meaningZh": "运动",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 42
+  },
+  {
+    "id": "yle-sports-and-leisure-swim",
+    "word": "swim",
+    "normalizedWord": "swim",
+    "meaningZh": "游泳",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 43
+  },
+  {
+    "id": "yle-sports-and-leisure-table-tennis",
+    "word": "table tennis",
+    "normalizedWord": "table tennis",
+    "meaningZh": "乒乓球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 44
+  },
+  {
+    "id": "yle-sports-and-leisure-teddy",
+    "word": "teddy",
+    "normalizedWord": "teddy",
+    "meaningZh": "泰迪熊",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 45
+  },
+  {
+    "id": "yle-sports-and-leisure-tennis",
+    "word": "tennis",
+    "normalizedWord": "tennis",
+    "meaningZh": "网球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 46
+  },
+  {
+    "id": "yle-sports-and-leisure-toy",
+    "word": "toy",
+    "normalizedWord": "toy",
+    "meaningZh": "玩具",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 47
+  },
+  {
+    "id": "yle-sports-and-leisure-travel",
+    "word": "travel",
+    "normalizedWord": "travel",
+    "meaningZh": "旅行",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 48
+  },
+  {
+    "id": "yle-sports-and-leisure-walk",
+    "word": "walk",
+    "normalizedWord": "walk",
+    "meaningZh": "走",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 49
+  },
+  {
+    "id": "yle-sports-and-leisure-watch",
+    "word": "watch",
+    "normalizedWord": "watch",
+    "meaningZh": "看",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 50
+  },
+  {
+    "id": "yle-sports-and-leisure-yoga",
+    "word": "yoga",
+    "normalizedWord": "yoga",
+    "meaningZh": "瑜伽",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 51
+  }
+]

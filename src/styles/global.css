@@ -1,0 +1,41 @@
+@import './tokens.css';
+@import './animations.css';
+
+:root {
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(255, 107, 107, 0.16), transparent 24%),
+    radial-gradient(circle at 85% 15%, rgba(78, 205, 196, 0.2), transparent 25%),
+    radial-gradient(circle at 60% 70%, rgba(255, 230, 109, 0.18), transparent 22%),
+    var(--color-bg);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

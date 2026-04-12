@@ -1,0 +1,197 @@
+[
+  {
+    "id": "yle-transport-ambulance",
+    "word": "ambulance",
+    "normalizedWord": "ambulance",
+    "meaningZh": "救护车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-transport-bike",
+    "word": "bike",
+    "normalizedWord": "bike",
+    "meaningZh": "自行车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-transport-boat",
+    "word": "boat",
+    "normalizedWord": "boat",
+    "meaningZh": "船",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-transport-bus",
+    "word": "bus",
+    "normalizedWord": "bus",
+    "meaningZh": "公共汽车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-transport-car",
+    "word": "car",
+    "normalizedWord": "car",
+    "meaningZh": "汽车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-transport-coach",
+    "word": "coach",
+    "normalizedWord": "coach",
+    "meaningZh": "长途汽车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-transport-helicopter",
+    "word": "helicopter",
+    "normalizedWord": "helicopter",
+    "meaningZh": "直升机",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-transport-lorry",
+    "word": "lorry",
+    "normalizedWord": "lorry",
+    "meaningZh": "卡车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-transport-motorbike",
+    "word": "motorbike",
+    "normalizedWord": "motorbike",
+    "meaningZh": "摩托车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-transport-plane",
+    "word": "plane",
+    "normalizedWord": "plane",
+    "meaningZh": "飞机",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-transport-ship",
+    "word": "ship",
+    "normalizedWord": "ship",
+    "meaningZh": "船",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-transport-taxi",
+    "word": "taxi",
+    "normalizedWord": "taxi",
+    "meaningZh": "出租车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-transport-tractor",
+    "word": "tractor",
+    "normalizedWord": "tractor",
+    "meaningZh": "拖拉机",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-transport-train",
+    "word": "train",
+    "normalizedWord": "train",
+    "meaningZh": "火车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-transport-truck",
+    "word": "truck",
+    "normalizedWord": "truck",
+    "meaningZh": "卡车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  }
+]

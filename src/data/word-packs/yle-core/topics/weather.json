@@ -1,0 +1,158 @@
+[
+  {
+    "id": "yle-weather-cloud",
+    "word": "cloud",
+    "normalizedWord": "cloud",
+    "meaningZh": "云",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-weather-cloudy",
+    "word": "cloudy",
+    "normalizedWord": "cloudy",
+    "meaningZh": "多云的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-weather-rain",
+    "word": "rain",
+    "normalizedWord": "rain",
+    "meaningZh": "雨",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-weather-rainy",
+    "word": "rainy",
+    "normalizedWord": "rainy",
+    "meaningZh": "下雨的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-weather-snow",
+    "word": "snow",
+    "normalizedWord": "snow",
+    "meaningZh": "雪",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-weather-snowy",
+    "word": "snowy",
+    "normalizedWord": "snowy",
+    "meaningZh": "下雪的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-weather-sun",
+    "word": "sun",
+    "normalizedWord": "sun",
+    "meaningZh": "太阳",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-weather-sunny",
+    "word": "sunny",
+    "normalizedWord": "sunny",
+    "meaningZh": "阳光充足的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-weather-warm",
+    "word": "warm",
+    "normalizedWord": "warm",
+    "meaningZh": "温暖的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-weather-weather",
+    "word": "weather",
+    "normalizedWord": "weather",
+    "meaningZh": "天气",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-weather-wind",
+    "word": "wind",
+    "normalizedWord": "wind",
+    "meaningZh": "风",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-weather-windy",
+    "word": "windy",
+    "normalizedWord": "windy",
+    "meaningZh": "有风的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  }
+]

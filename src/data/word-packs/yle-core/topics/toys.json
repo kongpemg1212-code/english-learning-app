@@ -1,0 +1,249 @@
+[
+  {
+    "id": "yle-toys-alien",
+    "word": "alien",
+    "normalizedWord": "alien",
+    "meaningZh": "外星人",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-toys-ball",
+    "word": "ball",
+    "normalizedWord": "ball",
+    "meaningZh": "球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-toys-balloon",
+    "word": "balloon",
+    "normalizedWord": "balloon",
+    "meaningZh": "气球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-toys-baseball",
+    "word": "baseball",
+    "normalizedWord": "baseball",
+    "meaningZh": "棒球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-toys-basketball",
+    "word": "basketball",
+    "normalizedWord": "basketball",
+    "meaningZh": "篮球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-toys-bike",
+    "word": "bike",
+    "normalizedWord": "bike",
+    "meaningZh": "自行车",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-toys-board-game",
+    "word": "board game",
+    "normalizedWord": "board game",
+    "meaningZh": "桌游",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-toys-boat",
+    "word": "boat",
+    "normalizedWord": "boat",
+    "meaningZh": "船",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-toys-car",
+    "word": "car",
+    "normalizedWord": "car",
+    "meaningZh": "汽车",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-toys-doll",
+    "word": "doll",
+    "normalizedWord": "doll",
+    "meaningZh": "玩具娃娃",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-toys-football",
+    "word": "football",
+    "normalizedWord": "football",
+    "meaningZh": "足球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-toys-game",
+    "word": "game",
+    "normalizedWord": "game",
+    "meaningZh": "游戏",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-toys-kite",
+    "word": "kite",
+    "normalizedWord": "kite",
+    "meaningZh": "风筝",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-toys-motorbike",
+    "word": "motorbike",
+    "normalizedWord": "motorbike",
+    "meaningZh": "摩托车",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-toys-plane",
+    "word": "plane",
+    "normalizedWord": "plane",
+    "meaningZh": "飞机",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-toys-puppet",
+    "word": "puppet",
+    "normalizedWord": "puppet",
+    "meaningZh": "木偶",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-toys-ride",
+    "word": "ride",
+    "normalizedWord": "ride",
+    "meaningZh": "骑",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-toys-teddy",
+    "word": "teddy",
+    "normalizedWord": "teddy",
+    "meaningZh": "泰迪熊",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-toys-toy",
+    "word": "toy",
+    "normalizedWord": "toy",
+    "meaningZh": "玩具",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  }
+]

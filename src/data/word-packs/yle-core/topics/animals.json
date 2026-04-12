@@ -1,0 +1,405 @@
+[
+  {
+    "id": "yle-animals-animal",
+    "word": "animal",
+    "normalizedWord": "animal",
+    "meaningZh": "动物",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-animals-bear",
+    "word": "bear",
+    "normalizedWord": "bear",
+    "meaningZh": "熊",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-animals-bee",
+    "word": "bee",
+    "normalizedWord": "bee",
+    "meaningZh": "蜜蜂",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-animals-bird",
+    "word": "bird",
+    "normalizedWord": "bird",
+    "meaningZh": "鸟",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-animals-cat",
+    "word": "cat",
+    "normalizedWord": "cat",
+    "meaningZh": "猫",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-animals-chicken",
+    "word": "chicken",
+    "normalizedWord": "chicken",
+    "meaningZh": "鸡",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-animals-cow",
+    "word": "cow",
+    "normalizedWord": "cow",
+    "meaningZh": "奶牛",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-animals-crocodile",
+    "word": "crocodile",
+    "normalizedWord": "crocodile",
+    "meaningZh": "鳄鱼",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-animals-dog",
+    "word": "dog",
+    "normalizedWord": "dog",
+    "meaningZh": "狗",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-animals-donkey",
+    "word": "donkey",
+    "normalizedWord": "donkey",
+    "meaningZh": "驴",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-animals-duck",
+    "word": "duck",
+    "normalizedWord": "duck",
+    "meaningZh": "鸭子",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-animals-elephant",
+    "word": "elephant",
+    "normalizedWord": "elephant",
+    "meaningZh": "大象",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-animals-fish",
+    "word": "fish",
+    "normalizedWord": "fish",
+    "meaningZh": "鱼",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-animals-fox",
+    "word": "fox",
+    "normalizedWord": "fox",
+    "meaningZh": "狐狸",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-animals-frog",
+    "word": "frog",
+    "normalizedWord": "frog",
+    "meaningZh": "青蛙",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-animals-giraffe",
+    "word": "giraffe",
+    "normalizedWord": "giraffe",
+    "meaningZh": "长颈鹿",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-animals-goat",
+    "word": "goat",
+    "normalizedWord": "goat",
+    "meaningZh": "山羊",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-animals-hippo",
+    "word": "hippo",
+    "normalizedWord": "hippo",
+    "meaningZh": "河马",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-animals-horse",
+    "word": "horse",
+    "normalizedWord": "horse",
+    "meaningZh": "马",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-animals-lizard",
+    "word": "lizard",
+    "normalizedWord": "lizard",
+    "meaningZh": "蜥蜴",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-animals-monkey",
+    "word": "monkey",
+    "normalizedWord": "monkey",
+    "meaningZh": "猴子",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-animals-mouse",
+    "word": "mouse",
+    "normalizedWord": "mouse",
+    "meaningZh": "老鼠",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-animals-panda",
+    "word": "panda",
+    "normalizedWord": "panda",
+    "meaningZh": "熊猫",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-animals-pet",
+    "word": "pet",
+    "normalizedWord": "pet",
+    "meaningZh": "宠物",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-animals-sheep",
+    "word": "sheep",
+    "normalizedWord": "sheep",
+    "meaningZh": "绵羊",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-animals-snake",
+    "word": "snake",
+    "normalizedWord": "snake",
+    "meaningZh": "蛇",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-animals-spider",
+    "word": "spider",
+    "normalizedWord": "spider",
+    "meaningZh": "蜘蛛",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-animals-tail",
+    "word": "tail",
+    "normalizedWord": "tail",
+    "meaningZh": "尾巴",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-animals-tiger",
+    "word": "tiger",
+    "normalizedWord": "tiger",
+    "meaningZh": "老虎",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-animals-zebra",
+    "word": "zebra",
+    "normalizedWord": "zebra",
+    "meaningZh": "斑马",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-animals-zoo",
+    "word": "zoo",
+    "normalizedWord": "zoo",
+    "meaningZh": "动物园",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "yle-seasons-spring",
+    "word": "spring",
+    "normalizedWord": "spring",
+    "meaningZh": "春天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-seasons-summer",
+    "word": "summer",
+    "normalizedWord": "summer",
+    "meaningZh": "夏天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-seasons-autumn",
+    "word": "autumn",
+    "normalizedWord": "autumn",
+    "meaningZh": "秋天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-seasons-fall",
+    "word": "fall",
+    "normalizedWord": "fall",
+    "meaningZh": "秋天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-seasons-winter",
+    "word": "winter",
+    "normalizedWord": "winter",
+    "meaningZh": "冬天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  }
+]

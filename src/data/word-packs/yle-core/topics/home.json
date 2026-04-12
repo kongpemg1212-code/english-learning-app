@@ -1,0 +1,483 @@
+[
+  {
+    "id": "yle-home-apartment",
+    "word": "apartment",
+    "normalizedWord": "apartment",
+    "meaningZh": "公寓",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-home-armchair",
+    "word": "armchair",
+    "normalizedWord": "armchair",
+    "meaningZh": "扶手椅",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-home-bath",
+    "word": "bath",
+    "normalizedWord": "bath",
+    "meaningZh": "洗澡",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-home-bathroom",
+    "word": "bathroom",
+    "normalizedWord": "bathroom",
+    "meaningZh": "浴室",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-home-bed",
+    "word": "bed",
+    "normalizedWord": "bed",
+    "meaningZh": "床",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-home-bedroom",
+    "word": "bedroom",
+    "normalizedWord": "bedroom",
+    "meaningZh": "卧室",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-home-bookcase",
+    "word": "bookcase",
+    "normalizedWord": "bookcase",
+    "meaningZh": "书架",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-home-box",
+    "word": "box",
+    "normalizedWord": "box",
+    "meaningZh": "盒子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-home-chair",
+    "word": "chair",
+    "normalizedWord": "chair",
+    "meaningZh": "椅子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-home-clock",
+    "word": "clock",
+    "normalizedWord": "clock",
+    "meaningZh": "时钟",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-home-computer",
+    "word": "computer",
+    "normalizedWord": "computer",
+    "meaningZh": "电脑",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-home-cupboard",
+    "word": "cupboard",
+    "normalizedWord": "cupboard",
+    "meaningZh": "橱柜",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-home-desk",
+    "word": "desk",
+    "normalizedWord": "desk",
+    "meaningZh": "书桌",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-home-dining-room",
+    "word": "dining room",
+    "normalizedWord": "dining room",
+    "meaningZh": "餐厅",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-home-door",
+    "word": "door",
+    "normalizedWord": "door",
+    "meaningZh": "门",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-home-floor",
+    "word": "floor",
+    "normalizedWord": "floor",
+    "meaningZh": "地板",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-home-furniture",
+    "word": "furniture",
+    "normalizedWord": "furniture",
+    "meaningZh": "家具",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-home-garage",
+    "word": "garage",
+    "normalizedWord": "garage",
+    "meaningZh": "车库",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-home-garden",
+    "word": "garden",
+    "normalizedWord": "garden",
+    "meaningZh": "花园",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-home-house",
+    "word": "house",
+    "normalizedWord": "house",
+    "meaningZh": "房子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-home-kitchen",
+    "word": "kitchen",
+    "normalizedWord": "kitchen",
+    "meaningZh": "厨房",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-home-lamp",
+    "word": "lamp",
+    "normalizedWord": "lamp",
+    "meaningZh": "灯",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-home-lift",
+    "word": "lift",
+    "normalizedWord": "lift",
+    "meaningZh": "电梯",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-home-living-room",
+    "word": "living room",
+    "normalizedWord": "living room",
+    "meaningZh": "客厅",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-home-mirror",
+    "word": "mirror",
+    "normalizedWord": "mirror",
+    "meaningZh": "镜子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-home-office",
+    "word": "office",
+    "normalizedWord": "office",
+    "meaningZh": "办公室",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-home-picture",
+    "word": "picture",
+    "normalizedWord": "picture",
+    "meaningZh": "图片",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-home-plant",
+    "word": "plant",
+    "normalizedWord": "plant",
+    "meaningZh": "植物",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-home-pool",
+    "word": "pool",
+    "normalizedWord": "pool",
+    "meaningZh": "游泳池",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-home-room",
+    "word": "room",
+    "normalizedWord": "room",
+    "meaningZh": "房间",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-home-sofa",
+    "word": "sofa",
+    "normalizedWord": "sofa",
+    "meaningZh": "沙发",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-home-staircase",
+    "word": "staircase",
+    "normalizedWord": "staircase",
+    "meaningZh": "楼梯",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-home-table",
+    "word": "table",
+    "normalizedWord": "table",
+    "meaningZh": "桌子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-home-towel",
+    "word": "towel",
+    "normalizedWord": "towel",
+    "meaningZh": "毛巾",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-home-tower",
+    "word": "tower",
+    "normalizedWord": "tower",
+    "meaningZh": "塔",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-home-wall",
+    "word": "wall",
+    "normalizedWord": "wall",
+    "meaningZh": "墙",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-home-window",
+    "word": "window",
+    "normalizedWord": "window",
+    "meaningZh": "窗户",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  }
+]

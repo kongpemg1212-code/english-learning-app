@@ -1,0 +1,327 @@
+[
+  {
+    "id": "yle-family-and-friends-baby",
+    "word": "baby",
+    "normalizedWord": "baby",
+    "meaningZh": "婴儿",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-family-and-friends-boy",
+    "word": "boy",
+    "normalizedWord": "boy",
+    "meaningZh": "男孩",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-family-and-friends-brother",
+    "word": "brother",
+    "normalizedWord": "brother",
+    "meaningZh": "兄弟",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-family-and-friends-child",
+    "word": "child",
+    "normalizedWord": "child",
+    "meaningZh": "孩子/孩子们",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-family-and-friends-classmate",
+    "word": "classmate",
+    "normalizedWord": "classmate",
+    "meaningZh": "同学",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-family-and-friends-cousin",
+    "word": "cousin",
+    "normalizedWord": "cousin",
+    "meaningZh": "表兄弟姐妹",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-family-and-friends-dad",
+    "word": "dad",
+    "normalizedWord": "dad",
+    "meaningZh": "爸爸",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-family-and-friends-family",
+    "word": "family",
+    "normalizedWord": "family",
+    "meaningZh": "家庭",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-family-and-friends-father",
+    "word": "father",
+    "normalizedWord": "father",
+    "meaningZh": "父亲",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-family-and-friends-friend",
+    "word": "friend",
+    "normalizedWord": "friend",
+    "meaningZh": "朋友",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-family-and-friends-girl",
+    "word": "girl",
+    "normalizedWord": "girl",
+    "meaningZh": "女孩",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-family-and-friends-grandfather",
+    "word": "grandfather",
+    "normalizedWord": "grandfather",
+    "meaningZh": "爷爷/外公",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-family-and-friends-grandma",
+    "word": "grandma",
+    "normalizedWord": "grandma",
+    "meaningZh": "奶奶/外婆",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-family-and-friends-grandmother",
+    "word": "grandmother",
+    "normalizedWord": "grandmother",
+    "meaningZh": "奶奶/外婆",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-family-and-friends-grandpa",
+    "word": "grandpa",
+    "normalizedWord": "grandpa",
+    "meaningZh": "爷爷/外公",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-family-and-friends-grandparent",
+    "word": "grandparent",
+    "normalizedWord": "grandparent",
+    "meaningZh": "祖父母",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-family-and-friends-kid",
+    "word": "kid",
+    "normalizedWord": "kid",
+    "meaningZh": "小孩",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-family-and-friends-man",
+    "word": "man",
+    "normalizedWord": "man",
+    "meaningZh": "男人",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-family-and-friends-mother",
+    "word": "mother",
+    "normalizedWord": "mother",
+    "meaningZh": "妈妈",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-family-and-friends-mum",
+    "word": "mum",
+    "normalizedWord": "mum",
+    "meaningZh": "妈妈",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-family-and-friends-old-person",
+    "word": "old person",
+    "normalizedWord": "old person",
+    "meaningZh": "老人",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-family-and-friends-parent",
+    "word": "parent",
+    "normalizedWord": "parent",
+    "meaningZh": "父母",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-family-and-friends-sister",
+    "word": "sister",
+    "normalizedWord": "sister",
+    "meaningZh": "姐妹",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-family-and-friends-woman",
+    "word": "woman",
+    "normalizedWord": "woman",
+    "meaningZh": "女人/女人们",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-family-and-friends-young",
+    "word": "young",
+    "normalizedWord": "young",
+    "meaningZh": "年轻的",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  }
+]

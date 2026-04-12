@@ -1,0 +1,171 @@
+[
+  {
+    "id": "yle-colours-black",
+    "word": "black",
+    "normalizedWord": "black",
+    "meaningZh": "黑色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-colours-blue",
+    "word": "blue",
+    "normalizedWord": "blue",
+    "meaningZh": "蓝色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-colours-brown",
+    "word": "brown",
+    "normalizedWord": "brown",
+    "meaningZh": "棕色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-colours-colour",
+    "word": "colour",
+    "normalizedWord": "colour",
+    "meaningZh": "颜色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-colours-gray",
+    "word": "gray",
+    "normalizedWord": "gray",
+    "meaningZh": "灰色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-colours-green",
+    "word": "green",
+    "normalizedWord": "green",
+    "meaningZh": "绿色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-colours-grey",
+    "word": "grey",
+    "normalizedWord": "grey",
+    "meaningZh": "灰色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-colours-orange",
+    "word": "orange",
+    "normalizedWord": "orange",
+    "meaningZh": "橙色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-colours-pink",
+    "word": "pink",
+    "normalizedWord": "pink",
+    "meaningZh": "粉色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-colours-purple",
+    "word": "purple",
+    "normalizedWord": "purple",
+    "meaningZh": "紫色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-colours-red",
+    "word": "red",
+    "normalizedWord": "red",
+    "meaningZh": "红色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-colours-white",
+    "word": "white",
+    "normalizedWord": "white",
+    "meaningZh": "白色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-colours-yellow",
+    "word": "yellow",
+    "normalizedWord": "yellow",
+    "meaningZh": "黄色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  }
+]

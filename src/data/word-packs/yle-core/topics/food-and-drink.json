@@ -1,0 +1,509 @@
+[
+  {
+    "id": "yle-food-and-drink-apple",
+    "word": "apple",
+    "normalizedWord": "apple",
+    "meaningZh": "苹果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-food-and-drink-banana",
+    "word": "banana",
+    "normalizedWord": "banana",
+    "meaningZh": "香蕉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-food-and-drink-bean",
+    "word": "bean",
+    "normalizedWord": "bean",
+    "meaningZh": "豆子",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-food-and-drink-bread",
+    "word": "bread",
+    "normalizedWord": "bread",
+    "meaningZh": "面包",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-food-and-drink-breakfast",
+    "word": "breakfast",
+    "normalizedWord": "breakfast",
+    "meaningZh": "早餐",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-food-and-drink-burger",
+    "word": "burger",
+    "normalizedWord": "burger",
+    "meaningZh": "汉堡",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-food-and-drink-cake",
+    "word": "cake",
+    "normalizedWord": "cake",
+    "meaningZh": "蛋糕",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-food-and-drink-candy",
+    "word": "candy",
+    "normalizedWord": "candy",
+    "meaningZh": "糖果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-food-and-drink-carrot",
+    "word": "carrot",
+    "normalizedWord": "carrot",
+    "meaningZh": "胡萝卜",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-food-and-drink-chicken",
+    "word": "chicken",
+    "normalizedWord": "chicken",
+    "meaningZh": "鸡肉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-food-and-drink-chips",
+    "word": "chips",
+    "normalizedWord": "chips",
+    "meaningZh": "薯条",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-food-and-drink-chocolate",
+    "word": "chocolate",
+    "normalizedWord": "chocolate",
+    "meaningZh": "巧克力",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-food-and-drink-coconut",
+    "word": "coconut",
+    "normalizedWord": "coconut",
+    "meaningZh": "椰子",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-food-and-drink-dinner",
+    "word": "dinner",
+    "normalizedWord": "dinner",
+    "meaningZh": "晚餐",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-food-and-drink-drink",
+    "word": "drink",
+    "normalizedWord": "drink",
+    "meaningZh": "饮料",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-food-and-drink-egg",
+    "word": "egg",
+    "normalizedWord": "egg",
+    "meaningZh": "鸡蛋",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-food-and-drink-fish",
+    "word": "fish",
+    "normalizedWord": "fish",
+    "meaningZh": "鱼",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-food-and-drink-food",
+    "word": "food",
+    "normalizedWord": "food",
+    "meaningZh": "食物",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-food-and-drink-fruit",
+    "word": "fruit",
+    "normalizedWord": "fruit",
+    "meaningZh": "水果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-food-and-drink-grape",
+    "word": "grape",
+    "normalizedWord": "grape",
+    "meaningZh": "葡萄",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-food-and-drink-ice-cream",
+    "word": "ice cream",
+    "normalizedWord": "ice cream",
+    "meaningZh": "冰淇淋",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-food-and-drink-juice",
+    "word": "juice",
+    "normalizedWord": "juice",
+    "meaningZh": "果汁",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-food-and-drink-lunch",
+    "word": "lunch",
+    "normalizedWord": "lunch",
+    "meaningZh": "午餐",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-food-and-drink-meat",
+    "word": "meat",
+    "normalizedWord": "meat",
+    "meaningZh": "肉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-food-and-drink-meatballs",
+    "word": "meatballs",
+    "normalizedWord": "meatballs",
+    "meaningZh": "肉丸",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-food-and-drink-milk",
+    "word": "milk",
+    "normalizedWord": "milk",
+    "meaningZh": "牛奶",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-food-and-drink-oil",
+    "word": "oil",
+    "normalizedWord": "oil",
+    "meaningZh": "油",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-food-and-drink-pear",
+    "word": "pear",
+    "normalizedWord": "pear",
+    "meaningZh": "梨",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-food-and-drink-pork",
+    "word": "pork",
+    "normalizedWord": "pork",
+    "meaningZh": "猪肉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-food-and-drink-potato",
+    "word": "potato",
+    "normalizedWord": "potato",
+    "meaningZh": "土豆",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-food-and-drink-rice",
+    "word": "rice",
+    "normalizedWord": "rice",
+    "meaningZh": "米饭",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-food-and-drink-sandwich",
+    "word": "sandwich",
+    "normalizedWord": "sandwich",
+    "meaningZh": "三明治",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-food-and-drink-sausage",
+    "word": "sausage",
+    "normalizedWord": "sausage",
+    "meaningZh": "香肠",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-food-and-drink-soup",
+    "word": "soup",
+    "normalizedWord": "soup",
+    "meaningZh": "汤",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-food-and-drink-sugar",
+    "word": "sugar",
+    "normalizedWord": "sugar",
+    "meaningZh": "糖",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-food-and-drink-sweet",
+    "word": "sweet",
+    "normalizedWord": "sweet",
+    "meaningZh": "糖果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-food-and-drink-tomato",
+    "word": "tomato",
+    "normalizedWord": "tomato",
+    "meaningZh": "西红柿",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  },
+  {
+    "id": "yle-food-and-drink-vegetable",
+    "word": "vegetable",
+    "normalizedWord": "vegetable",
+    "meaningZh": "蔬菜",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 38
+  },
+  {
+    "id": "yle-food-and-drink-water",
+    "word": "water",
+    "normalizedWord": "water",
+    "meaningZh": "水",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 39
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "yle-places-and-directions-behind",
+    "word": "behind",
+    "normalizedWord": "behind",
+    "meaningZh": "在...后面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-places-and-directions-between",
+    "word": "between",
+    "normalizedWord": "between",
+    "meaningZh": "在...之间",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-places-and-directions-bookshop",
+    "word": "bookshop",
+    "normalizedWord": "bookshop",
+    "meaningZh": "书店",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-places-and-directions-end",
+    "word": "end",
+    "normalizedWord": "end",
+    "meaningZh": "结束",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-places-and-directions-here",
+    "word": "here",
+    "normalizedWord": "here",
+    "meaningZh": "这里",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-places-and-directions-in",
+    "word": "in",
+    "normalizedWord": "in",
+    "meaningZh": "在...里面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-places-and-directions-in-front-of",
+    "word": "in front of",
+    "normalizedWord": "in front of",
+    "meaningZh": "在...前面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-places-and-directions-next-to",
+    "word": "next to",
+    "normalizedWord": "next to",
+    "meaningZh": "紧邻",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-places-and-directions-on",
+    "word": "on",
+    "normalizedWord": "on",
+    "meaningZh": "在...上面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-places-and-directions-park",
+    "word": "park",
+    "normalizedWord": "park",
+    "meaningZh": "公园",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-places-and-directions-playground",
+    "word": "playground",
+    "normalizedWord": "playground",
+    "meaningZh": "操场",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-places-and-directions-shop",
+    "word": "shop",
+    "normalizedWord": "shop",
+    "meaningZh": "商店",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-places-and-directions-store",
+    "word": "store",
+    "normalizedWord": "store",
+    "meaningZh": "商店",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-places-and-directions-street",
+    "word": "street",
+    "normalizedWord": "street",
+    "meaningZh": "街道",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-places-and-directions-there",
+    "word": "there",
+    "normalizedWord": "there",
+    "meaningZh": "那里",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-places-and-directions-under",
+    "word": "under",
+    "normalizedWord": "under",
+    "meaningZh": "在...下面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-places-and-directions-zoo",
+    "word": "zoo",
+    "normalizedWord": "zoo",
+    "meaningZh": "动物园",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  }
+]

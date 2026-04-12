@@ -1,0 +1,678 @@
+[
+  {
+    "id": "yle-school-alphabet",
+    "word": "alphabet",
+    "normalizedWord": "alphabet",
+    "meaningZh": "字母表",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-school-answer",
+    "word": "answer",
+    "normalizedWord": "answer",
+    "meaningZh": "答案",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-school-ask",
+    "word": "ask",
+    "normalizedWord": "ask",
+    "meaningZh": "问",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-school-board",
+    "word": "board",
+    "normalizedWord": "board",
+    "meaningZh": "木板",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-school-book",
+    "word": "book",
+    "normalizedWord": "book",
+    "meaningZh": "书",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-school-bookcase",
+    "word": "bookcase",
+    "normalizedWord": "bookcase",
+    "meaningZh": "书架",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-school-class",
+    "word": "class",
+    "normalizedWord": "class",
+    "meaningZh": "班级",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-school-classroom",
+    "word": "classroom",
+    "normalizedWord": "classroom",
+    "meaningZh": "教室",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-school-close",
+    "word": "close",
+    "normalizedWord": "close",
+    "meaningZh": "关闭",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-school-colour",
+    "word": "colour",
+    "normalizedWord": "colour",
+    "meaningZh": "颜色",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-school-computer",
+    "word": "computer",
+    "normalizedWord": "computer",
+    "meaningZh": "电脑",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-school-correct",
+    "word": "correct",
+    "normalizedWord": "correct",
+    "meaningZh": "正确的",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-school-crayon",
+    "word": "crayon",
+    "normalizedWord": "crayon",
+    "meaningZh": "蜡笔",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-school-desk",
+    "word": "desk",
+    "normalizedWord": "desk",
+    "meaningZh": "书桌",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-school-draw",
+    "word": "draw",
+    "normalizedWord": "draw",
+    "meaningZh": "画",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-school-english",
+    "word": "English",
+    "normalizedWord": "english",
+    "meaningZh": "英语",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-school-eraser",
+    "word": "eraser",
+    "normalizedWord": "eraser",
+    "meaningZh": "橡皮擦",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-school-example",
+    "word": "example",
+    "normalizedWord": "example",
+    "meaningZh": "例子",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-school-find",
+    "word": "find",
+    "normalizedWord": "find",
+    "meaningZh": "找到",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-school-floor",
+    "word": "floor",
+    "normalizedWord": "floor",
+    "meaningZh": "地板",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-school-keyboard",
+    "word": "keyboard",
+    "normalizedWord": "keyboard",
+    "meaningZh": "键盘",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-school-learn",
+    "word": "learn",
+    "normalizedWord": "learn",
+    "meaningZh": "学习",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-school-lesson",
+    "word": "lesson",
+    "normalizedWord": "lesson",
+    "meaningZh": "课",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-school-letter",
+    "word": "letter",
+    "normalizedWord": "letter",
+    "meaningZh": "字母",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-school-library",
+    "word": "library",
+    "normalizedWord": "library",
+    "meaningZh": "图书馆",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-school-line",
+    "word": "line",
+    "normalizedWord": "line",
+    "meaningZh": "线/排",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-school-listen",
+    "word": "listen",
+    "normalizedWord": "listen",
+    "meaningZh": "听",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-school-look",
+    "word": "look",
+    "normalizedWord": "look",
+    "meaningZh": "看",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-school-mouse",
+    "word": "mouse",
+    "normalizedWord": "mouse",
+    "meaningZh": "鼠标",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-school-music",
+    "word": "music",
+    "normalizedWord": "music",
+    "meaningZh": "音乐",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-school-number",
+    "word": "number",
+    "normalizedWord": "number",
+    "meaningZh": "数字",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-school-open",
+    "word": "open",
+    "normalizedWord": "open",
+    "meaningZh": "打开",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-school-page",
+    "word": "page",
+    "normalizedWord": "page",
+    "meaningZh": "页",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-school-paint",
+    "word": "paint",
+    "normalizedWord": "paint",
+    "meaningZh": "画",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-school-painting",
+    "word": "painting",
+    "normalizedWord": "painting",
+    "meaningZh": "绘画",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-school-paper",
+    "word": "paper",
+    "normalizedWord": "paper",
+    "meaningZh": "纸",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-school-pen",
+    "word": "pen",
+    "normalizedWord": "pen",
+    "meaningZh": "钢笔",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  },
+  {
+    "id": "yle-school-pencil",
+    "word": "pencil",
+    "normalizedWord": "pencil",
+    "meaningZh": "铅笔",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 38
+  },
+  {
+    "id": "yle-school-picture",
+    "word": "picture",
+    "normalizedWord": "picture",
+    "meaningZh": "图片",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 39
+  },
+  {
+    "id": "yle-school-playground",
+    "word": "playground",
+    "normalizedWord": "playground",
+    "meaningZh": "操场",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 40
+  },
+  {
+    "id": "yle-school-practice",
+    "word": "practice",
+    "normalizedWord": "practice",
+    "meaningZh": "练习",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 41
+  },
+  {
+    "id": "yle-school-read",
+    "word": "read",
+    "normalizedWord": "read",
+    "meaningZh": "读",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 42
+  },
+  {
+    "id": "yle-school-ruler",
+    "word": "ruler",
+    "normalizedWord": "ruler",
+    "meaningZh": "尺子",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 43
+  },
+  {
+    "id": "yle-school-school",
+    "word": "school",
+    "normalizedWord": "school",
+    "meaningZh": "学校",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 44
+  },
+  {
+    "id": "yle-school-sentence",
+    "word": "sentence",
+    "normalizedWord": "sentence",
+    "meaningZh": "句子",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 45
+  },
+  {
+    "id": "yle-school-spell",
+    "word": "spell",
+    "normalizedWord": "spell",
+    "meaningZh": "拼写",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 46
+  },
+  {
+    "id": "yle-school-student",
+    "word": "student",
+    "normalizedWord": "student",
+    "meaningZh": "学生",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 47
+  },
+  {
+    "id": "yle-school-study",
+    "word": "study",
+    "normalizedWord": "study",
+    "meaningZh": "学习",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 48
+  },
+  {
+    "id": "yle-school-teacher",
+    "word": "teacher",
+    "normalizedWord": "teacher",
+    "meaningZh": "教师",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 49
+  },
+  {
+    "id": "yle-school-test",
+    "word": "test",
+    "normalizedWord": "test",
+    "meaningZh": "测试",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 50
+  },
+  {
+    "id": "yle-school-word",
+    "word": "word",
+    "normalizedWord": "word",
+    "meaningZh": "单词",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 51
+  },
+  {
+    "id": "yle-school-write",
+    "word": "write",
+    "normalizedWord": "write",
+    "meaningZh": "写",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 52
+  }
+]

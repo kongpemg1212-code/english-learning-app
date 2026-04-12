@@ -1,0 +1,37 @@
+:root {
+  --color-primary: #ff6b6b;
+  --color-secondary: #4ecdc4;
+  --color-accent: #ffe66d;
+  --color-success: #51cf66;
+  --color-warning: #ffb347;
+  --color-bg: #fff8f0;
+  --color-surface: rgba(255, 255, 255, 0.92);
+  --color-surface-border: rgba(255, 107, 107, 0.16);
+  --color-text: #3d3a35;
+  --color-text-light: #6b675f;
+  --color-shadow: rgba(255, 107, 107, 0.18);
+
+  --font-heading: "Fredoka", "Baloo 2", "Trebuchet MS", "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-body: "Nunito", "Quicksand", system-ui, sans-serif;
+
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --touch-target: 64px;
+  --touch-target-lg: 80px;
+
+  --shadow-card: 0 24px 48px -28px var(--color-shadow);
+  --shadow-button: 0 18px 32px -22px rgba(255, 107, 107, 0.5);
+}
+
+.touch-target {
+  min-height: var(--touch-target);
+  min-width: var(--touch-target);
+}
+
+.touch-target-lg {
+  min-height: var(--touch-target-lg);
+  min-width: var(--touch-target);
+}

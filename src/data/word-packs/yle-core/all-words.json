@@ -1,0 +1,4695 @@
+[
+  {
+    "id": "yle-animals-animal",
+    "word": "animal",
+    "normalizedWord": "animal",
+    "meaningZh": "动物",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-animals-bear",
+    "word": "bear",
+    "normalizedWord": "bear",
+    "meaningZh": "熊",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-animals-bee",
+    "word": "bee",
+    "normalizedWord": "bee",
+    "meaningZh": "蜜蜂",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-animals-bird",
+    "word": "bird",
+    "normalizedWord": "bird",
+    "meaningZh": "鸟",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-animals-cat",
+    "word": "cat",
+    "normalizedWord": "cat",
+    "meaningZh": "猫",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-animals-chicken",
+    "word": "chicken",
+    "normalizedWord": "chicken",
+    "meaningZh": "鸡",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-animals-cow",
+    "word": "cow",
+    "normalizedWord": "cow",
+    "meaningZh": "奶牛",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-animals-crocodile",
+    "word": "crocodile",
+    "normalizedWord": "crocodile",
+    "meaningZh": "鳄鱼",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-animals-dog",
+    "word": "dog",
+    "normalizedWord": "dog",
+    "meaningZh": "狗",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-animals-donkey",
+    "word": "donkey",
+    "normalizedWord": "donkey",
+    "meaningZh": "驴",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-animals-duck",
+    "word": "duck",
+    "normalizedWord": "duck",
+    "meaningZh": "鸭子",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-animals-elephant",
+    "word": "elephant",
+    "normalizedWord": "elephant",
+    "meaningZh": "大象",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-animals-fish",
+    "word": "fish",
+    "normalizedWord": "fish",
+    "meaningZh": "鱼",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-animals-fox",
+    "word": "fox",
+    "normalizedWord": "fox",
+    "meaningZh": "狐狸",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-animals-frog",
+    "word": "frog",
+    "normalizedWord": "frog",
+    "meaningZh": "青蛙",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-animals-giraffe",
+    "word": "giraffe",
+    "normalizedWord": "giraffe",
+    "meaningZh": "长颈鹿",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-animals-goat",
+    "word": "goat",
+    "normalizedWord": "goat",
+    "meaningZh": "山羊",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-animals-hippo",
+    "word": "hippo",
+    "normalizedWord": "hippo",
+    "meaningZh": "河马",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-animals-horse",
+    "word": "horse",
+    "normalizedWord": "horse",
+    "meaningZh": "马",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-animals-lizard",
+    "word": "lizard",
+    "normalizedWord": "lizard",
+    "meaningZh": "蜥蜴",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-animals-monkey",
+    "word": "monkey",
+    "normalizedWord": "monkey",
+    "meaningZh": "猴子",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-animals-mouse",
+    "word": "mouse",
+    "normalizedWord": "mouse",
+    "meaningZh": "老鼠",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-animals-panda",
+    "word": "panda",
+    "normalizedWord": "panda",
+    "meaningZh": "熊猫",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-animals-pet",
+    "word": "pet",
+    "normalizedWord": "pet",
+    "meaningZh": "宠物",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-animals-sheep",
+    "word": "sheep",
+    "normalizedWord": "sheep",
+    "meaningZh": "绵羊",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-animals-snake",
+    "word": "snake",
+    "normalizedWord": "snake",
+    "meaningZh": "蛇",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-animals-spider",
+    "word": "spider",
+    "normalizedWord": "spider",
+    "meaningZh": "蜘蛛",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-animals-tail",
+    "word": "tail",
+    "normalizedWord": "tail",
+    "meaningZh": "尾巴",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-animals-tiger",
+    "word": "tiger",
+    "normalizedWord": "tiger",
+    "meaningZh": "老虎",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-animals-zebra",
+    "word": "zebra",
+    "normalizedWord": "zebra",
+    "meaningZh": "斑马",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-animals-zoo",
+    "word": "zoo",
+    "normalizedWord": "zoo",
+    "meaningZh": "动物园",
+    "topic": "animals",
+    "tags": [
+      "animals"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-colours-black",
+    "word": "black",
+    "normalizedWord": "black",
+    "meaningZh": "黑色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-colours-blue",
+    "word": "blue",
+    "normalizedWord": "blue",
+    "meaningZh": "蓝色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-colours-brown",
+    "word": "brown",
+    "normalizedWord": "brown",
+    "meaningZh": "棕色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-colours-colour",
+    "word": "colour",
+    "normalizedWord": "colour",
+    "meaningZh": "颜色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-colours-gray",
+    "word": "gray",
+    "normalizedWord": "gray",
+    "meaningZh": "灰色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-colours-green",
+    "word": "green",
+    "normalizedWord": "green",
+    "meaningZh": "绿色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-colours-grey",
+    "word": "grey",
+    "normalizedWord": "grey",
+    "meaningZh": "灰色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-colours-orange",
+    "word": "orange",
+    "normalizedWord": "orange",
+    "meaningZh": "橙色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-colours-pink",
+    "word": "pink",
+    "normalizedWord": "pink",
+    "meaningZh": "粉色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-colours-purple",
+    "word": "purple",
+    "normalizedWord": "purple",
+    "meaningZh": "紫色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-colours-red",
+    "word": "red",
+    "normalizedWord": "red",
+    "meaningZh": "红色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-colours-white",
+    "word": "white",
+    "normalizedWord": "white",
+    "meaningZh": "白色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-colours-yellow",
+    "word": "yellow",
+    "normalizedWord": "yellow",
+    "meaningZh": "黄色",
+    "topic": "colours",
+    "tags": [
+      "colours"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-family-and-friends-baby",
+    "word": "baby",
+    "normalizedWord": "baby",
+    "meaningZh": "婴儿",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-family-and-friends-boy",
+    "word": "boy",
+    "normalizedWord": "boy",
+    "meaningZh": "男孩",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-family-and-friends-brother",
+    "word": "brother",
+    "normalizedWord": "brother",
+    "meaningZh": "兄弟",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-family-and-friends-child",
+    "word": "child",
+    "normalizedWord": "child",
+    "meaningZh": "孩子/孩子们",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-family-and-friends-classmate",
+    "word": "classmate",
+    "normalizedWord": "classmate",
+    "meaningZh": "同学",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-family-and-friends-cousin",
+    "word": "cousin",
+    "normalizedWord": "cousin",
+    "meaningZh": "表兄弟姐妹",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-family-and-friends-dad",
+    "word": "dad",
+    "normalizedWord": "dad",
+    "meaningZh": "爸爸",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-family-and-friends-family",
+    "word": "family",
+    "normalizedWord": "family",
+    "meaningZh": "家庭",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-family-and-friends-father",
+    "word": "father",
+    "normalizedWord": "father",
+    "meaningZh": "父亲",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-family-and-friends-friend",
+    "word": "friend",
+    "normalizedWord": "friend",
+    "meaningZh": "朋友",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-family-and-friends-girl",
+    "word": "girl",
+    "normalizedWord": "girl",
+    "meaningZh": "女孩",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-family-and-friends-grandfather",
+    "word": "grandfather",
+    "normalizedWord": "grandfather",
+    "meaningZh": "爷爷/外公",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-family-and-friends-grandma",
+    "word": "grandma",
+    "normalizedWord": "grandma",
+    "meaningZh": "奶奶/外婆",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-family-and-friends-grandmother",
+    "word": "grandmother",
+    "normalizedWord": "grandmother",
+    "meaningZh": "奶奶/外婆",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-family-and-friends-grandpa",
+    "word": "grandpa",
+    "normalizedWord": "grandpa",
+    "meaningZh": "爷爷/外公",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-family-and-friends-grandparent",
+    "word": "grandparent",
+    "normalizedWord": "grandparent",
+    "meaningZh": "祖父母",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-family-and-friends-kid",
+    "word": "kid",
+    "normalizedWord": "kid",
+    "meaningZh": "小孩",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-family-and-friends-man",
+    "word": "man",
+    "normalizedWord": "man",
+    "meaningZh": "男人",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-family-and-friends-mother",
+    "word": "mother",
+    "normalizedWord": "mother",
+    "meaningZh": "妈妈",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-family-and-friends-mum",
+    "word": "mum",
+    "normalizedWord": "mum",
+    "meaningZh": "妈妈",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-family-and-friends-old-person",
+    "word": "old person",
+    "normalizedWord": "old person",
+    "meaningZh": "老人",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-family-and-friends-parent",
+    "word": "parent",
+    "normalizedWord": "parent",
+    "meaningZh": "父母",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-family-and-friends-sister",
+    "word": "sister",
+    "normalizedWord": "sister",
+    "meaningZh": "姐妹",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-family-and-friends-woman",
+    "word": "woman",
+    "normalizedWord": "woman",
+    "meaningZh": "女人/女人们",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-family-and-friends-young",
+    "word": "young",
+    "normalizedWord": "young",
+    "meaningZh": "年轻的",
+    "topic": "family-and-friends",
+    "tags": [
+      "family-and-friends"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-food-and-drink-apple",
+    "word": "apple",
+    "normalizedWord": "apple",
+    "meaningZh": "苹果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-food-and-drink-banana",
+    "word": "banana",
+    "normalizedWord": "banana",
+    "meaningZh": "香蕉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-food-and-drink-bean",
+    "word": "bean",
+    "normalizedWord": "bean",
+    "meaningZh": "豆子",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-food-and-drink-bread",
+    "word": "bread",
+    "normalizedWord": "bread",
+    "meaningZh": "面包",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-food-and-drink-breakfast",
+    "word": "breakfast",
+    "normalizedWord": "breakfast",
+    "meaningZh": "早餐",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-food-and-drink-burger",
+    "word": "burger",
+    "normalizedWord": "burger",
+    "meaningZh": "汉堡",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-food-and-drink-cake",
+    "word": "cake",
+    "normalizedWord": "cake",
+    "meaningZh": "蛋糕",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-food-and-drink-candy",
+    "word": "candy",
+    "normalizedWord": "candy",
+    "meaningZh": "糖果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-food-and-drink-carrot",
+    "word": "carrot",
+    "normalizedWord": "carrot",
+    "meaningZh": "胡萝卜",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-food-and-drink-chicken",
+    "word": "chicken",
+    "normalizedWord": "chicken",
+    "meaningZh": "鸡肉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-food-and-drink-chips",
+    "word": "chips",
+    "normalizedWord": "chips",
+    "meaningZh": "薯条",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-food-and-drink-chocolate",
+    "word": "chocolate",
+    "normalizedWord": "chocolate",
+    "meaningZh": "巧克力",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-food-and-drink-coconut",
+    "word": "coconut",
+    "normalizedWord": "coconut",
+    "meaningZh": "椰子",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-food-and-drink-dinner",
+    "word": "dinner",
+    "normalizedWord": "dinner",
+    "meaningZh": "晚餐",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-food-and-drink-drink",
+    "word": "drink",
+    "normalizedWord": "drink",
+    "meaningZh": "饮料",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-food-and-drink-egg",
+    "word": "egg",
+    "normalizedWord": "egg",
+    "meaningZh": "鸡蛋",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-food-and-drink-fish",
+    "word": "fish",
+    "normalizedWord": "fish",
+    "meaningZh": "鱼",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-food-and-drink-food",
+    "word": "food",
+    "normalizedWord": "food",
+    "meaningZh": "食物",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-food-and-drink-fruit",
+    "word": "fruit",
+    "normalizedWord": "fruit",
+    "meaningZh": "水果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-food-and-drink-grape",
+    "word": "grape",
+    "normalizedWord": "grape",
+    "meaningZh": "葡萄",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-food-and-drink-ice-cream",
+    "word": "ice cream",
+    "normalizedWord": "ice cream",
+    "meaningZh": "冰淇淋",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-food-and-drink-juice",
+    "word": "juice",
+    "normalizedWord": "juice",
+    "meaningZh": "果汁",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-food-and-drink-lunch",
+    "word": "lunch",
+    "normalizedWord": "lunch",
+    "meaningZh": "午餐",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-food-and-drink-meat",
+    "word": "meat",
+    "normalizedWord": "meat",
+    "meaningZh": "肉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-food-and-drink-meatballs",
+    "word": "meatballs",
+    "normalizedWord": "meatballs",
+    "meaningZh": "肉丸",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-food-and-drink-milk",
+    "word": "milk",
+    "normalizedWord": "milk",
+    "meaningZh": "牛奶",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-food-and-drink-oil",
+    "word": "oil",
+    "normalizedWord": "oil",
+    "meaningZh": "油",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-food-and-drink-pear",
+    "word": "pear",
+    "normalizedWord": "pear",
+    "meaningZh": "梨",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-food-and-drink-pork",
+    "word": "pork",
+    "normalizedWord": "pork",
+    "meaningZh": "猪肉",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-food-and-drink-potato",
+    "word": "potato",
+    "normalizedWord": "potato",
+    "meaningZh": "土豆",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-food-and-drink-rice",
+    "word": "rice",
+    "normalizedWord": "rice",
+    "meaningZh": "米饭",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-food-and-drink-sandwich",
+    "word": "sandwich",
+    "normalizedWord": "sandwich",
+    "meaningZh": "三明治",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-food-and-drink-sausage",
+    "word": "sausage",
+    "normalizedWord": "sausage",
+    "meaningZh": "香肠",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-food-and-drink-soup",
+    "word": "soup",
+    "normalizedWord": "soup",
+    "meaningZh": "汤",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-food-and-drink-sugar",
+    "word": "sugar",
+    "normalizedWord": "sugar",
+    "meaningZh": "糖",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-food-and-drink-sweet",
+    "word": "sweet",
+    "normalizedWord": "sweet",
+    "meaningZh": "糖果",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-food-and-drink-tomato",
+    "word": "tomato",
+    "normalizedWord": "tomato",
+    "meaningZh": "西红柿",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  },
+  {
+    "id": "yle-food-and-drink-vegetable",
+    "word": "vegetable",
+    "normalizedWord": "vegetable",
+    "meaningZh": "蔬菜",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 38
+  },
+  {
+    "id": "yle-food-and-drink-water",
+    "word": "water",
+    "normalizedWord": "water",
+    "meaningZh": "水",
+    "topic": "food-and-drink",
+    "tags": [
+      "food-and-drink"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 39
+  },
+  {
+    "id": "yle-home-apartment",
+    "word": "apartment",
+    "normalizedWord": "apartment",
+    "meaningZh": "公寓",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-home-armchair",
+    "word": "armchair",
+    "normalizedWord": "armchair",
+    "meaningZh": "扶手椅",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-home-bath",
+    "word": "bath",
+    "normalizedWord": "bath",
+    "meaningZh": "洗澡",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-home-bathroom",
+    "word": "bathroom",
+    "normalizedWord": "bathroom",
+    "meaningZh": "浴室",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-home-bed",
+    "word": "bed",
+    "normalizedWord": "bed",
+    "meaningZh": "床",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-home-bedroom",
+    "word": "bedroom",
+    "normalizedWord": "bedroom",
+    "meaningZh": "卧室",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-home-bookcase",
+    "word": "bookcase",
+    "normalizedWord": "bookcase",
+    "meaningZh": "书架",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-home-box",
+    "word": "box",
+    "normalizedWord": "box",
+    "meaningZh": "盒子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-home-chair",
+    "word": "chair",
+    "normalizedWord": "chair",
+    "meaningZh": "椅子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-home-clock",
+    "word": "clock",
+    "normalizedWord": "clock",
+    "meaningZh": "时钟",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-home-computer",
+    "word": "computer",
+    "normalizedWord": "computer",
+    "meaningZh": "电脑",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-home-cupboard",
+    "word": "cupboard",
+    "normalizedWord": "cupboard",
+    "meaningZh": "橱柜",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-home-desk",
+    "word": "desk",
+    "normalizedWord": "desk",
+    "meaningZh": "书桌",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-home-dining-room",
+    "word": "dining room",
+    "normalizedWord": "dining room",
+    "meaningZh": "餐厅",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-home-door",
+    "word": "door",
+    "normalizedWord": "door",
+    "meaningZh": "门",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-home-floor",
+    "word": "floor",
+    "normalizedWord": "floor",
+    "meaningZh": "地板",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-home-furniture",
+    "word": "furniture",
+    "normalizedWord": "furniture",
+    "meaningZh": "家具",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-home-garage",
+    "word": "garage",
+    "normalizedWord": "garage",
+    "meaningZh": "车库",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-home-garden",
+    "word": "garden",
+    "normalizedWord": "garden",
+    "meaningZh": "花园",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-home-house",
+    "word": "house",
+    "normalizedWord": "house",
+    "meaningZh": "房子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-home-kitchen",
+    "word": "kitchen",
+    "normalizedWord": "kitchen",
+    "meaningZh": "厨房",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-home-lamp",
+    "word": "lamp",
+    "normalizedWord": "lamp",
+    "meaningZh": "灯",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-home-lift",
+    "word": "lift",
+    "normalizedWord": "lift",
+    "meaningZh": "电梯",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-home-living-room",
+    "word": "living room",
+    "normalizedWord": "living room",
+    "meaningZh": "客厅",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-home-mirror",
+    "word": "mirror",
+    "normalizedWord": "mirror",
+    "meaningZh": "镜子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-home-office",
+    "word": "office",
+    "normalizedWord": "office",
+    "meaningZh": "办公室",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-home-picture",
+    "word": "picture",
+    "normalizedWord": "picture",
+    "meaningZh": "图片",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-home-plant",
+    "word": "plant",
+    "normalizedWord": "plant",
+    "meaningZh": "植物",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-home-pool",
+    "word": "pool",
+    "normalizedWord": "pool",
+    "meaningZh": "游泳池",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-home-room",
+    "word": "room",
+    "normalizedWord": "room",
+    "meaningZh": "房间",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-home-sofa",
+    "word": "sofa",
+    "normalizedWord": "sofa",
+    "meaningZh": "沙发",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-home-staircase",
+    "word": "staircase",
+    "normalizedWord": "staircase",
+    "meaningZh": "楼梯",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-home-table",
+    "word": "table",
+    "normalizedWord": "table",
+    "meaningZh": "桌子",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-home-towel",
+    "word": "towel",
+    "normalizedWord": "towel",
+    "meaningZh": "毛巾",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-home-tower",
+    "word": "tower",
+    "normalizedWord": "tower",
+    "meaningZh": "塔",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-home-wall",
+    "word": "wall",
+    "normalizedWord": "wall",
+    "meaningZh": "墙",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-home-window",
+    "word": "window",
+    "normalizedWord": "window",
+    "meaningZh": "窗户",
+    "topic": "home",
+    "tags": [
+      "home"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  },
+  {
+    "id": "yle-school-alphabet",
+    "word": "alphabet",
+    "normalizedWord": "alphabet",
+    "meaningZh": "字母表",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-school-answer",
+    "word": "answer",
+    "normalizedWord": "answer",
+    "meaningZh": "答案",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-school-ask",
+    "word": "ask",
+    "normalizedWord": "ask",
+    "meaningZh": "问",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-school-board",
+    "word": "board",
+    "normalizedWord": "board",
+    "meaningZh": "木板",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-school-book",
+    "word": "book",
+    "normalizedWord": "book",
+    "meaningZh": "书",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-school-bookcase",
+    "word": "bookcase",
+    "normalizedWord": "bookcase",
+    "meaningZh": "书架",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-school-class",
+    "word": "class",
+    "normalizedWord": "class",
+    "meaningZh": "班级",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-school-classroom",
+    "word": "classroom",
+    "normalizedWord": "classroom",
+    "meaningZh": "教室",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-school-close",
+    "word": "close",
+    "normalizedWord": "close",
+    "meaningZh": "关闭",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-school-colour",
+    "word": "colour",
+    "normalizedWord": "colour",
+    "meaningZh": "颜色",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-school-computer",
+    "word": "computer",
+    "normalizedWord": "computer",
+    "meaningZh": "电脑",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-school-correct",
+    "word": "correct",
+    "normalizedWord": "correct",
+    "meaningZh": "正确的",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-school-crayon",
+    "word": "crayon",
+    "normalizedWord": "crayon",
+    "meaningZh": "蜡笔",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-school-desk",
+    "word": "desk",
+    "normalizedWord": "desk",
+    "meaningZh": "书桌",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-school-draw",
+    "word": "draw",
+    "normalizedWord": "draw",
+    "meaningZh": "画",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-school-english",
+    "word": "English",
+    "normalizedWord": "english",
+    "meaningZh": "英语",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-school-eraser",
+    "word": "eraser",
+    "normalizedWord": "eraser",
+    "meaningZh": "橡皮擦",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-school-example",
+    "word": "example",
+    "normalizedWord": "example",
+    "meaningZh": "例子",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-school-find",
+    "word": "find",
+    "normalizedWord": "find",
+    "meaningZh": "找到",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-school-floor",
+    "word": "floor",
+    "normalizedWord": "floor",
+    "meaningZh": "地板",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-school-keyboard",
+    "word": "keyboard",
+    "normalizedWord": "keyboard",
+    "meaningZh": "键盘",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-school-learn",
+    "word": "learn",
+    "normalizedWord": "learn",
+    "meaningZh": "学习",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-school-lesson",
+    "word": "lesson",
+    "normalizedWord": "lesson",
+    "meaningZh": "课",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-school-letter",
+    "word": "letter",
+    "normalizedWord": "letter",
+    "meaningZh": "字母",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-school-library",
+    "word": "library",
+    "normalizedWord": "library",
+    "meaningZh": "图书馆",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-school-line",
+    "word": "line",
+    "normalizedWord": "line",
+    "meaningZh": "线/排",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-school-listen",
+    "word": "listen",
+    "normalizedWord": "listen",
+    "meaningZh": "听",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-school-look",
+    "word": "look",
+    "normalizedWord": "look",
+    "meaningZh": "看",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-school-mouse",
+    "word": "mouse",
+    "normalizedWord": "mouse",
+    "meaningZh": "鼠标",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-school-music",
+    "word": "music",
+    "normalizedWord": "music",
+    "meaningZh": "音乐",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-school-number",
+    "word": "number",
+    "normalizedWord": "number",
+    "meaningZh": "数字",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-school-open",
+    "word": "open",
+    "normalizedWord": "open",
+    "meaningZh": "打开",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-school-page",
+    "word": "page",
+    "normalizedWord": "page",
+    "meaningZh": "页",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-school-paint",
+    "word": "paint",
+    "normalizedWord": "paint",
+    "meaningZh": "画",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-school-painting",
+    "word": "painting",
+    "normalizedWord": "painting",
+    "meaningZh": "绘画",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-school-paper",
+    "word": "paper",
+    "normalizedWord": "paper",
+    "meaningZh": "纸",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-school-pen",
+    "word": "pen",
+    "normalizedWord": "pen",
+    "meaningZh": "钢笔",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  },
+  {
+    "id": "yle-school-pencil",
+    "word": "pencil",
+    "normalizedWord": "pencil",
+    "meaningZh": "铅笔",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 38
+  },
+  {
+    "id": "yle-school-picture",
+    "word": "picture",
+    "normalizedWord": "picture",
+    "meaningZh": "图片",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 39
+  },
+  {
+    "id": "yle-school-playground",
+    "word": "playground",
+    "normalizedWord": "playground",
+    "meaningZh": "操场",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 40
+  },
+  {
+    "id": "yle-school-practice",
+    "word": "practice",
+    "normalizedWord": "practice",
+    "meaningZh": "练习",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 41
+  },
+  {
+    "id": "yle-school-read",
+    "word": "read",
+    "normalizedWord": "read",
+    "meaningZh": "读",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 42
+  },
+  {
+    "id": "yle-school-ruler",
+    "word": "ruler",
+    "normalizedWord": "ruler",
+    "meaningZh": "尺子",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 43
+  },
+  {
+    "id": "yle-school-school",
+    "word": "school",
+    "normalizedWord": "school",
+    "meaningZh": "学校",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 44
+  },
+  {
+    "id": "yle-school-sentence",
+    "word": "sentence",
+    "normalizedWord": "sentence",
+    "meaningZh": "句子",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 45
+  },
+  {
+    "id": "yle-school-spell",
+    "word": "spell",
+    "normalizedWord": "spell",
+    "meaningZh": "拼写",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 46
+  },
+  {
+    "id": "yle-school-student",
+    "word": "student",
+    "normalizedWord": "student",
+    "meaningZh": "学生",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 47
+  },
+  {
+    "id": "yle-school-study",
+    "word": "study",
+    "normalizedWord": "study",
+    "meaningZh": "学习",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 48
+  },
+  {
+    "id": "yle-school-teacher",
+    "word": "teacher",
+    "normalizedWord": "teacher",
+    "meaningZh": "教师",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 49
+  },
+  {
+    "id": "yle-school-test",
+    "word": "test",
+    "normalizedWord": "test",
+    "meaningZh": "测试",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 50
+  },
+  {
+    "id": "yle-school-word",
+    "word": "word",
+    "normalizedWord": "word",
+    "meaningZh": "单词",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 51
+  },
+  {
+    "id": "yle-school-write",
+    "word": "write",
+    "normalizedWord": "write",
+    "meaningZh": "写",
+    "topic": "school",
+    "tags": [
+      "school"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 52
+  },
+  {
+    "id": "yle-sports-and-leisure-badminton",
+    "word": "badminton",
+    "normalizedWord": "badminton",
+    "meaningZh": "羽毛球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-sports-and-leisure-ball",
+    "word": "ball",
+    "normalizedWord": "ball",
+    "meaningZh": "球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-sports-and-leisure-baseball",
+    "word": "baseball",
+    "normalizedWord": "baseball",
+    "meaningZh": "棒球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-sports-and-leisure-basketball",
+    "word": "basketball",
+    "normalizedWord": "basketball",
+    "meaningZh": "篮球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-sports-and-leisure-bat",
+    "word": "bat",
+    "normalizedWord": "bat",
+    "meaningZh": "球拍/球棒",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-sports-and-leisure-beach",
+    "word": "beach",
+    "normalizedWord": "beach",
+    "meaningZh": "海滩",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-sports-and-leisure-bike",
+    "word": "bike",
+    "normalizedWord": "bike",
+    "meaningZh": "自行车",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-sports-and-leisure-board-game",
+    "word": "board game",
+    "normalizedWord": "board game",
+    "meaningZh": "桌游",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-sports-and-leisure-boat",
+    "word": "boat",
+    "normalizedWord": "boat",
+    "meaningZh": "船",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-sports-and-leisure-bounce",
+    "word": "bounce",
+    "normalizedWord": "bounce",
+    "meaningZh": "弹跳",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-sports-and-leisure-camera",
+    "word": "camera",
+    "normalizedWord": "camera",
+    "meaningZh": "相机",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-sports-and-leisure-catch",
+    "word": "catch",
+    "normalizedWord": "catch",
+    "meaningZh": "抓住",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-sports-and-leisure-doll",
+    "word": "doll",
+    "normalizedWord": "doll",
+    "meaningZh": "玩具娃娃",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-sports-and-leisure-draw",
+    "word": "draw",
+    "normalizedWord": "draw",
+    "meaningZh": "画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-sports-and-leisure-drawing",
+    "word": "drawing",
+    "normalizedWord": "drawing",
+    "meaningZh": "绘画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-sports-and-leisure-drive",
+    "word": "drive",
+    "normalizedWord": "drive",
+    "meaningZh": "驾驶",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-sports-and-leisure-enjoy",
+    "word": "enjoy",
+    "normalizedWord": "enjoy",
+    "meaningZh": "享受",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-sports-and-leisure-favourite",
+    "word": "favourite",
+    "normalizedWord": "favourite",
+    "meaningZh": "最喜欢的",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-sports-and-leisure-fish",
+    "word": "fish",
+    "normalizedWord": "fish",
+    "meaningZh": "钓鱼",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-sports-and-leisure-fishing",
+    "word": "fishing",
+    "normalizedWord": "fishing",
+    "meaningZh": "钓鱼",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-sports-and-leisure-fly",
+    "word": "fly",
+    "normalizedWord": "fly",
+    "meaningZh": "飞",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-sports-and-leisure-football",
+    "word": "football",
+    "normalizedWord": "football",
+    "meaningZh": "足球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-sports-and-leisure-game",
+    "word": "game",
+    "normalizedWord": "game",
+    "meaningZh": "游戏",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-sports-and-leisure-guitar",
+    "word": "guitar",
+    "normalizedWord": "guitar",
+    "meaningZh": "吉他",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-sports-and-leisure-hobby",
+    "word": "hobby",
+    "normalizedWord": "hobby",
+    "meaningZh": "爱好",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-sports-and-leisure-hockey",
+    "word": "hockey",
+    "normalizedWord": "hockey",
+    "meaningZh": "曲棍球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  },
+  {
+    "id": "yle-sports-and-leisure-kick",
+    "word": "kick",
+    "normalizedWord": "kick",
+    "meaningZh": "踢",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 27
+  },
+  {
+    "id": "yle-sports-and-leisure-kite",
+    "word": "kite",
+    "normalizedWord": "kite",
+    "meaningZh": "风筝",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 28
+  },
+  {
+    "id": "yle-sports-and-leisure-paint",
+    "word": "paint",
+    "normalizedWord": "paint",
+    "meaningZh": "画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 29
+  },
+  {
+    "id": "yle-sports-and-leisure-painting",
+    "word": "painting",
+    "normalizedWord": "painting",
+    "meaningZh": "绘画",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 30
+  },
+  {
+    "id": "yle-sports-and-leisure-play",
+    "word": "play",
+    "normalizedWord": "play",
+    "meaningZh": "玩",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 31
+  },
+  {
+    "id": "yle-sports-and-leisure-pool",
+    "word": "pool",
+    "normalizedWord": "pool",
+    "meaningZh": "游泳池",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 32
+  },
+  {
+    "id": "yle-sports-and-leisure-puppet",
+    "word": "puppet",
+    "normalizedWord": "puppet",
+    "meaningZh": "木偶",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 33
+  },
+  {
+    "id": "yle-sports-and-leisure-race",
+    "word": "race",
+    "normalizedWord": "race",
+    "meaningZh": "比赛",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 34
+  },
+  {
+    "id": "yle-sports-and-leisure-radio",
+    "word": "radio",
+    "normalizedWord": "radio",
+    "meaningZh": "收音机",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 35
+  },
+  {
+    "id": "yle-sports-and-leisure-ride",
+    "word": "ride",
+    "normalizedWord": "ride",
+    "meaningZh": "骑",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 36
+  },
+  {
+    "id": "yle-sports-and-leisure-run",
+    "word": "run",
+    "normalizedWord": "run",
+    "meaningZh": "跑",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 37
+  },
+  {
+    "id": "yle-sports-and-leisure-scooter",
+    "word": "scooter",
+    "normalizedWord": "scooter",
+    "meaningZh": "滑板车",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 38
+  },
+  {
+    "id": "yle-sports-and-leisure-see",
+    "word": "see",
+    "normalizedWord": "see",
+    "meaningZh": "看",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 39
+  },
+  {
+    "id": "yle-sports-and-leisure-sing",
+    "word": "sing",
+    "normalizedWord": "sing",
+    "meaningZh": "唱",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 40
+  },
+  {
+    "id": "yle-sports-and-leisure-skate",
+    "word": "skate",
+    "normalizedWord": "skate",
+    "meaningZh": "滑冰",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 41
+  },
+  {
+    "id": "yle-sports-and-leisure-sport",
+    "word": "sport",
+    "normalizedWord": "sport",
+    "meaningZh": "运动",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 42
+  },
+  {
+    "id": "yle-sports-and-leisure-swim",
+    "word": "swim",
+    "normalizedWord": "swim",
+    "meaningZh": "游泳",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 43
+  },
+  {
+    "id": "yle-sports-and-leisure-table-tennis",
+    "word": "table tennis",
+    "normalizedWord": "table tennis",
+    "meaningZh": "乒乓球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 44
+  },
+  {
+    "id": "yle-sports-and-leisure-teddy",
+    "word": "teddy",
+    "normalizedWord": "teddy",
+    "meaningZh": "泰迪熊",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 45
+  },
+  {
+    "id": "yle-sports-and-leisure-tennis",
+    "word": "tennis",
+    "normalizedWord": "tennis",
+    "meaningZh": "网球",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 46
+  },
+  {
+    "id": "yle-sports-and-leisure-toy",
+    "word": "toy",
+    "normalizedWord": "toy",
+    "meaningZh": "玩具",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 47
+  },
+  {
+    "id": "yle-sports-and-leisure-travel",
+    "word": "travel",
+    "normalizedWord": "travel",
+    "meaningZh": "旅行",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 48
+  },
+  {
+    "id": "yle-sports-and-leisure-walk",
+    "word": "walk",
+    "normalizedWord": "walk",
+    "meaningZh": "走",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 49
+  },
+  {
+    "id": "yle-sports-and-leisure-watch",
+    "word": "watch",
+    "normalizedWord": "watch",
+    "meaningZh": "看",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 50
+  },
+  {
+    "id": "yle-sports-and-leisure-yoga",
+    "word": "yoga",
+    "normalizedWord": "yoga",
+    "meaningZh": "瑜伽",
+    "topic": "sports-and-leisure",
+    "tags": [
+      "sports-and-leisure"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 51
+  },
+  {
+    "id": "yle-toys-alien",
+    "word": "alien",
+    "normalizedWord": "alien",
+    "meaningZh": "外星人",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-toys-ball",
+    "word": "ball",
+    "normalizedWord": "ball",
+    "meaningZh": "球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-toys-balloon",
+    "word": "balloon",
+    "normalizedWord": "balloon",
+    "meaningZh": "气球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-toys-baseball",
+    "word": "baseball",
+    "normalizedWord": "baseball",
+    "meaningZh": "棒球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-toys-basketball",
+    "word": "basketball",
+    "normalizedWord": "basketball",
+    "meaningZh": "篮球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-toys-bike",
+    "word": "bike",
+    "normalizedWord": "bike",
+    "meaningZh": "自行车",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-toys-board-game",
+    "word": "board game",
+    "normalizedWord": "board game",
+    "meaningZh": "桌游",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-toys-boat",
+    "word": "boat",
+    "normalizedWord": "boat",
+    "meaningZh": "船",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-toys-car",
+    "word": "car",
+    "normalizedWord": "car",
+    "meaningZh": "汽车",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-toys-doll",
+    "word": "doll",
+    "normalizedWord": "doll",
+    "meaningZh": "玩具娃娃",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-toys-football",
+    "word": "football",
+    "normalizedWord": "football",
+    "meaningZh": "足球",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-toys-game",
+    "word": "game",
+    "normalizedWord": "game",
+    "meaningZh": "游戏",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-toys-kite",
+    "word": "kite",
+    "normalizedWord": "kite",
+    "meaningZh": "风筝",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-toys-motorbike",
+    "word": "motorbike",
+    "normalizedWord": "motorbike",
+    "meaningZh": "摩托车",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-toys-plane",
+    "word": "plane",
+    "normalizedWord": "plane",
+    "meaningZh": "飞机",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-toys-puppet",
+    "word": "puppet",
+    "normalizedWord": "puppet",
+    "meaningZh": "木偶",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-toys-ride",
+    "word": "ride",
+    "normalizedWord": "ride",
+    "meaningZh": "骑",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-toys-teddy",
+    "word": "teddy",
+    "normalizedWord": "teddy",
+    "meaningZh": "泰迪熊",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-toys-toy",
+    "word": "toy",
+    "normalizedWord": "toy",
+    "meaningZh": "玩具",
+    "topic": "toys",
+    "tags": [
+      "toys"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-transport-ambulance",
+    "word": "ambulance",
+    "normalizedWord": "ambulance",
+    "meaningZh": "救护车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-transport-bike",
+    "word": "bike",
+    "normalizedWord": "bike",
+    "meaningZh": "自行车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-transport-boat",
+    "word": "boat",
+    "normalizedWord": "boat",
+    "meaningZh": "船",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-transport-bus",
+    "word": "bus",
+    "normalizedWord": "bus",
+    "meaningZh": "公共汽车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-transport-car",
+    "word": "car",
+    "normalizedWord": "car",
+    "meaningZh": "汽车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-transport-coach",
+    "word": "coach",
+    "normalizedWord": "coach",
+    "meaningZh": "长途汽车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-transport-helicopter",
+    "word": "helicopter",
+    "normalizedWord": "helicopter",
+    "meaningZh": "直升机",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-transport-lorry",
+    "word": "lorry",
+    "normalizedWord": "lorry",
+    "meaningZh": "卡车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-transport-motorbike",
+    "word": "motorbike",
+    "normalizedWord": "motorbike",
+    "meaningZh": "摩托车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-transport-plane",
+    "word": "plane",
+    "normalizedWord": "plane",
+    "meaningZh": "飞机",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-transport-ship",
+    "word": "ship",
+    "normalizedWord": "ship",
+    "meaningZh": "船",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-transport-taxi",
+    "word": "taxi",
+    "normalizedWord": "taxi",
+    "meaningZh": "出租车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-transport-tractor",
+    "word": "tractor",
+    "normalizedWord": "tractor",
+    "meaningZh": "拖拉机",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-transport-train",
+    "word": "train",
+    "normalizedWord": "train",
+    "meaningZh": "火车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-transport-truck",
+    "word": "truck",
+    "normalizedWord": "truck",
+    "meaningZh": "卡车",
+    "topic": "transport",
+    "tags": [
+      "transport"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-days-of-the-week-monday",
+    "word": "Monday",
+    "normalizedWord": "monday",
+    "meaningZh": "星期一",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-days-of-the-week-tuesday",
+    "word": "Tuesday",
+    "normalizedWord": "tuesday",
+    "meaningZh": "星期二",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-days-of-the-week-wednesday",
+    "word": "Wednesday",
+    "normalizedWord": "wednesday",
+    "meaningZh": "星期三",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-days-of-the-week-thursday",
+    "word": "Thursday",
+    "normalizedWord": "thursday",
+    "meaningZh": "星期四",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-days-of-the-week-friday",
+    "word": "Friday",
+    "normalizedWord": "friday",
+    "meaningZh": "星期五",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-days-of-the-week-saturday",
+    "word": "Saturday",
+    "normalizedWord": "saturday",
+    "meaningZh": "星期六",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-days-of-the-week-sunday",
+    "word": "Sunday",
+    "normalizedWord": "sunday",
+    "meaningZh": "星期日",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-months-january",
+    "word": "January",
+    "normalizedWord": "january",
+    "meaningZh": "一月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-months-february",
+    "word": "February",
+    "normalizedWord": "february",
+    "meaningZh": "二月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-months-march",
+    "word": "March",
+    "normalizedWord": "march",
+    "meaningZh": "三月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-months-april",
+    "word": "April",
+    "normalizedWord": "april",
+    "meaningZh": "四月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-months-may",
+    "word": "May",
+    "normalizedWord": "may",
+    "meaningZh": "五月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-months-june",
+    "word": "June",
+    "normalizedWord": "june",
+    "meaningZh": "六月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-months-july",
+    "word": "July",
+    "normalizedWord": "july",
+    "meaningZh": "七月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-months-august",
+    "word": "August",
+    "normalizedWord": "august",
+    "meaningZh": "八月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-months-september",
+    "word": "September",
+    "normalizedWord": "september",
+    "meaningZh": "九月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-months-october",
+    "word": "October",
+    "normalizedWord": "october",
+    "meaningZh": "十月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-months-november",
+    "word": "November",
+    "normalizedWord": "november",
+    "meaningZh": "十一月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-months-december",
+    "word": "December",
+    "normalizedWord": "december",
+    "meaningZh": "十二月",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-seasons-spring",
+    "word": "spring",
+    "normalizedWord": "spring",
+    "meaningZh": "春天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-seasons-summer",
+    "word": "summer",
+    "normalizedWord": "summer",
+    "meaningZh": "夏天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-seasons-autumn",
+    "word": "autumn",
+    "normalizedWord": "autumn",
+    "meaningZh": "秋天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-seasons-fall",
+    "word": "fall",
+    "normalizedWord": "fall",
+    "meaningZh": "秋天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-seasons-winter",
+    "word": "winter",
+    "normalizedWord": "winter",
+    "meaningZh": "冬天",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-weather-cloud",
+    "word": "cloud",
+    "normalizedWord": "cloud",
+    "meaningZh": "云",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-weather-cloudy",
+    "word": "cloudy",
+    "normalizedWord": "cloudy",
+    "meaningZh": "多云的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-weather-rain",
+    "word": "rain",
+    "normalizedWord": "rain",
+    "meaningZh": "雨",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-weather-rainy",
+    "word": "rainy",
+    "normalizedWord": "rainy",
+    "meaningZh": "下雨的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-weather-snow",
+    "word": "snow",
+    "normalizedWord": "snow",
+    "meaningZh": "雪",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-weather-snowy",
+    "word": "snowy",
+    "normalizedWord": "snowy",
+    "meaningZh": "下雪的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-weather-sun",
+    "word": "sun",
+    "normalizedWord": "sun",
+    "meaningZh": "太阳",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-weather-sunny",
+    "word": "sunny",
+    "normalizedWord": "sunny",
+    "meaningZh": "阳光充足的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-weather-warm",
+    "word": "warm",
+    "normalizedWord": "warm",
+    "meaningZh": "温暖的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-weather-weather",
+    "word": "weather",
+    "normalizedWord": "weather",
+    "meaningZh": "天气",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-weather-wind",
+    "word": "wind",
+    "normalizedWord": "wind",
+    "meaningZh": "风",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-weather-windy",
+    "word": "windy",
+    "normalizedWord": "windy",
+    "meaningZh": "有风的",
+    "topic": "weather",
+    "tags": [
+      "weather"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-places-and-directions-behind",
+    "word": "behind",
+    "normalizedWord": "behind",
+    "meaningZh": "在...后面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-places-and-directions-between",
+    "word": "between",
+    "normalizedWord": "between",
+    "meaningZh": "在...之间",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-places-and-directions-bookshop",
+    "word": "bookshop",
+    "normalizedWord": "bookshop",
+    "meaningZh": "书店",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-places-and-directions-end",
+    "word": "end",
+    "normalizedWord": "end",
+    "meaningZh": "结束",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-places-and-directions-here",
+    "word": "here",
+    "normalizedWord": "here",
+    "meaningZh": "这里",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-places-and-directions-in",
+    "word": "in",
+    "normalizedWord": "in",
+    "meaningZh": "在...里面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-places-and-directions-in-front-of",
+    "word": "in front of",
+    "normalizedWord": "in front of",
+    "meaningZh": "在...前面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-places-and-directions-next-to",
+    "word": "next to",
+    "normalizedWord": "next to",
+    "meaningZh": "紧邻",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-places-and-directions-on",
+    "word": "on",
+    "normalizedWord": "on",
+    "meaningZh": "在...上面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-places-and-directions-park",
+    "word": "park",
+    "normalizedWord": "park",
+    "meaningZh": "公园",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-places-and-directions-playground",
+    "word": "playground",
+    "normalizedWord": "playground",
+    "meaningZh": "操场",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-places-and-directions-shop",
+    "word": "shop",
+    "normalizedWord": "shop",
+    "meaningZh": "商店",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-places-and-directions-store",
+    "word": "store",
+    "normalizedWord": "store",
+    "meaningZh": "商店",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-places-and-directions-street",
+    "word": "street",
+    "normalizedWord": "street",
+    "meaningZh": "街道",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-places-and-directions-there",
+    "word": "there",
+    "normalizedWord": "there",
+    "meaningZh": "那里",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-places-and-directions-under",
+    "word": "under",
+    "normalizedWord": "under",
+    "meaningZh": "在...下面",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-places-and-directions-zoo",
+    "word": "zoo",
+    "normalizedWord": "zoo",
+    "meaningZh": "动物园",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-work-actor",
+    "word": "actor",
+    "normalizedWord": "actor",
+    "meaningZh": "男/女演员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-work-artist",
+    "word": "artist",
+    "normalizedWord": "artist",
+    "meaningZh": "艺术家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-work-business-person",
+    "word": "business person",
+    "normalizedWord": "business person",
+    "meaningZh": "商人",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-work-chef",
+    "word": "chef",
+    "normalizedWord": "chef",
+    "meaningZh": "厨师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-work-doctor",
+    "word": "doctor",
+    "normalizedWord": "doctor",
+    "meaningZh": "医生",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-work-driver",
+    "word": "driver",
+    "normalizedWord": "driver",
+    "meaningZh": "司机",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-work-farmer",
+    "word": "farmer",
+    "normalizedWord": "farmer",
+    "meaningZh": "农民",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-work-fire-fighter",
+    "word": "fire fighter",
+    "normalizedWord": "fire fighter",
+    "meaningZh": "消防员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-work-judge",
+    "word": "judge",
+    "normalizedWord": "judge",
+    "meaningZh": "法官",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-work-manager",
+    "word": "manager",
+    "normalizedWord": "manager",
+    "meaningZh": "经理",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-work-mechanic",
+    "word": "mechanic",
+    "normalizedWord": "mechanic",
+    "meaningZh": "机械师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-work-musician",
+    "word": "musician",
+    "normalizedWord": "musician",
+    "meaningZh": "音乐家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-work-newsreader",
+    "word": "newsreader",
+    "normalizedWord": "newsreader",
+    "meaningZh": "新闻播音员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-work-nurse",
+    "word": "nurse",
+    "normalizedWord": "nurse",
+    "meaningZh": "护士",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-work-painter",
+    "word": "painter",
+    "normalizedWord": "painter",
+    "meaningZh": "画家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-work-photographer",
+    "word": "photographer",
+    "normalizedWord": "photographer",
+    "meaningZh": "摄影师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-work-pilot",
+    "word": "pilot",
+    "normalizedWord": "pilot",
+    "meaningZh": "飞行员",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
+    "id": "yle-work-police-officer",
+    "word": "police officer",
+    "normalizedWord": "police officer",
+    "meaningZh": "警察",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 18
+  },
+  {
+    "id": "yle-work-reporter",
+    "word": "reporter",
+    "normalizedWord": "reporter",
+    "meaningZh": "记者",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 19
+  },
+  {
+    "id": "yle-work-scientist",
+    "word": "scientist",
+    "normalizedWord": "scientist",
+    "meaningZh": "科学家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 20
+  },
+  {
+    "id": "yle-work-secretary",
+    "word": "secretary",
+    "normalizedWord": "secretary",
+    "meaningZh": "秘书",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 21
+  },
+  {
+    "id": "yle-work-soldier",
+    "word": "soldier",
+    "normalizedWord": "soldier",
+    "meaningZh": "士兵",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 22
+  },
+  {
+    "id": "yle-work-teacher",
+    "word": "teacher",
+    "normalizedWord": "teacher",
+    "meaningZh": "教师",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 23
+  },
+  {
+    "id": "yle-work-veterinarian",
+    "word": "veterinarian",
+    "normalizedWord": "veterinarian",
+    "meaningZh": "兽医",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 24
+  },
+  {
+    "id": "yle-work-vet",
+    "word": "vet",
+    "normalizedWord": "vet",
+    "meaningZh": "兽医",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 25
+  },
+  {
+    "id": "yle-work-writer",
+    "word": "writer",
+    "normalizedWord": "writer",
+    "meaningZh": "作家",
+    "topic": "work",
+    "tags": [
+      "work"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 26
+  }
+]
