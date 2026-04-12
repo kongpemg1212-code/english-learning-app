@@ -14,7 +14,11 @@ export function getDailySessionRepo() {
     async get(key: string) {
       const user = await getCurrentUser()
       if (user) {
-        return getCloudDailySession(user, key)
+        try {
+          return (await getCloudDailySession(user, key)) ?? localDailySessionRepo.get(key)
+        } catch {
+          return localDailySessionRepo.get(key)
+        }
       }
 
       return localDailySessionRepo.get(key)
@@ -32,7 +36,12 @@ export function getDailySessionRepo() {
     async list() {
       const user = await getCurrentUser()
       if (user) {
-        return listCloudDailySessions(user)
+        try {
+          const sessions = await listCloudDailySessions(user)
+          return sessions.length > 0 ? sessions : localDailySessionRepo.list()
+        } catch {
+          return localDailySessionRepo.list()
+        }
       }
 
       return localDailySessionRepo.list()

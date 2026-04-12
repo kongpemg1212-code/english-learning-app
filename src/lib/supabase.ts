@@ -1,5 +1,6 @@
 import { createClient, type Session, type SupabaseClient, type User } from '@supabase/supabase-js'
 
+import type { WordPack } from '../types/word'
 import type { DailySession } from '../types/session'
 import type { WordProgress } from '../types/progress'
 
@@ -66,39 +67,44 @@ export async function signOut() {
   await supabase.auth.signOut()
 }
 
-export async function listCloudWordProgress(user: User): Promise<WordProgress[]> {
-  if (!supabase) {
-    return []
-  }
-
-  const { data, error } = await supabase
-    .from('word_progress')
-    .select('*')
-    .eq('user_id', user.id)
-
-  if (error) {
-    throw error
-  }
-
-  return (data ?? []) as WordProgress[]
+type LearningCloudData = {
+  wordProgress?: Record<string, WordProgress>
+  dailySessions?: Record<string, DailySession>
+  importedPacks?: WordPack[]
+  selectedPackId?: string
 }
 
-export async function saveCloudWordProgress(user: User, value: WordProgress) {
+async function getFreshUser(user: User) {
+  if (!supabase) {
+    return user
+  }
+
+  const { data } = await supabase.auth.getUser()
+  return data.user ?? user
+}
+
+function getLearningCloudData(user: User): LearningCloudData {
+  const raw = user.user_metadata?.learning_app
+  return raw && typeof raw === 'object' ? (raw as LearningCloudData) : {}
+}
+
+async function updateLearningCloudData(
+  user: User,
+  updater: (current: LearningCloudData) => LearningCloudData,
+) {
   if (!supabase) {
     return
   }
 
-  const { error } = await supabase.from('word_progress').upsert({
-    user_id: user.id,
-    word_id: value.wordId,
-    stage: value.stage,
-    seen_count: value.seenCount,
-    correct_count: value.correctCount,
-    wrong_count: value.wrongCount,
-    consecutive_correct: value.consecutiveCorrect,
-    last_reviewed_at: value.lastReviewedAt,
-    next_review_at: value.nextReviewAt,
-    status: value.status,
+  const freshUser = await getFreshUser(user)
+  const current = getLearningCloudData(freshUser)
+  const next = updater(current)
+
+  const { error } = await supabase.auth.updateUser({
+    data: {
+      ...freshUser.user_metadata,
+      learning_app: next,
+    },
   })
 
   if (error) {
@@ -106,31 +112,24 @@ export async function saveCloudWordProgress(user: User, value: WordProgress) {
   }
 }
 
-export async function listCloudDailySessions(user: User): Promise<DailySession[]> {
-  if (!supabase) {
-    return []
-  }
+export async function listCloudWordProgress(user: User): Promise<WordProgress[]> {
+  const freshUser = await getFreshUser(user)
+  return Object.values(getLearningCloudData(freshUser).wordProgress ?? {})
+}
 
-  const { data, error } = await supabase
-    .from('daily_sessions')
-    .select('*')
-    .eq('user_id', user.id)
-
-  if (error) {
-    throw error
-  }
-
-  return (data ?? []).map((row: Record<string, unknown>) => ({
-    date: String(row.date ?? ''),
-    packId: row.pack_id ? String(row.pack_id) : undefined,
-    topicId: row.topic_id ? String(row.topic_id) : undefined,
-    newWords: Array.isArray(row.new_words) ? (row.new_words as string[]) : [],
-    reviewWords: Array.isArray(row.review_words) ? (row.review_words as string[]) : [],
-    challengeWords: Array.isArray(row.challenge_words) ? (row.challenge_words as string[]) : [],
-    modeSequence: Array.isArray(row.mode_sequence) ? (row.mode_sequence as DailySession['modeSequence']) : [],
-    estimatedMinutes: Number(row.estimated_minutes ?? 0),
-    status: row.status === 'done' ? 'done' : 'todo',
+export async function saveCloudWordProgress(user: User, value: WordProgress) {
+  await updateLearningCloudData(user, (current) => ({
+    ...current,
+    wordProgress: {
+      ...(current.wordProgress ?? {}),
+      [value.wordId]: value,
+    },
   }))
+}
+
+export async function listCloudDailySessions(user: User): Promise<DailySession[]> {
+  const freshUser = await getFreshUser(user)
+  return Object.values(getLearningCloudData(freshUser).dailySessions ?? {})
 }
 
 export async function getCloudDailySession(user: User, date: string) {
@@ -139,24 +138,11 @@ export async function getCloudDailySession(user: User, date: string) {
 }
 
 export async function saveCloudDailySession(user: User, value: DailySession) {
-  if (!supabase) {
-    return
-  }
-
-  const { error } = await supabase.from('daily_sessions').upsert({
-    user_id: user.id,
-    date: value.date,
-    pack_id: value.packId,
-    topic_id: value.topicId,
-    new_words: value.newWords,
-    review_words: value.reviewWords,
-    challenge_words: value.challengeWords,
-    mode_sequence: value.modeSequence,
-    estimated_minutes: value.estimatedMinutes,
-    status: value.status,
-  })
-
-  if (error) {
-    throw error
-  }
+  await updateLearningCloudData(user, (current) => ({
+    ...current,
+    dailySessions: {
+      ...(current.dailySessions ?? {}),
+      [value.date]: value,
+    },
+  }))
 }

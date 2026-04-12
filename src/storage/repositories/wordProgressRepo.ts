@@ -14,8 +14,15 @@ export function getWordProgressRepo() {
     async get(key: string) {
       const user = await getCurrentUser()
       if (user) {
-        const records = await listCloudWordProgress(user)
-        return records.find((record) => record.wordId === key)
+        try {
+          const records = await listCloudWordProgress(user)
+          const found = records.find((record) => record.wordId === key)
+          if (found) {
+            return found
+          }
+        } catch {
+          return localWordProgressRepo.get(key)
+        }
       }
 
       return localWordProgressRepo.get(key)
@@ -33,7 +40,12 @@ export function getWordProgressRepo() {
     async list() {
       const user = await getCurrentUser()
       if (user) {
-        return listCloudWordProgress(user)
+        try {
+          const records = await listCloudWordProgress(user)
+          return records.length > 0 ? records : localWordProgressRepo.list()
+        } catch {
+          return localWordProgressRepo.list()
+        }
       }
 
       return localWordProgressRepo.list()
