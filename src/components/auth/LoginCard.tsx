@@ -25,7 +25,7 @@ export function LoginCard({ configured }: LoginCardProps) {
 
     try {
       await sendMagicLink(email.trim())
-      setMessage('登录链接已经发送到邮箱，请点击邮件继续登录。')
+      setMessage('登录链接已经发送到邮箱，请点击邮件继续登录。如果刚更新过页面，请先刷新一次再重试。')
     } catch (error) {
       setMessage(error instanceof Error ? error.message : '发送登录链接失败。')
     }
