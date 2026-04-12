@@ -34,3 +34,19 @@
 - [实现计划](./superpowers/plans/2026-04-12-kids-vocabulary-pwa.md)
 - [词包协议](./superpowers/reference/word-pack-schema.md)
 - [导入协议](./superpowers/reference/textbook-import-contract.md)
+- [词包导入工作流](./workflows/pack-import.md)
+- [发布检查清单](./workflows/release-checklist.md)
+
+## 轻量借鉴版整理
+
+当前仓库吸收了“best practice repo”的三点做法，但保持轻量：
+
+- 用总控文档统一收束当前状态、约束和入口
+- 用 workflow 文档收纳重复动作，而不是把流程散落在聊天里
+- 用极简 `.mcp.json` 保留最常用的浏览器验证能力
+
+当前没有引入：
+
+- 重型 subagents / commands 编排
+- 大量 hooks / role 目录
+- 针对 AI 工作流而不是业务产品的复杂结构
