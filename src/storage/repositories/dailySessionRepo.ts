@@ -38,7 +38,16 @@ export function getDailySessionRepo() {
       if (user) {
         try {
           const sessions = await listCloudDailySessions(user)
-          return sessions.length > 0 ? sessions : localDailySessionRepo.list()
+          if (sessions.length > 0) {
+            return sessions
+          }
+
+          const localSessions = await localDailySessionRepo.list()
+          if (localSessions.length > 0) {
+            await Promise.all(localSessions.map((session) => saveCloudDailySession(user, session)))
+          }
+
+          return localSessions
         } catch {
           return localDailySessionRepo.list()
         }

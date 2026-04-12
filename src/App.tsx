@@ -47,22 +47,25 @@ function App() {
   if (auth.loading) {
     return (
       <main style={{ minHeight: '100vh', display: 'grid', placeItems: 'center' }}>
-        正在恢复登录状态…
+        正在连接云端存档…
       </main>
     )
   }
 
   if (!auth.user) {
-    return <LoginCard configured={auth.available} />
+    return <LoginCard configured={auth.available} onContinue={auth.ensureSession} />
   }
+
+  const profileLabel = auth.user.email
+    ? `账号：${auth.user.email}`
+    : `云端存档：${auth.user.id.slice(0, 8).toUpperCase()}`
 
   return (
     <AppShell
       currentRoute={route}
       onNavigate={navigateToRoute}
-      signedInEmail={auth.user?.email}
+      profileLabel={profileLabel}
       currentPackName={activePack.meta.name}
-      onSignOut={() => void auth.signOut()}
     >
       {content}
     </AppShell>

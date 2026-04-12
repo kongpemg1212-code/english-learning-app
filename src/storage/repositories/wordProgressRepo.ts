@@ -42,7 +42,16 @@ export function getWordProgressRepo() {
       if (user) {
         try {
           const records = await listCloudWordProgress(user)
-          return records.length > 0 ? records : localWordProgressRepo.list()
+          if (records.length > 0) {
+            return records
+          }
+
+          const localRecords = await localWordProgressRepo.list()
+          if (localRecords.length > 0) {
+            await Promise.all(localRecords.map((record) => saveCloudWordProgress(user, record)))
+          }
+
+          return localRecords
         } catch {
           return localWordProgressRepo.list()
         }

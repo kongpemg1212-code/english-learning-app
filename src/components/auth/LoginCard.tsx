@@ -1,129 +1,65 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
-import { sendMagicLink } from '../../lib/supabase'
 import { Button } from '../ui/Button'
 import { Card } from '../ui/Card'
 
 type LoginCardProps = {
   configured: boolean
+  onContinue: () => Promise<unknown>
 }
 
-const COOLDOWN_KEY = 'word-garden-login-cooldown-until'
-const COOLDOWN_SECONDS = 60
+function getFriendlyError(message: string) {
+  const lower = message.toLowerCase()
 
-export function LoginCard({ configured }: LoginCardProps) {
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState<string | null>(null)
-  const [sending, setSending] = useState(false)
-  const [now, setNow] = useState(() => Date.now())
-  const [cooldownUntil, setCooldownUntil] = useState<number>(() => {
-    try {
-      return Number(window.localStorage.getItem(COOLDOWN_KEY) ?? 0)
-    } catch {
-      return 0
-    }
-  })
-
-  const remainingSeconds = Math.max(0, Math.ceil((cooldownUntil - now) / 1000))
-
-  useEffect(() => {
-    if (remainingSeconds <= 0) {
-      return
-    }
-
-    const timer = window.setInterval(() => {
-      if (Date.now() >= cooldownUntil) {
-        setCooldownUntil(0)
-        setNow(Date.now())
-        try {
-          window.localStorage.removeItem(COOLDOWN_KEY)
-        } catch {
-          // ignore localStorage failures
-        }
-      } else {
-        setNow(Date.now())
-      }
-    }, 1000)
-
-    return () => {
-      window.clearInterval(timer)
-    }
-  }, [cooldownUntil, remainingSeconds])
-
-  function startCooldown(seconds = COOLDOWN_SECONDS) {
-    const nextUntil = Date.now() + seconds * 1000
-    setCooldownUntil(nextUntil)
-    try {
-      window.localStorage.setItem(COOLDOWN_KEY, String(nextUntil))
-    } catch {
-      // ignore localStorage failures
-    }
+  if (lower.includes('anonymous sign-ins are disabled')) {
+    return '匿名登录还没有在 Supabase 里打开。去 Supabase 后台的 Authentication > Sign In / Providers，把 Anonymous 打开就可以了。'
   }
 
-  async function handleSend() {
-    if (!configured) {
-      setMessage('还没有配置 Supabase，暂时无法发送登录链接。')
-      return
-    }
+  if (lower.includes('not configured')) {
+    return '当前还没有连上云端，请先补好 Supabase 配置。'
+  }
 
-    if (!email.trim()) {
-      setMessage('请先输入邮箱。')
+  return message
+}
+
+export function LoginCard({ configured, onContinue }: LoginCardProps) {
+  const [message, setMessage] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
+
+  async function handleContinue() {
+    if (!configured) {
+      setMessage('当前还没有连上云端，请先补好 Supabase 配置。')
       return
     }
 
     try {
-      setSending(true)
-      await sendMagicLink(email.trim())
-      startCooldown()
-      setMessage('登录链接已经发送到邮箱，请点击邮件继续登录。如果刚更新过页面，请先刷新一次再重试。')
+      setLoading(true)
+      setMessage(null)
+      await onContinue()
+      setMessage('正在连接云端存档…')
     } catch (error) {
-      const text = error instanceof Error ? error.message : '发送登录链接失败。'
-      if (text.toLowerCase().includes('rate limit')) {
-        startCooldown()
-        setMessage('当前邮箱发送太频繁，请等待约 60 秒后再试，同时检查收件箱和垃圾邮件。')
-      } else {
-        setMessage(text)
-      }
+      const text = error instanceof Error ? error.message : '连接云端存档失败。'
+      setMessage(getFriendlyError(text))
     } finally {
-      setSending(false)
+      setLoading(false)
     }
   }
 
   return (
     <main style={{ minHeight: '100vh', display: 'grid', placeItems: 'center', padding: '24px' }}>
       <Card style={{ width: '100%', maxWidth: '520px', display: 'grid', gap: '16px' }}>
-        <p style={{ margin: 0, color: 'var(--color-text-light)' }}>账号登录</p>
-        <h1 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>继续孩子的学习进度</h1>
+        <p style={{ margin: 0, color: 'var(--color-text-light)' }}>云端存档</p>
+        <h1 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>开启云端存档</h1>
         <p style={{ margin: 0, color: 'var(--color-text-light)' }}>
-          使用邮箱免密码登录，之后会自动记住账号和学习进度。
+          不用密码，也不用邮件确认。点一下就会为这台设备建立一个云端档案，并自动继续保存学习历史。
         </p>
-        <label style={{ fontWeight: 700 }}>
-          邮箱
-          <input
-            type="email"
-            value={email}
-            onChange={(event) => setEmail(event.target.value)}
-            placeholder="name@example.com"
-            style={{
-              width: '100%',
-              marginTop: '6px',
-              minHeight: '44px',
-              borderRadius: 'var(--radius-md)',
-              border: '1px solid var(--color-surface-border)',
-              padding: '0 12px',
-            }}
-          />
-        </label>
-        <Button
-          onClick={() => void handleSend()}
-          disabled={sending || remainingSeconds > 0}
-        >
-          {remainingSeconds > 0 ? `请等待 ${remainingSeconds}s` : '发送免密码登录链接'}
+        <Button onClick={() => void handleContinue()} disabled={loading}>
+          {loading ? '正在连接云端存档…' : '一键进入并保存进度'}
         </Button>
         {message ? <p style={{ margin: 0, color: 'var(--color-text-light)' }}>{message}</p> : null}
         {!configured ? (
           <p style={{ margin: 0, color: '#b25b00' }}>
-            需要配置 `VITE_SUPABASE_URL` 和 `VITE_SUPABASE_ANON_KEY` 后，这个登录框才会真正生效。
+            需要配置 `VITE_SUPABASE_URL` 和 `VITE_SUPABASE_ANON_KEY` 后，云端存档才会真正生效。
           </p>
         ) : null}
       </Card>

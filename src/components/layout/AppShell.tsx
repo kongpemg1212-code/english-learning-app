@@ -12,23 +12,21 @@ const navItems: { route: AppRoute; label: string }[] = [
 type AppShellProps = PropsWithChildren<{
   currentRoute: AppRoute
   onNavigate: (route: AppRoute) => void
-  signedInEmail?: string
+  profileLabel?: string
   currentPackName?: string
-  onSignOut?: () => void
 }>
 
 export function AppShell({
   children,
   currentRoute,
   onNavigate,
-  signedInEmail,
+  profileLabel,
   currentPackName,
-  onSignOut,
 }: AppShellProps) {
   return (
     <div style={{ minHeight: '100vh', paddingBottom: '92px' }}>
       <div style={{ width: 'min(960px, calc(100% - 24px))', margin: '0 auto', paddingTop: '12px' }}>
-        {signedInEmail ? (
+        {profileLabel ? (
           <header
             style={{
               display: 'flex',
@@ -44,26 +42,12 @@ export function AppShell({
             }}
           >
             <div style={{ display: 'grid', gap: '2px' }}>
-              <strong>{signedInEmail}</strong>
+              <strong>{profileLabel}</strong>
               {currentPackName ? (
                 <span style={{ color: 'var(--color-text-light)' }}>当前词库：{currentPackName}</span>
               ) : null}
             </div>
-            <button
-              type="button"
-              onClick={onSignOut}
-              style={{
-                minHeight: '40px',
-                padding: '0 16px',
-                borderRadius: 'var(--radius-pill)',
-                border: '1px solid var(--color-surface-border)',
-                background: 'rgba(255,255,255,0.92)',
-                cursor: 'pointer',
-                fontWeight: 700,
-              }}
-            >
-              退出登录
-            </button>
+            <span style={{ color: 'var(--color-text-light)', fontWeight: 700 }}>自动云端保存中</span>
           </header>
         ) : null}
         {children}

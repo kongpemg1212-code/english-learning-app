@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 import type { Session } from '@supabase/supabase-js'
 
-import { getCurrentSession, hasSupabaseConfig, signOut, supabase } from '../../lib/supabase'
+import { ensureCloudSession, getCurrentSession, hasSupabaseConfig, signOut, supabase } from '../../lib/supabase'
 
 export function useAuthState() {
   const [loading, setLoading] = useState(hasSupabaseConfig)
@@ -42,6 +42,7 @@ export function useAuthState() {
     session,
     user: session?.user ?? null,
     available: hasSupabaseConfig,
+    ensureSession: ensureCloudSession,
     signOut,
   }
 }

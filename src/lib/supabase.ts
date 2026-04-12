@@ -37,26 +37,29 @@ export async function getCurrentSession(): Promise<Session | null> {
   return data.session ?? null
 }
 
-export async function sendMagicLink(email: string) {
+export async function ensureCloudSession() {
   if (!supabase) {
     throw new Error('Supabase is not configured')
   }
 
-  const redirectTo =
-    import.meta.env.VITE_PUBLIC_APP_URL ||
-    `${window.location.origin}${window.location.pathname}`
+  const existingSession = await getCurrentSession()
+  if (existingSession) {
+    return existingSession
+  }
 
-  const { error } = await supabase.auth.signInWithOtp({
-    email,
+  const { data, error } = await supabase.auth.signInAnonymously({
     options: {
-      emailRedirectTo: redirectTo,
-      shouldCreateUser: true,
+      data: {
+        learning_app: {},
+      },
     },
   })
 
   if (error) {
     throw error
   }
+
+  return data.session ?? null
 }
 
 export async function signOut() {
