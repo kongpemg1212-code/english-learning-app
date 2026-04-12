@@ -17,54 +17,17 @@
 - `VITE_SUPABASE_URL`
 - `VITE_SUPABASE_ANON_KEY`
 
-## Supabase 表结构
+## 当前同步方式
 
-建议执行以下 SQL：
+当前版本的登录后同步，使用的是 `auth.users.user_metadata.learning_app`。
 
-```sql
-create table if not exists public.word_progress (
-  user_id uuid not null references auth.users(id) on delete cascade,
-  word_id text not null,
-  stage int not null default 0,
-  seen_count int not null default 0,
-  correct_count int not null default 0,
-  wrong_count int not null default 0,
-  consecutive_correct int not null default 0,
-  last_reviewed_at text,
-  next_review_at text,
-  status text not null default 'new',
-  primary key (user_id, word_id)
-);
+这意味着：
 
-create table if not exists public.daily_sessions (
-  user_id uuid not null references auth.users(id) on delete cascade,
-  date text not null,
-  pack_id text,
-  topic_id text,
-  new_words jsonb not null default '[]'::jsonb,
-  review_words jsonb not null default '[]'::jsonb,
-  challenge_words jsonb not null default '[]'::jsonb,
-  mode_sequence jsonb not null default '[]'::jsonb,
-  estimated_minutes int not null default 0,
-  status text not null default 'todo',
-  primary key (user_id, date)
-);
+- 现在不需要你先手动建业务表
+- 登录成功后，学习进度和每日任务会直接写到该用户的 metadata
+- 这样最快能把“单独账号记住学到哪里”跑起来
 
-alter table public.word_progress enable row level security;
-alter table public.daily_sessions enable row level security;
-
-create policy "users can manage their own word progress"
-on public.word_progress
-for all
-using (auth.uid() = user_id)
-with check (auth.uid() = user_id);
-
-create policy "users can manage their own daily sessions"
-on public.daily_sessions
-for all
-using (auth.uid() = user_id)
-with check (auth.uid() = user_id);
-```
+后续如果数据量再增长，可以再迁移到独立表结构。
 
 ## Auth 设置
 
@@ -75,4 +38,4 @@ with check (auth.uid() = user_id);
 
 ## 当前状态
 
-代码已经接入登录 UI 和云端仓储逻辑；真正启用还需要你把 Supabase 项目参数配置进 GitHub Secrets。
+代码已经接入登录 UI、免密码登录和 metadata 同步逻辑；只要 GitHub Secrets 已配置完成，就可以直接开始使用。
