@@ -4,6 +4,8 @@
     "word": "alphabet",
     "normalizedWord": "alphabet",
     "meaningZh": "字母表",
+    "example": "This is my alphabet.",
+    "exampleZh": "这是我的字母表。",
     "topic": "school",
     "tags": [
       "school"
@@ -17,6 +19,8 @@
     "word": "answer",
     "normalizedWord": "answer",
     "meaningZh": "答案",
+    "example": "This is my answer.",
+    "exampleZh": "这是我的答案。",
     "topic": "school",
     "tags": [
       "school"
@@ -30,6 +34,8 @@
     "word": "ask",
     "normalizedWord": "ask",
     "meaningZh": "问",
+    "example": "This is my ask.",
+    "exampleZh": "这是我的问。",
     "topic": "school",
     "tags": [
       "school"
@@ -43,6 +49,8 @@
     "word": "board",
     "normalizedWord": "board",
     "meaningZh": "木板",
+    "example": "This is my board.",
+    "exampleZh": "这是我的木板。",
     "topic": "school",
     "tags": [
       "school"
@@ -56,6 +64,8 @@
     "word": "book",
     "normalizedWord": "book",
     "meaningZh": "书",
+    "example": "This is my book.",
+    "exampleZh": "这是我的书。",
     "topic": "school",
     "tags": [
       "school"
@@ -69,6 +79,8 @@
     "word": "bookcase",
     "normalizedWord": "bookcase",
     "meaningZh": "书架",
+    "example": "This is my bookcase.",
+    "exampleZh": "这是我的书架。",
     "topic": "school",
     "tags": [
       "school"
@@ -82,6 +94,8 @@
     "word": "class",
     "normalizedWord": "class",
     "meaningZh": "班级",
+    "example": "This is my class.",
+    "exampleZh": "这是我的班级。",
     "topic": "school",
     "tags": [
       "school"
@@ -95,6 +109,8 @@
     "word": "classroom",
     "normalizedWord": "classroom",
     "meaningZh": "教室",
+    "example": "This is my classroom.",
+    "exampleZh": "这是我的教室。",
     "topic": "school",
     "tags": [
       "school"
@@ -108,6 +124,8 @@
     "word": "close",
     "normalizedWord": "close",
     "meaningZh": "关闭",
+    "example": "This is my close.",
+    "exampleZh": "这是我的关闭。",
     "topic": "school",
     "tags": [
       "school"
@@ -121,6 +139,8 @@
     "word": "colour",
     "normalizedWord": "colour",
     "meaningZh": "颜色",
+    "example": "This is my colour.",
+    "exampleZh": "这是我的颜色。",
     "topic": "school",
     "tags": [
       "school"
@@ -134,6 +154,8 @@
     "word": "computer",
     "normalizedWord": "computer",
     "meaningZh": "电脑",
+    "example": "This is my computer.",
+    "exampleZh": "这是我的电脑。",
     "topic": "school",
     "tags": [
       "school"
@@ -147,6 +169,8 @@
     "word": "correct",
     "normalizedWord": "correct",
     "meaningZh": "正确的",
+    "example": "This is my correct.",
+    "exampleZh": "这是我的正确的。",
     "topic": "school",
     "tags": [
       "school"
@@ -160,6 +184,8 @@
     "word": "crayon",
     "normalizedWord": "crayon",
     "meaningZh": "蜡笔",
+    "example": "This is my crayon.",
+    "exampleZh": "这是我的蜡笔。",
     "topic": "school",
     "tags": [
       "school"
@@ -173,6 +199,8 @@
     "word": "desk",
     "normalizedWord": "desk",
     "meaningZh": "书桌",
+    "example": "This is my desk.",
+    "exampleZh": "这是我的书桌。",
     "topic": "school",
     "tags": [
       "school"
@@ -186,6 +214,8 @@
     "word": "draw",
     "normalizedWord": "draw",
     "meaningZh": "画",
+    "example": "This is my draw.",
+    "exampleZh": "这是我的画。",
     "topic": "school",
     "tags": [
       "school"
@@ -199,6 +229,8 @@
     "word": "English",
     "normalizedWord": "english",
     "meaningZh": "英语",
+    "example": "This is my English.",
+    "exampleZh": "这是我的英语。",
     "topic": "school",
     "tags": [
       "school"
@@ -212,6 +244,8 @@
     "word": "eraser",
     "normalizedWord": "eraser",
     "meaningZh": "橡皮擦",
+    "example": "This is my eraser.",
+    "exampleZh": "这是我的橡皮擦。",
     "topic": "school",
     "tags": [
       "school"
@@ -225,6 +259,8 @@
     "word": "example",
     "normalizedWord": "example",
     "meaningZh": "例子",
+    "example": "This is my example.",
+    "exampleZh": "这是我的例子。",
     "topic": "school",
     "tags": [
       "school"
@@ -238,6 +274,8 @@
     "word": "find",
     "normalizedWord": "find",
     "meaningZh": "找到",
+    "example": "This is my find.",
+    "exampleZh": "这是我的找到。",
     "topic": "school",
     "tags": [
       "school"
@@ -251,6 +289,8 @@
     "word": "floor",
     "normalizedWord": "floor",
     "meaningZh": "地板",
+    "example": "This is my floor.",
+    "exampleZh": "这是我的地板。",
     "topic": "school",
     "tags": [
       "school"
@@ -264,6 +304,8 @@
     "word": "keyboard",
     "normalizedWord": "keyboard",
     "meaningZh": "键盘",
+    "example": "This is my keyboard.",
+    "exampleZh": "这是我的键盘。",
     "topic": "school",
     "tags": [
       "school"
@@ -277,6 +319,8 @@
     "word": "learn",
     "normalizedWord": "learn",
     "meaningZh": "学习",
+    "example": "This is my learn.",
+    "exampleZh": "这是我的学习。",
     "topic": "school",
     "tags": [
       "school"
@@ -290,6 +334,8 @@
     "word": "lesson",
     "normalizedWord": "lesson",
     "meaningZh": "课",
+    "example": "This is my lesson.",
+    "exampleZh": "这是我的课。",
     "topic": "school",
     "tags": [
       "school"
@@ -303,6 +349,8 @@
     "word": "letter",
     "normalizedWord": "letter",
     "meaningZh": "字母",
+    "example": "This is my letter.",
+    "exampleZh": "这是我的字母。",
     "topic": "school",
     "tags": [
       "school"
@@ -316,6 +364,8 @@
     "word": "library",
     "normalizedWord": "library",
     "meaningZh": "图书馆",
+    "example": "This is my library.",
+    "exampleZh": "这是我的图书馆。",
     "topic": "school",
     "tags": [
       "school"
@@ -329,6 +379,8 @@
     "word": "line",
     "normalizedWord": "line",
     "meaningZh": "线/排",
+    "example": "This is my line.",
+    "exampleZh": "这是我的线/排。",
     "topic": "school",
     "tags": [
       "school"
@@ -342,6 +394,8 @@
     "word": "listen",
     "normalizedWord": "listen",
     "meaningZh": "听",
+    "example": "This is my listen.",
+    "exampleZh": "这是我的听。",
     "topic": "school",
     "tags": [
       "school"
@@ -355,6 +409,8 @@
     "word": "look",
     "normalizedWord": "look",
     "meaningZh": "看",
+    "example": "This is my look.",
+    "exampleZh": "这是我的看。",
     "topic": "school",
     "tags": [
       "school"
@@ -368,6 +424,8 @@
     "word": "mouse",
     "normalizedWord": "mouse",
     "meaningZh": "鼠标",
+    "example": "This is my mouse.",
+    "exampleZh": "这是我的鼠标。",
     "topic": "school",
     "tags": [
       "school"
@@ -381,6 +439,8 @@
     "word": "music",
     "normalizedWord": "music",
     "meaningZh": "音乐",
+    "example": "This is my music.",
+    "exampleZh": "这是我的音乐。",
     "topic": "school",
     "tags": [
       "school"
@@ -394,6 +454,8 @@
     "word": "number",
     "normalizedWord": "number",
     "meaningZh": "数字",
+    "example": "This is my number.",
+    "exampleZh": "这是我的数字。",
     "topic": "school",
     "tags": [
       "school"
@@ -407,6 +469,8 @@
     "word": "open",
     "normalizedWord": "open",
     "meaningZh": "打开",
+    "example": "This is my open.",
+    "exampleZh": "这是我的打开。",
     "topic": "school",
     "tags": [
       "school"
@@ -420,6 +484,8 @@
     "word": "page",
     "normalizedWord": "page",
     "meaningZh": "页",
+    "example": "This is my page.",
+    "exampleZh": "这是我的页。",
     "topic": "school",
     "tags": [
       "school"
@@ -433,6 +499,8 @@
     "word": "paint",
     "normalizedWord": "paint",
     "meaningZh": "画",
+    "example": "This is my paint.",
+    "exampleZh": "这是我的画。",
     "topic": "school",
     "tags": [
       "school"
@@ -446,6 +514,8 @@
     "word": "painting",
     "normalizedWord": "painting",
     "meaningZh": "绘画",
+    "example": "This is my painting.",
+    "exampleZh": "这是我的绘画。",
     "topic": "school",
     "tags": [
       "school"
@@ -459,6 +529,8 @@
     "word": "paper",
     "normalizedWord": "paper",
     "meaningZh": "纸",
+    "example": "This is my paper.",
+    "exampleZh": "这是我的纸。",
     "topic": "school",
     "tags": [
       "school"
@@ -472,6 +544,8 @@
     "word": "pen",
     "normalizedWord": "pen",
     "meaningZh": "钢笔",
+    "example": "This is my pen.",
+    "exampleZh": "这是我的钢笔。",
     "topic": "school",
     "tags": [
       "school"
@@ -485,6 +559,8 @@
     "word": "pencil",
     "normalizedWord": "pencil",
     "meaningZh": "铅笔",
+    "example": "This is my pencil.",
+    "exampleZh": "这是我的铅笔。",
     "topic": "school",
     "tags": [
       "school"
@@ -498,6 +574,8 @@
     "word": "picture",
     "normalizedWord": "picture",
     "meaningZh": "图片",
+    "example": "This is my picture.",
+    "exampleZh": "这是我的图片。",
     "topic": "school",
     "tags": [
       "school"
@@ -511,6 +589,8 @@
     "word": "playground",
     "normalizedWord": "playground",
     "meaningZh": "操场",
+    "example": "This is my playground.",
+    "exampleZh": "这是我的操场。",
     "topic": "school",
     "tags": [
       "school"
@@ -524,6 +604,8 @@
     "word": "practice",
     "normalizedWord": "practice",
     "meaningZh": "练习",
+    "example": "This is my practice.",
+    "exampleZh": "这是我的练习。",
     "topic": "school",
     "tags": [
       "school"
@@ -537,6 +619,8 @@
     "word": "read",
     "normalizedWord": "read",
     "meaningZh": "读",
+    "example": "This is my read.",
+    "exampleZh": "这是我的读。",
     "topic": "school",
     "tags": [
       "school"
@@ -550,6 +634,8 @@
     "word": "ruler",
     "normalizedWord": "ruler",
     "meaningZh": "尺子",
+    "example": "This is my ruler.",
+    "exampleZh": "这是我的尺子。",
     "topic": "school",
     "tags": [
       "school"
@@ -563,6 +649,8 @@
     "word": "school",
     "normalizedWord": "school",
     "meaningZh": "学校",
+    "example": "This is my school.",
+    "exampleZh": "这是我的学校。",
     "topic": "school",
     "tags": [
       "school"
@@ -576,6 +664,8 @@
     "word": "sentence",
     "normalizedWord": "sentence",
     "meaningZh": "句子",
+    "example": "This is my sentence.",
+    "exampleZh": "这是我的句子。",
     "topic": "school",
     "tags": [
       "school"
@@ -589,6 +679,8 @@
     "word": "spell",
     "normalizedWord": "spell",
     "meaningZh": "拼写",
+    "example": "This is my spell.",
+    "exampleZh": "这是我的拼写。",
     "topic": "school",
     "tags": [
       "school"
@@ -602,6 +694,8 @@
     "word": "student",
     "normalizedWord": "student",
     "meaningZh": "学生",
+    "example": "This is my student.",
+    "exampleZh": "这是我的学生。",
     "topic": "school",
     "tags": [
       "school"
@@ -615,6 +709,8 @@
     "word": "study",
     "normalizedWord": "study",
     "meaningZh": "学习",
+    "example": "This is my study.",
+    "exampleZh": "这是我的学习。",
     "topic": "school",
     "tags": [
       "school"
@@ -628,6 +724,8 @@
     "word": "teacher",
     "normalizedWord": "teacher",
     "meaningZh": "教师",
+    "example": "This is my teacher.",
+    "exampleZh": "这是我的教师。",
     "topic": "school",
     "tags": [
       "school"
@@ -641,6 +739,8 @@
     "word": "test",
     "normalizedWord": "test",
     "meaningZh": "测试",
+    "example": "This is my test.",
+    "exampleZh": "这是我的测试。",
     "topic": "school",
     "tags": [
       "school"
@@ -654,6 +754,8 @@
     "word": "word",
     "normalizedWord": "word",
     "meaningZh": "单词",
+    "example": "This is my word.",
+    "exampleZh": "这是我的单词。",
     "topic": "school",
     "tags": [
       "school"
@@ -667,6 +769,8 @@
     "word": "write",
     "normalizedWord": "write",
     "meaningZh": "写",
+    "example": "This is my write.",
+    "exampleZh": "这是我的写。",
     "topic": "school",
     "tags": [
       "school"

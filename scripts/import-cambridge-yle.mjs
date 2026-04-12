@@ -45,6 +45,96 @@ function slugify(value) {
     .replace(/^-+|-+$/g, '')
 }
 
+function articleFor(word) {
+  return /^[aeiou]/i.test(word) ? 'an' : 'a'
+}
+
+function generateExample(word, meaningZh, topicId) {
+  const cleanWord = word.trim()
+
+  if (topicId === 'colours') {
+    return {
+      example: `It is ${cleanWord}.`,
+      exampleZh: `它是${meaningZh}的。`,
+    }
+  }
+
+  if (topicId === 'weather') {
+    return {
+      example: `It is ${cleanWord} today.`,
+      exampleZh: `今天天气${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'family-and-friends') {
+    return {
+      example: `This is my ${cleanWord}.`,
+      exampleZh: `这是我的${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'food-and-drink') {
+    return {
+      example: `I like ${cleanWord}.`,
+      exampleZh: `我喜欢${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'work') {
+    return {
+      example: `She is ${articleFor(cleanWord)} ${cleanWord}.`,
+      exampleZh: `她是一名${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'places-and-directions') {
+    return {
+      example: `The ${cleanWord} is here.`,
+      exampleZh: `${meaningZh}在这里。`,
+    }
+  }
+
+  if (topicId === 'school') {
+    return {
+      example: `This is my ${cleanWord}.`,
+      exampleZh: `这是我的${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'home') {
+    return {
+      example: `This is the ${cleanWord}.`,
+      exampleZh: `这是${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'transport') {
+    return {
+      example: `I can see ${articleFor(cleanWord)} ${cleanWord}.`,
+      exampleZh: `我能看到一辆${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'toys') {
+    return {
+      example: `I have ${articleFor(cleanWord)} ${cleanWord}.`,
+      exampleZh: `我有一个${meaningZh}。`,
+    }
+  }
+
+  if (topicId === 'sports-and-leisure') {
+    return {
+      example: `I can play with the ${cleanWord}.`,
+      exampleZh: `我可以玩${meaningZh}。`,
+    }
+  }
+
+  return {
+    example: `Look at ${articleFor(cleanWord)} ${cleanWord}.`,
+    exampleZh: `看这个${meaningZh}。`,
+  }
+}
+
 const markdown = await fs.readFile(sourcePath, 'utf8')
 const lines = markdown.split(/\r?\n/)
 
@@ -121,6 +211,7 @@ for (const line of lines) {
     word,
     normalizedWord: word.toLowerCase(),
     meaningZh,
+    ...generateExample(word, meaningZh, currentTopic.id),
     topic: currentTopic.id,
     tags: [currentTopic.id],
     level: 'preA1',

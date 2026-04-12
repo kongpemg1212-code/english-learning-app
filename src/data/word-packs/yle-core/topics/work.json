@@ -4,6 +4,8 @@
     "word": "actor",
     "normalizedWord": "actor",
     "meaningZh": "男/女演员",
+    "example": "She is an actor.",
+    "exampleZh": "她是一名男/女演员。",
     "topic": "work",
     "tags": [
       "work"
@@ -17,6 +19,8 @@
     "word": "artist",
     "normalizedWord": "artist",
     "meaningZh": "艺术家",
+    "example": "She is an artist.",
+    "exampleZh": "她是一名艺术家。",
     "topic": "work",
     "tags": [
       "work"
@@ -30,6 +34,8 @@
     "word": "business person",
     "normalizedWord": "business person",
     "meaningZh": "商人",
+    "example": "She is a business person.",
+    "exampleZh": "她是一名商人。",
     "topic": "work",
     "tags": [
       "work"
@@ -43,6 +49,8 @@
     "word": "chef",
     "normalizedWord": "chef",
     "meaningZh": "厨师",
+    "example": "She is a chef.",
+    "exampleZh": "她是一名厨师。",
     "topic": "work",
     "tags": [
       "work"
@@ -56,6 +64,8 @@
     "word": "doctor",
     "normalizedWord": "doctor",
     "meaningZh": "医生",
+    "example": "She is a doctor.",
+    "exampleZh": "她是一名医生。",
     "topic": "work",
     "tags": [
       "work"
@@ -69,6 +79,8 @@
     "word": "driver",
     "normalizedWord": "driver",
     "meaningZh": "司机",
+    "example": "She is a driver.",
+    "exampleZh": "她是一名司机。",
     "topic": "work",
     "tags": [
       "work"
@@ -82,6 +94,8 @@
     "word": "farmer",
     "normalizedWord": "farmer",
     "meaningZh": "农民",
+    "example": "She is a farmer.",
+    "exampleZh": "她是一名农民。",
     "topic": "work",
     "tags": [
       "work"
@@ -95,6 +109,8 @@
     "word": "fire fighter",
     "normalizedWord": "fire fighter",
     "meaningZh": "消防员",
+    "example": "She is a fire fighter.",
+    "exampleZh": "她是一名消防员。",
     "topic": "work",
     "tags": [
       "work"
@@ -108,6 +124,8 @@
     "word": "judge",
     "normalizedWord": "judge",
     "meaningZh": "法官",
+    "example": "She is a judge.",
+    "exampleZh": "她是一名法官。",
     "topic": "work",
     "tags": [
       "work"
@@ -121,6 +139,8 @@
     "word": "manager",
     "normalizedWord": "manager",
     "meaningZh": "经理",
+    "example": "She is a manager.",
+    "exampleZh": "她是一名经理。",
     "topic": "work",
     "tags": [
       "work"
@@ -134,6 +154,8 @@
     "word": "mechanic",
     "normalizedWord": "mechanic",
     "meaningZh": "机械师",
+    "example": "She is a mechanic.",
+    "exampleZh": "她是一名机械师。",
     "topic": "work",
     "tags": [
       "work"
@@ -147,6 +169,8 @@
     "word": "musician",
     "normalizedWord": "musician",
     "meaningZh": "音乐家",
+    "example": "She is a musician.",
+    "exampleZh": "她是一名音乐家。",
     "topic": "work",
     "tags": [
       "work"
@@ -160,6 +184,8 @@
     "word": "newsreader",
     "normalizedWord": "newsreader",
     "meaningZh": "新闻播音员",
+    "example": "She is a newsreader.",
+    "exampleZh": "她是一名新闻播音员。",
     "topic": "work",
     "tags": [
       "work"
@@ -173,6 +199,8 @@
     "word": "nurse",
     "normalizedWord": "nurse",
     "meaningZh": "护士",
+    "example": "She is a nurse.",
+    "exampleZh": "她是一名护士。",
     "topic": "work",
     "tags": [
       "work"
@@ -186,6 +214,8 @@
     "word": "painter",
     "normalizedWord": "painter",
     "meaningZh": "画家",
+    "example": "She is a painter.",
+    "exampleZh": "她是一名画家。",
     "topic": "work",
     "tags": [
       "work"
@@ -199,6 +229,8 @@
     "word": "photographer",
     "normalizedWord": "photographer",
     "meaningZh": "摄影师",
+    "example": "She is a photographer.",
+    "exampleZh": "她是一名摄影师。",
     "topic": "work",
     "tags": [
       "work"
@@ -212,6 +244,8 @@
     "word": "pilot",
     "normalizedWord": "pilot",
     "meaningZh": "飞行员",
+    "example": "She is a pilot.",
+    "exampleZh": "她是一名飞行员。",
     "topic": "work",
     "tags": [
       "work"
@@ -225,6 +259,8 @@
     "word": "police officer",
     "normalizedWord": "police officer",
     "meaningZh": "警察",
+    "example": "She is a police officer.",
+    "exampleZh": "她是一名警察。",
     "topic": "work",
     "tags": [
       "work"
@@ -238,6 +274,8 @@
     "word": "reporter",
     "normalizedWord": "reporter",
     "meaningZh": "记者",
+    "example": "She is a reporter.",
+    "exampleZh": "她是一名记者。",
     "topic": "work",
     "tags": [
       "work"
@@ -251,6 +289,8 @@
     "word": "scientist",
     "normalizedWord": "scientist",
     "meaningZh": "科学家",
+    "example": "She is a scientist.",
+    "exampleZh": "她是一名科学家。",
     "topic": "work",
     "tags": [
       "work"
@@ -264,6 +304,8 @@
     "word": "secretary",
     "normalizedWord": "secretary",
     "meaningZh": "秘书",
+    "example": "She is a secretary.",
+    "exampleZh": "她是一名秘书。",
     "topic": "work",
     "tags": [
       "work"
@@ -277,6 +319,8 @@
     "word": "soldier",
     "normalizedWord": "soldier",
     "meaningZh": "士兵",
+    "example": "She is a soldier.",
+    "exampleZh": "她是一名士兵。",
     "topic": "work",
     "tags": [
       "work"
@@ -290,6 +334,8 @@
     "word": "teacher",
     "normalizedWord": "teacher",
     "meaningZh": "教师",
+    "example": "She is a teacher.",
+    "exampleZh": "她是一名教师。",
     "topic": "work",
     "tags": [
       "work"
@@ -303,6 +349,8 @@
     "word": "veterinarian",
     "normalizedWord": "veterinarian",
     "meaningZh": "兽医",
+    "example": "She is a veterinarian.",
+    "exampleZh": "她是一名兽医。",
     "topic": "work",
     "tags": [
       "work"
@@ -316,6 +364,8 @@
     "word": "vet",
     "normalizedWord": "vet",
     "meaningZh": "兽医",
+    "example": "She is a vet.",
+    "exampleZh": "她是一名兽医。",
     "topic": "work",
     "tags": [
       "work"
@@ -329,6 +379,8 @@
     "word": "writer",
     "normalizedWord": "writer",
     "meaningZh": "作家",
+    "example": "She is a writer.",
+    "exampleZh": "她是一名作家。",
     "topic": "work",
     "tags": [
       "work"

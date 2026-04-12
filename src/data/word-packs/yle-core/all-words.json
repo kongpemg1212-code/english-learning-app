@@ -4,6 +4,8 @@
     "word": "animal",
     "normalizedWord": "animal",
     "meaningZh": "动物",
+    "example": "Look at an animal.",
+    "exampleZh": "看这个动物。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -17,6 +19,8 @@
     "word": "bear",
     "normalizedWord": "bear",
     "meaningZh": "熊",
+    "example": "Look at a bear.",
+    "exampleZh": "看这个熊。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -30,6 +34,8 @@
     "word": "bee",
     "normalizedWord": "bee",
     "meaningZh": "蜜蜂",
+    "example": "Look at a bee.",
+    "exampleZh": "看这个蜜蜂。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -43,6 +49,8 @@
     "word": "bird",
     "normalizedWord": "bird",
     "meaningZh": "鸟",
+    "example": "Look at a bird.",
+    "exampleZh": "看这个鸟。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -56,6 +64,8 @@
     "word": "cat",
     "normalizedWord": "cat",
     "meaningZh": "猫",
+    "example": "Look at a cat.",
+    "exampleZh": "看这个猫。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -69,6 +79,8 @@
     "word": "chicken",
     "normalizedWord": "chicken",
     "meaningZh": "鸡",
+    "example": "Look at a chicken.",
+    "exampleZh": "看这个鸡。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -82,6 +94,8 @@
     "word": "cow",
     "normalizedWord": "cow",
     "meaningZh": "奶牛",
+    "example": "Look at a cow.",
+    "exampleZh": "看这个奶牛。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -95,6 +109,8 @@
     "word": "crocodile",
     "normalizedWord": "crocodile",
     "meaningZh": "鳄鱼",
+    "example": "Look at a crocodile.",
+    "exampleZh": "看这个鳄鱼。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -108,6 +124,8 @@
     "word": "dog",
     "normalizedWord": "dog",
     "meaningZh": "狗",
+    "example": "Look at a dog.",
+    "exampleZh": "看这个狗。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -121,6 +139,8 @@
     "word": "donkey",
     "normalizedWord": "donkey",
     "meaningZh": "驴",
+    "example": "Look at a donkey.",
+    "exampleZh": "看这个驴。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -134,6 +154,8 @@
     "word": "duck",
     "normalizedWord": "duck",
     "meaningZh": "鸭子",
+    "example": "Look at a duck.",
+    "exampleZh": "看这个鸭子。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -147,6 +169,8 @@
     "word": "elephant",
     "normalizedWord": "elephant",
     "meaningZh": "大象",
+    "example": "Look at an elephant.",
+    "exampleZh": "看这个大象。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -160,6 +184,8 @@
     "word": "fish",
     "normalizedWord": "fish",
     "meaningZh": "鱼",
+    "example": "Look at a fish.",
+    "exampleZh": "看这个鱼。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -173,6 +199,8 @@
     "word": "fox",
     "normalizedWord": "fox",
     "meaningZh": "狐狸",
+    "example": "Look at a fox.",
+    "exampleZh": "看这个狐狸。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -186,6 +214,8 @@
     "word": "frog",
     "normalizedWord": "frog",
     "meaningZh": "青蛙",
+    "example": "Look at a frog.",
+    "exampleZh": "看这个青蛙。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -199,6 +229,8 @@
     "word": "giraffe",
     "normalizedWord": "giraffe",
     "meaningZh": "长颈鹿",
+    "example": "Look at a giraffe.",
+    "exampleZh": "看这个长颈鹿。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -212,6 +244,8 @@
     "word": "goat",
     "normalizedWord": "goat",
     "meaningZh": "山羊",
+    "example": "Look at a goat.",
+    "exampleZh": "看这个山羊。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -225,6 +259,8 @@
     "word": "hippo",
     "normalizedWord": "hippo",
     "meaningZh": "河马",
+    "example": "Look at a hippo.",
+    "exampleZh": "看这个河马。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -238,6 +274,8 @@
     "word": "horse",
     "normalizedWord": "horse",
     "meaningZh": "马",
+    "example": "Look at a horse.",
+    "exampleZh": "看这个马。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -251,6 +289,8 @@
     "word": "lizard",
     "normalizedWord": "lizard",
     "meaningZh": "蜥蜴",
+    "example": "Look at a lizard.",
+    "exampleZh": "看这个蜥蜴。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -264,6 +304,8 @@
     "word": "monkey",
     "normalizedWord": "monkey",
     "meaningZh": "猴子",
+    "example": "Look at a monkey.",
+    "exampleZh": "看这个猴子。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -277,6 +319,8 @@
     "word": "mouse",
     "normalizedWord": "mouse",
     "meaningZh": "老鼠",
+    "example": "Look at a mouse.",
+    "exampleZh": "看这个老鼠。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -290,6 +334,8 @@
     "word": "panda",
     "normalizedWord": "panda",
     "meaningZh": "熊猫",
+    "example": "Look at a panda.",
+    "exampleZh": "看这个熊猫。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -303,6 +349,8 @@
     "word": "pet",
     "normalizedWord": "pet",
     "meaningZh": "宠物",
+    "example": "Look at a pet.",
+    "exampleZh": "看这个宠物。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -316,6 +364,8 @@
     "word": "sheep",
     "normalizedWord": "sheep",
     "meaningZh": "绵羊",
+    "example": "Look at a sheep.",
+    "exampleZh": "看这个绵羊。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -329,6 +379,8 @@
     "word": "snake",
     "normalizedWord": "snake",
     "meaningZh": "蛇",
+    "example": "Look at a snake.",
+    "exampleZh": "看这个蛇。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -342,6 +394,8 @@
     "word": "spider",
     "normalizedWord": "spider",
     "meaningZh": "蜘蛛",
+    "example": "Look at a spider.",
+    "exampleZh": "看这个蜘蛛。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -355,6 +409,8 @@
     "word": "tail",
     "normalizedWord": "tail",
     "meaningZh": "尾巴",
+    "example": "Look at a tail.",
+    "exampleZh": "看这个尾巴。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -368,6 +424,8 @@
     "word": "tiger",
     "normalizedWord": "tiger",
     "meaningZh": "老虎",
+    "example": "Look at a tiger.",
+    "exampleZh": "看这个老虎。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -381,6 +439,8 @@
     "word": "zebra",
     "normalizedWord": "zebra",
     "meaningZh": "斑马",
+    "example": "Look at a zebra.",
+    "exampleZh": "看这个斑马。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -394,6 +454,8 @@
     "word": "zoo",
     "normalizedWord": "zoo",
     "meaningZh": "动物园",
+    "example": "Look at a zoo.",
+    "exampleZh": "看这个动物园。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -407,6 +469,8 @@
     "word": "black",
     "normalizedWord": "black",
     "meaningZh": "黑色",
+    "example": "It is black.",
+    "exampleZh": "它是黑色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -420,6 +484,8 @@
     "word": "blue",
     "normalizedWord": "blue",
     "meaningZh": "蓝色",
+    "example": "It is blue.",
+    "exampleZh": "它是蓝色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -433,6 +499,8 @@
     "word": "brown",
     "normalizedWord": "brown",
     "meaningZh": "棕色",
+    "example": "It is brown.",
+    "exampleZh": "它是棕色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -446,6 +514,8 @@
     "word": "colour",
     "normalizedWord": "colour",
     "meaningZh": "颜色",
+    "example": "It is colour.",
+    "exampleZh": "它是颜色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -459,6 +529,8 @@
     "word": "gray",
     "normalizedWord": "gray",
     "meaningZh": "灰色",
+    "example": "It is gray.",
+    "exampleZh": "它是灰色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -472,6 +544,8 @@
     "word": "green",
     "normalizedWord": "green",
     "meaningZh": "绿色",
+    "example": "It is green.",
+    "exampleZh": "它是绿色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -485,6 +559,8 @@
     "word": "grey",
     "normalizedWord": "grey",
     "meaningZh": "灰色",
+    "example": "It is grey.",
+    "exampleZh": "它是灰色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -498,6 +574,8 @@
     "word": "orange",
     "normalizedWord": "orange",
     "meaningZh": "橙色",
+    "example": "It is orange.",
+    "exampleZh": "它是橙色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -511,6 +589,8 @@
     "word": "pink",
     "normalizedWord": "pink",
     "meaningZh": "粉色",
+    "example": "It is pink.",
+    "exampleZh": "它是粉色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -524,6 +604,8 @@
     "word": "purple",
     "normalizedWord": "purple",
     "meaningZh": "紫色",
+    "example": "It is purple.",
+    "exampleZh": "它是紫色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -537,6 +619,8 @@
     "word": "red",
     "normalizedWord": "red",
     "meaningZh": "红色",
+    "example": "It is red.",
+    "exampleZh": "它是红色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -550,6 +634,8 @@
     "word": "white",
     "normalizedWord": "white",
     "meaningZh": "白色",
+    "example": "It is white.",
+    "exampleZh": "它是白色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -563,6 +649,8 @@
     "word": "yellow",
     "normalizedWord": "yellow",
     "meaningZh": "黄色",
+    "example": "It is yellow.",
+    "exampleZh": "它是黄色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -576,6 +664,8 @@
     "word": "baby",
     "normalizedWord": "baby",
     "meaningZh": "婴儿",
+    "example": "This is my baby.",
+    "exampleZh": "这是我的婴儿。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -589,6 +679,8 @@
     "word": "boy",
     "normalizedWord": "boy",
     "meaningZh": "男孩",
+    "example": "This is my boy.",
+    "exampleZh": "这是我的男孩。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -602,6 +694,8 @@
     "word": "brother",
     "normalizedWord": "brother",
     "meaningZh": "兄弟",
+    "example": "This is my brother.",
+    "exampleZh": "这是我的兄弟。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -615,6 +709,8 @@
     "word": "child",
     "normalizedWord": "child",
     "meaningZh": "孩子/孩子们",
+    "example": "This is my child.",
+    "exampleZh": "这是我的孩子/孩子们。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -628,6 +724,8 @@
     "word": "classmate",
     "normalizedWord": "classmate",
     "meaningZh": "同学",
+    "example": "This is my classmate.",
+    "exampleZh": "这是我的同学。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -641,6 +739,8 @@
     "word": "cousin",
     "normalizedWord": "cousin",
     "meaningZh": "表兄弟姐妹",
+    "example": "This is my cousin.",
+    "exampleZh": "这是我的表兄弟姐妹。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -654,6 +754,8 @@
     "word": "dad",
     "normalizedWord": "dad",
     "meaningZh": "爸爸",
+    "example": "This is my dad.",
+    "exampleZh": "这是我的爸爸。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -667,6 +769,8 @@
     "word": "family",
     "normalizedWord": "family",
     "meaningZh": "家庭",
+    "example": "This is my family.",
+    "exampleZh": "这是我的家庭。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -680,6 +784,8 @@
     "word": "father",
     "normalizedWord": "father",
     "meaningZh": "父亲",
+    "example": "This is my father.",
+    "exampleZh": "这是我的父亲。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -693,6 +799,8 @@
     "word": "friend",
     "normalizedWord": "friend",
     "meaningZh": "朋友",
+    "example": "This is my friend.",
+    "exampleZh": "这是我的朋友。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -706,6 +814,8 @@
     "word": "girl",
     "normalizedWord": "girl",
     "meaningZh": "女孩",
+    "example": "This is my girl.",
+    "exampleZh": "这是我的女孩。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -719,6 +829,8 @@
     "word": "grandfather",
     "normalizedWord": "grandfather",
     "meaningZh": "爷爷/外公",
+    "example": "This is my grandfather.",
+    "exampleZh": "这是我的爷爷/外公。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -732,6 +844,8 @@
     "word": "grandma",
     "normalizedWord": "grandma",
     "meaningZh": "奶奶/外婆",
+    "example": "This is my grandma.",
+    "exampleZh": "这是我的奶奶/外婆。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -745,6 +859,8 @@
     "word": "grandmother",
     "normalizedWord": "grandmother",
     "meaningZh": "奶奶/外婆",
+    "example": "This is my grandmother.",
+    "exampleZh": "这是我的奶奶/外婆。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -758,6 +874,8 @@
     "word": "grandpa",
     "normalizedWord": "grandpa",
     "meaningZh": "爷爷/外公",
+    "example": "This is my grandpa.",
+    "exampleZh": "这是我的爷爷/外公。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -771,6 +889,8 @@
     "word": "grandparent",
     "normalizedWord": "grandparent",
     "meaningZh": "祖父母",
+    "example": "This is my grandparent.",
+    "exampleZh": "这是我的祖父母。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -784,6 +904,8 @@
     "word": "kid",
     "normalizedWord": "kid",
     "meaningZh": "小孩",
+    "example": "This is my kid.",
+    "exampleZh": "这是我的小孩。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -797,6 +919,8 @@
     "word": "man",
     "normalizedWord": "man",
     "meaningZh": "男人",
+    "example": "This is my man.",
+    "exampleZh": "这是我的男人。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -810,6 +934,8 @@
     "word": "mother",
     "normalizedWord": "mother",
     "meaningZh": "妈妈",
+    "example": "This is my mother.",
+    "exampleZh": "这是我的妈妈。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -823,6 +949,8 @@
     "word": "mum",
     "normalizedWord": "mum",
     "meaningZh": "妈妈",
+    "example": "This is my mum.",
+    "exampleZh": "这是我的妈妈。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -836,6 +964,8 @@
     "word": "old person",
     "normalizedWord": "old person",
     "meaningZh": "老人",
+    "example": "This is my old person.",
+    "exampleZh": "这是我的老人。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -849,6 +979,8 @@
     "word": "parent",
     "normalizedWord": "parent",
     "meaningZh": "父母",
+    "example": "This is my parent.",
+    "exampleZh": "这是我的父母。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -862,6 +994,8 @@
     "word": "sister",
     "normalizedWord": "sister",
     "meaningZh": "姐妹",
+    "example": "This is my sister.",
+    "exampleZh": "这是我的姐妹。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -875,6 +1009,8 @@
     "word": "woman",
     "normalizedWord": "woman",
     "meaningZh": "女人/女人们",
+    "example": "This is my woman.",
+    "exampleZh": "这是我的女人/女人们。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -888,6 +1024,8 @@
     "word": "young",
     "normalizedWord": "young",
     "meaningZh": "年轻的",
+    "example": "This is my young.",
+    "exampleZh": "这是我的年轻的。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -901,6 +1039,8 @@
     "word": "apple",
     "normalizedWord": "apple",
     "meaningZh": "苹果",
+    "example": "I like apple.",
+    "exampleZh": "我喜欢苹果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -914,6 +1054,8 @@
     "word": "banana",
     "normalizedWord": "banana",
     "meaningZh": "香蕉",
+    "example": "I like banana.",
+    "exampleZh": "我喜欢香蕉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -927,6 +1069,8 @@
     "word": "bean",
     "normalizedWord": "bean",
     "meaningZh": "豆子",
+    "example": "I like bean.",
+    "exampleZh": "我喜欢豆子。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -940,6 +1084,8 @@
     "word": "bread",
     "normalizedWord": "bread",
     "meaningZh": "面包",
+    "example": "I like bread.",
+    "exampleZh": "我喜欢面包。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -953,6 +1099,8 @@
     "word": "breakfast",
     "normalizedWord": "breakfast",
     "meaningZh": "早餐",
+    "example": "I like breakfast.",
+    "exampleZh": "我喜欢早餐。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -966,6 +1114,8 @@
     "word": "burger",
     "normalizedWord": "burger",
     "meaningZh": "汉堡",
+    "example": "I like burger.",
+    "exampleZh": "我喜欢汉堡。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -979,6 +1129,8 @@
     "word": "cake",
     "normalizedWord": "cake",
     "meaningZh": "蛋糕",
+    "example": "I like cake.",
+    "exampleZh": "我喜欢蛋糕。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -992,6 +1144,8 @@
     "word": "candy",
     "normalizedWord": "candy",
     "meaningZh": "糖果",
+    "example": "I like candy.",
+    "exampleZh": "我喜欢糖果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1005,6 +1159,8 @@
     "word": "carrot",
     "normalizedWord": "carrot",
     "meaningZh": "胡萝卜",
+    "example": "I like carrot.",
+    "exampleZh": "我喜欢胡萝卜。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1018,6 +1174,8 @@
     "word": "chicken",
     "normalizedWord": "chicken",
     "meaningZh": "鸡肉",
+    "example": "I like chicken.",
+    "exampleZh": "我喜欢鸡肉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1031,6 +1189,8 @@
     "word": "chips",
     "normalizedWord": "chips",
     "meaningZh": "薯条",
+    "example": "I like chips.",
+    "exampleZh": "我喜欢薯条。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1044,6 +1204,8 @@
     "word": "chocolate",
     "normalizedWord": "chocolate",
     "meaningZh": "巧克力",
+    "example": "I like chocolate.",
+    "exampleZh": "我喜欢巧克力。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1057,6 +1219,8 @@
     "word": "coconut",
     "normalizedWord": "coconut",
     "meaningZh": "椰子",
+    "example": "I like coconut.",
+    "exampleZh": "我喜欢椰子。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1070,6 +1234,8 @@
     "word": "dinner",
     "normalizedWord": "dinner",
     "meaningZh": "晚餐",
+    "example": "I like dinner.",
+    "exampleZh": "我喜欢晚餐。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1083,6 +1249,8 @@
     "word": "drink",
     "normalizedWord": "drink",
     "meaningZh": "饮料",
+    "example": "I like drink.",
+    "exampleZh": "我喜欢饮料。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1096,6 +1264,8 @@
     "word": "egg",
     "normalizedWord": "egg",
     "meaningZh": "鸡蛋",
+    "example": "I like egg.",
+    "exampleZh": "我喜欢鸡蛋。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1109,6 +1279,8 @@
     "word": "fish",
     "normalizedWord": "fish",
     "meaningZh": "鱼",
+    "example": "I like fish.",
+    "exampleZh": "我喜欢鱼。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1122,6 +1294,8 @@
     "word": "food",
     "normalizedWord": "food",
     "meaningZh": "食物",
+    "example": "I like food.",
+    "exampleZh": "我喜欢食物。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1135,6 +1309,8 @@
     "word": "fruit",
     "normalizedWord": "fruit",
     "meaningZh": "水果",
+    "example": "I like fruit.",
+    "exampleZh": "我喜欢水果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1148,6 +1324,8 @@
     "word": "grape",
     "normalizedWord": "grape",
     "meaningZh": "葡萄",
+    "example": "I like grape.",
+    "exampleZh": "我喜欢葡萄。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1161,6 +1339,8 @@
     "word": "ice cream",
     "normalizedWord": "ice cream",
     "meaningZh": "冰淇淋",
+    "example": "I like ice cream.",
+    "exampleZh": "我喜欢冰淇淋。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1174,6 +1354,8 @@
     "word": "juice",
     "normalizedWord": "juice",
     "meaningZh": "果汁",
+    "example": "I like juice.",
+    "exampleZh": "我喜欢果汁。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1187,6 +1369,8 @@
     "word": "lunch",
     "normalizedWord": "lunch",
     "meaningZh": "午餐",
+    "example": "I like lunch.",
+    "exampleZh": "我喜欢午餐。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1200,6 +1384,8 @@
     "word": "meat",
     "normalizedWord": "meat",
     "meaningZh": "肉",
+    "example": "I like meat.",
+    "exampleZh": "我喜欢肉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1213,6 +1399,8 @@
     "word": "meatballs",
     "normalizedWord": "meatballs",
     "meaningZh": "肉丸",
+    "example": "I like meatballs.",
+    "exampleZh": "我喜欢肉丸。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1226,6 +1414,8 @@
     "word": "milk",
     "normalizedWord": "milk",
     "meaningZh": "牛奶",
+    "example": "I like milk.",
+    "exampleZh": "我喜欢牛奶。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1239,6 +1429,8 @@
     "word": "oil",
     "normalizedWord": "oil",
     "meaningZh": "油",
+    "example": "I like oil.",
+    "exampleZh": "我喜欢油。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1252,6 +1444,8 @@
     "word": "pear",
     "normalizedWord": "pear",
     "meaningZh": "梨",
+    "example": "I like pear.",
+    "exampleZh": "我喜欢梨。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1265,6 +1459,8 @@
     "word": "pork",
     "normalizedWord": "pork",
     "meaningZh": "猪肉",
+    "example": "I like pork.",
+    "exampleZh": "我喜欢猪肉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1278,6 +1474,8 @@
     "word": "potato",
     "normalizedWord": "potato",
     "meaningZh": "土豆",
+    "example": "I like potato.",
+    "exampleZh": "我喜欢土豆。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1291,6 +1489,8 @@
     "word": "rice",
     "normalizedWord": "rice",
     "meaningZh": "米饭",
+    "example": "I like rice.",
+    "exampleZh": "我喜欢米饭。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1304,6 +1504,8 @@
     "word": "sandwich",
     "normalizedWord": "sandwich",
     "meaningZh": "三明治",
+    "example": "I like sandwich.",
+    "exampleZh": "我喜欢三明治。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1317,6 +1519,8 @@
     "word": "sausage",
     "normalizedWord": "sausage",
     "meaningZh": "香肠",
+    "example": "I like sausage.",
+    "exampleZh": "我喜欢香肠。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1330,6 +1534,8 @@
     "word": "soup",
     "normalizedWord": "soup",
     "meaningZh": "汤",
+    "example": "I like soup.",
+    "exampleZh": "我喜欢汤。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1343,6 +1549,8 @@
     "word": "sugar",
     "normalizedWord": "sugar",
     "meaningZh": "糖",
+    "example": "I like sugar.",
+    "exampleZh": "我喜欢糖。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1356,6 +1564,8 @@
     "word": "sweet",
     "normalizedWord": "sweet",
     "meaningZh": "糖果",
+    "example": "I like sweet.",
+    "exampleZh": "我喜欢糖果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1369,6 +1579,8 @@
     "word": "tomato",
     "normalizedWord": "tomato",
     "meaningZh": "西红柿",
+    "example": "I like tomato.",
+    "exampleZh": "我喜欢西红柿。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1382,6 +1594,8 @@
     "word": "vegetable",
     "normalizedWord": "vegetable",
     "meaningZh": "蔬菜",
+    "example": "I like vegetable.",
+    "exampleZh": "我喜欢蔬菜。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1395,6 +1609,8 @@
     "word": "water",
     "normalizedWord": "water",
     "meaningZh": "水",
+    "example": "I like water.",
+    "exampleZh": "我喜欢水。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -1408,6 +1624,8 @@
     "word": "apartment",
     "normalizedWord": "apartment",
     "meaningZh": "公寓",
+    "example": "This is the apartment.",
+    "exampleZh": "这是公寓。",
     "topic": "home",
     "tags": [
       "home"
@@ -1421,6 +1639,8 @@
     "word": "armchair",
     "normalizedWord": "armchair",
     "meaningZh": "扶手椅",
+    "example": "This is the armchair.",
+    "exampleZh": "这是扶手椅。",
     "topic": "home",
     "tags": [
       "home"
@@ -1434,6 +1654,8 @@
     "word": "bath",
     "normalizedWord": "bath",
     "meaningZh": "洗澡",
+    "example": "This is the bath.",
+    "exampleZh": "这是洗澡。",
     "topic": "home",
     "tags": [
       "home"
@@ -1447,6 +1669,8 @@
     "word": "bathroom",
     "normalizedWord": "bathroom",
     "meaningZh": "浴室",
+    "example": "This is the bathroom.",
+    "exampleZh": "这是浴室。",
     "topic": "home",
     "tags": [
       "home"
@@ -1460,6 +1684,8 @@
     "word": "bed",
     "normalizedWord": "bed",
     "meaningZh": "床",
+    "example": "This is the bed.",
+    "exampleZh": "这是床。",
     "topic": "home",
     "tags": [
       "home"
@@ -1473,6 +1699,8 @@
     "word": "bedroom",
     "normalizedWord": "bedroom",
     "meaningZh": "卧室",
+    "example": "This is the bedroom.",
+    "exampleZh": "这是卧室。",
     "topic": "home",
     "tags": [
       "home"
@@ -1486,6 +1714,8 @@
     "word": "bookcase",
     "normalizedWord": "bookcase",
     "meaningZh": "书架",
+    "example": "This is the bookcase.",
+    "exampleZh": "这是书架。",
     "topic": "home",
     "tags": [
       "home"
@@ -1499,6 +1729,8 @@
     "word": "box",
     "normalizedWord": "box",
     "meaningZh": "盒子",
+    "example": "This is the box.",
+    "exampleZh": "这是盒子。",
     "topic": "home",
     "tags": [
       "home"
@@ -1512,6 +1744,8 @@
     "word": "chair",
     "normalizedWord": "chair",
     "meaningZh": "椅子",
+    "example": "This is the chair.",
+    "exampleZh": "这是椅子。",
     "topic": "home",
     "tags": [
       "home"
@@ -1525,6 +1759,8 @@
     "word": "clock",
     "normalizedWord": "clock",
     "meaningZh": "时钟",
+    "example": "This is the clock.",
+    "exampleZh": "这是时钟。",
     "topic": "home",
     "tags": [
       "home"
@@ -1538,6 +1774,8 @@
     "word": "computer",
     "normalizedWord": "computer",
     "meaningZh": "电脑",
+    "example": "This is the computer.",
+    "exampleZh": "这是电脑。",
     "topic": "home",
     "tags": [
       "home"
@@ -1551,6 +1789,8 @@
     "word": "cupboard",
     "normalizedWord": "cupboard",
     "meaningZh": "橱柜",
+    "example": "This is the cupboard.",
+    "exampleZh": "这是橱柜。",
     "topic": "home",
     "tags": [
       "home"
@@ -1564,6 +1804,8 @@
     "word": "desk",
     "normalizedWord": "desk",
     "meaningZh": "书桌",
+    "example": "This is the desk.",
+    "exampleZh": "这是书桌。",
     "topic": "home",
     "tags": [
       "home"
@@ -1577,6 +1819,8 @@
     "word": "dining room",
     "normalizedWord": "dining room",
     "meaningZh": "餐厅",
+    "example": "This is the dining room.",
+    "exampleZh": "这是餐厅。",
     "topic": "home",
     "tags": [
       "home"
@@ -1590,6 +1834,8 @@
     "word": "door",
     "normalizedWord": "door",
     "meaningZh": "门",
+    "example": "This is the door.",
+    "exampleZh": "这是门。",
     "topic": "home",
     "tags": [
       "home"
@@ -1603,6 +1849,8 @@
     "word": "floor",
     "normalizedWord": "floor",
     "meaningZh": "地板",
+    "example": "This is the floor.",
+    "exampleZh": "这是地板。",
     "topic": "home",
     "tags": [
       "home"
@@ -1616,6 +1864,8 @@
     "word": "furniture",
     "normalizedWord": "furniture",
     "meaningZh": "家具",
+    "example": "This is the furniture.",
+    "exampleZh": "这是家具。",
     "topic": "home",
     "tags": [
       "home"
@@ -1629,6 +1879,8 @@
     "word": "garage",
     "normalizedWord": "garage",
     "meaningZh": "车库",
+    "example": "This is the garage.",
+    "exampleZh": "这是车库。",
     "topic": "home",
     "tags": [
       "home"
@@ -1642,6 +1894,8 @@
     "word": "garden",
     "normalizedWord": "garden",
     "meaningZh": "花园",
+    "example": "This is the garden.",
+    "exampleZh": "这是花园。",
     "topic": "home",
     "tags": [
       "home"
@@ -1655,6 +1909,8 @@
     "word": "house",
     "normalizedWord": "house",
     "meaningZh": "房子",
+    "example": "This is the house.",
+    "exampleZh": "这是房子。",
     "topic": "home",
     "tags": [
       "home"
@@ -1668,6 +1924,8 @@
     "word": "kitchen",
     "normalizedWord": "kitchen",
     "meaningZh": "厨房",
+    "example": "This is the kitchen.",
+    "exampleZh": "这是厨房。",
     "topic": "home",
     "tags": [
       "home"
@@ -1681,6 +1939,8 @@
     "word": "lamp",
     "normalizedWord": "lamp",
     "meaningZh": "灯",
+    "example": "This is the lamp.",
+    "exampleZh": "这是灯。",
     "topic": "home",
     "tags": [
       "home"
@@ -1694,6 +1954,8 @@
     "word": "lift",
     "normalizedWord": "lift",
     "meaningZh": "电梯",
+    "example": "This is the lift.",
+    "exampleZh": "这是电梯。",
     "topic": "home",
     "tags": [
       "home"
@@ -1707,6 +1969,8 @@
     "word": "living room",
     "normalizedWord": "living room",
     "meaningZh": "客厅",
+    "example": "This is the living room.",
+    "exampleZh": "这是客厅。",
     "topic": "home",
     "tags": [
       "home"
@@ -1720,6 +1984,8 @@
     "word": "mirror",
     "normalizedWord": "mirror",
     "meaningZh": "镜子",
+    "example": "This is the mirror.",
+    "exampleZh": "这是镜子。",
     "topic": "home",
     "tags": [
       "home"
@@ -1733,6 +1999,8 @@
     "word": "office",
     "normalizedWord": "office",
     "meaningZh": "办公室",
+    "example": "This is the office.",
+    "exampleZh": "这是办公室。",
     "topic": "home",
     "tags": [
       "home"
@@ -1746,6 +2014,8 @@
     "word": "picture",
     "normalizedWord": "picture",
     "meaningZh": "图片",
+    "example": "This is the picture.",
+    "exampleZh": "这是图片。",
     "topic": "home",
     "tags": [
       "home"
@@ -1759,6 +2029,8 @@
     "word": "plant",
     "normalizedWord": "plant",
     "meaningZh": "植物",
+    "example": "This is the plant.",
+    "exampleZh": "这是植物。",
     "topic": "home",
     "tags": [
       "home"
@@ -1772,6 +2044,8 @@
     "word": "pool",
     "normalizedWord": "pool",
     "meaningZh": "游泳池",
+    "example": "This is the pool.",
+    "exampleZh": "这是游泳池。",
     "topic": "home",
     "tags": [
       "home"
@@ -1785,6 +2059,8 @@
     "word": "room",
     "normalizedWord": "room",
     "meaningZh": "房间",
+    "example": "This is the room.",
+    "exampleZh": "这是房间。",
     "topic": "home",
     "tags": [
       "home"
@@ -1798,6 +2074,8 @@
     "word": "sofa",
     "normalizedWord": "sofa",
     "meaningZh": "沙发",
+    "example": "This is the sofa.",
+    "exampleZh": "这是沙发。",
     "topic": "home",
     "tags": [
       "home"
@@ -1811,6 +2089,8 @@
     "word": "staircase",
     "normalizedWord": "staircase",
     "meaningZh": "楼梯",
+    "example": "This is the staircase.",
+    "exampleZh": "这是楼梯。",
     "topic": "home",
     "tags": [
       "home"
@@ -1824,6 +2104,8 @@
     "word": "table",
     "normalizedWord": "table",
     "meaningZh": "桌子",
+    "example": "This is the table.",
+    "exampleZh": "这是桌子。",
     "topic": "home",
     "tags": [
       "home"
@@ -1837,6 +2119,8 @@
     "word": "towel",
     "normalizedWord": "towel",
     "meaningZh": "毛巾",
+    "example": "This is the towel.",
+    "exampleZh": "这是毛巾。",
     "topic": "home",
     "tags": [
       "home"
@@ -1850,6 +2134,8 @@
     "word": "tower",
     "normalizedWord": "tower",
     "meaningZh": "塔",
+    "example": "This is the tower.",
+    "exampleZh": "这是塔。",
     "topic": "home",
     "tags": [
       "home"
@@ -1863,6 +2149,8 @@
     "word": "wall",
     "normalizedWord": "wall",
     "meaningZh": "墙",
+    "example": "This is the wall.",
+    "exampleZh": "这是墙。",
     "topic": "home",
     "tags": [
       "home"
@@ -1876,6 +2164,8 @@
     "word": "window",
     "normalizedWord": "window",
     "meaningZh": "窗户",
+    "example": "This is the window.",
+    "exampleZh": "这是窗户。",
     "topic": "home",
     "tags": [
       "home"
@@ -1889,6 +2179,8 @@
     "word": "alphabet",
     "normalizedWord": "alphabet",
     "meaningZh": "字母表",
+    "example": "This is my alphabet.",
+    "exampleZh": "这是我的字母表。",
     "topic": "school",
     "tags": [
       "school"
@@ -1902,6 +2194,8 @@
     "word": "answer",
     "normalizedWord": "answer",
     "meaningZh": "答案",
+    "example": "This is my answer.",
+    "exampleZh": "这是我的答案。",
     "topic": "school",
     "tags": [
       "school"
@@ -1915,6 +2209,8 @@
     "word": "ask",
     "normalizedWord": "ask",
     "meaningZh": "问",
+    "example": "This is my ask.",
+    "exampleZh": "这是我的问。",
     "topic": "school",
     "tags": [
       "school"
@@ -1928,6 +2224,8 @@
     "word": "board",
     "normalizedWord": "board",
     "meaningZh": "木板",
+    "example": "This is my board.",
+    "exampleZh": "这是我的木板。",
     "topic": "school",
     "tags": [
       "school"
@@ -1941,6 +2239,8 @@
     "word": "book",
     "normalizedWord": "book",
     "meaningZh": "书",
+    "example": "This is my book.",
+    "exampleZh": "这是我的书。",
     "topic": "school",
     "tags": [
       "school"
@@ -1954,6 +2254,8 @@
     "word": "bookcase",
     "normalizedWord": "bookcase",
     "meaningZh": "书架",
+    "example": "This is my bookcase.",
+    "exampleZh": "这是我的书架。",
     "topic": "school",
     "tags": [
       "school"
@@ -1967,6 +2269,8 @@
     "word": "class",
     "normalizedWord": "class",
     "meaningZh": "班级",
+    "example": "This is my class.",
+    "exampleZh": "这是我的班级。",
     "topic": "school",
     "tags": [
       "school"
@@ -1980,6 +2284,8 @@
     "word": "classroom",
     "normalizedWord": "classroom",
     "meaningZh": "教室",
+    "example": "This is my classroom.",
+    "exampleZh": "这是我的教室。",
     "topic": "school",
     "tags": [
       "school"
@@ -1993,6 +2299,8 @@
     "word": "close",
     "normalizedWord": "close",
     "meaningZh": "关闭",
+    "example": "This is my close.",
+    "exampleZh": "这是我的关闭。",
     "topic": "school",
     "tags": [
       "school"
@@ -2006,6 +2314,8 @@
     "word": "colour",
     "normalizedWord": "colour",
     "meaningZh": "颜色",
+    "example": "This is my colour.",
+    "exampleZh": "这是我的颜色。",
     "topic": "school",
     "tags": [
       "school"
@@ -2019,6 +2329,8 @@
     "word": "computer",
     "normalizedWord": "computer",
     "meaningZh": "电脑",
+    "example": "This is my computer.",
+    "exampleZh": "这是我的电脑。",
     "topic": "school",
     "tags": [
       "school"
@@ -2032,6 +2344,8 @@
     "word": "correct",
     "normalizedWord": "correct",
     "meaningZh": "正确的",
+    "example": "This is my correct.",
+    "exampleZh": "这是我的正确的。",
     "topic": "school",
     "tags": [
       "school"
@@ -2045,6 +2359,8 @@
     "word": "crayon",
     "normalizedWord": "crayon",
     "meaningZh": "蜡笔",
+    "example": "This is my crayon.",
+    "exampleZh": "这是我的蜡笔。",
     "topic": "school",
     "tags": [
       "school"
@@ -2058,6 +2374,8 @@
     "word": "desk",
     "normalizedWord": "desk",
     "meaningZh": "书桌",
+    "example": "This is my desk.",
+    "exampleZh": "这是我的书桌。",
     "topic": "school",
     "tags": [
       "school"
@@ -2071,6 +2389,8 @@
     "word": "draw",
     "normalizedWord": "draw",
     "meaningZh": "画",
+    "example": "This is my draw.",
+    "exampleZh": "这是我的画。",
     "topic": "school",
     "tags": [
       "school"
@@ -2084,6 +2404,8 @@
     "word": "English",
     "normalizedWord": "english",
     "meaningZh": "英语",
+    "example": "This is my English.",
+    "exampleZh": "这是我的英语。",
     "topic": "school",
     "tags": [
       "school"
@@ -2097,6 +2419,8 @@
     "word": "eraser",
     "normalizedWord": "eraser",
     "meaningZh": "橡皮擦",
+    "example": "This is my eraser.",
+    "exampleZh": "这是我的橡皮擦。",
     "topic": "school",
     "tags": [
       "school"
@@ -2110,6 +2434,8 @@
     "word": "example",
     "normalizedWord": "example",
     "meaningZh": "例子",
+    "example": "This is my example.",
+    "exampleZh": "这是我的例子。",
     "topic": "school",
     "tags": [
       "school"
@@ -2123,6 +2449,8 @@
     "word": "find",
     "normalizedWord": "find",
     "meaningZh": "找到",
+    "example": "This is my find.",
+    "exampleZh": "这是我的找到。",
     "topic": "school",
     "tags": [
       "school"
@@ -2136,6 +2464,8 @@
     "word": "floor",
     "normalizedWord": "floor",
     "meaningZh": "地板",
+    "example": "This is my floor.",
+    "exampleZh": "这是我的地板。",
     "topic": "school",
     "tags": [
       "school"
@@ -2149,6 +2479,8 @@
     "word": "keyboard",
     "normalizedWord": "keyboard",
     "meaningZh": "键盘",
+    "example": "This is my keyboard.",
+    "exampleZh": "这是我的键盘。",
     "topic": "school",
     "tags": [
       "school"
@@ -2162,6 +2494,8 @@
     "word": "learn",
     "normalizedWord": "learn",
     "meaningZh": "学习",
+    "example": "This is my learn.",
+    "exampleZh": "这是我的学习。",
     "topic": "school",
     "tags": [
       "school"
@@ -2175,6 +2509,8 @@
     "word": "lesson",
     "normalizedWord": "lesson",
     "meaningZh": "课",
+    "example": "This is my lesson.",
+    "exampleZh": "这是我的课。",
     "topic": "school",
     "tags": [
       "school"
@@ -2188,6 +2524,8 @@
     "word": "letter",
     "normalizedWord": "letter",
     "meaningZh": "字母",
+    "example": "This is my letter.",
+    "exampleZh": "这是我的字母。",
     "topic": "school",
     "tags": [
       "school"
@@ -2201,6 +2539,8 @@
     "word": "library",
     "normalizedWord": "library",
     "meaningZh": "图书馆",
+    "example": "This is my library.",
+    "exampleZh": "这是我的图书馆。",
     "topic": "school",
     "tags": [
       "school"
@@ -2214,6 +2554,8 @@
     "word": "line",
     "normalizedWord": "line",
     "meaningZh": "线/排",
+    "example": "This is my line.",
+    "exampleZh": "这是我的线/排。",
     "topic": "school",
     "tags": [
       "school"
@@ -2227,6 +2569,8 @@
     "word": "listen",
     "normalizedWord": "listen",
     "meaningZh": "听",
+    "example": "This is my listen.",
+    "exampleZh": "这是我的听。",
     "topic": "school",
     "tags": [
       "school"
@@ -2240,6 +2584,8 @@
     "word": "look",
     "normalizedWord": "look",
     "meaningZh": "看",
+    "example": "This is my look.",
+    "exampleZh": "这是我的看。",
     "topic": "school",
     "tags": [
       "school"
@@ -2253,6 +2599,8 @@
     "word": "mouse",
     "normalizedWord": "mouse",
     "meaningZh": "鼠标",
+    "example": "This is my mouse.",
+    "exampleZh": "这是我的鼠标。",
     "topic": "school",
     "tags": [
       "school"
@@ -2266,6 +2614,8 @@
     "word": "music",
     "normalizedWord": "music",
     "meaningZh": "音乐",
+    "example": "This is my music.",
+    "exampleZh": "这是我的音乐。",
     "topic": "school",
     "tags": [
       "school"
@@ -2279,6 +2629,8 @@
     "word": "number",
     "normalizedWord": "number",
     "meaningZh": "数字",
+    "example": "This is my number.",
+    "exampleZh": "这是我的数字。",
     "topic": "school",
     "tags": [
       "school"
@@ -2292,6 +2644,8 @@
     "word": "open",
     "normalizedWord": "open",
     "meaningZh": "打开",
+    "example": "This is my open.",
+    "exampleZh": "这是我的打开。",
     "topic": "school",
     "tags": [
       "school"
@@ -2305,6 +2659,8 @@
     "word": "page",
     "normalizedWord": "page",
     "meaningZh": "页",
+    "example": "This is my page.",
+    "exampleZh": "这是我的页。",
     "topic": "school",
     "tags": [
       "school"
@@ -2318,6 +2674,8 @@
     "word": "paint",
     "normalizedWord": "paint",
     "meaningZh": "画",
+    "example": "This is my paint.",
+    "exampleZh": "这是我的画。",
     "topic": "school",
     "tags": [
       "school"
@@ -2331,6 +2689,8 @@
     "word": "painting",
     "normalizedWord": "painting",
     "meaningZh": "绘画",
+    "example": "This is my painting.",
+    "exampleZh": "这是我的绘画。",
     "topic": "school",
     "tags": [
       "school"
@@ -2344,6 +2704,8 @@
     "word": "paper",
     "normalizedWord": "paper",
     "meaningZh": "纸",
+    "example": "This is my paper.",
+    "exampleZh": "这是我的纸。",
     "topic": "school",
     "tags": [
       "school"
@@ -2357,6 +2719,8 @@
     "word": "pen",
     "normalizedWord": "pen",
     "meaningZh": "钢笔",
+    "example": "This is my pen.",
+    "exampleZh": "这是我的钢笔。",
     "topic": "school",
     "tags": [
       "school"
@@ -2370,6 +2734,8 @@
     "word": "pencil",
     "normalizedWord": "pencil",
     "meaningZh": "铅笔",
+    "example": "This is my pencil.",
+    "exampleZh": "这是我的铅笔。",
     "topic": "school",
     "tags": [
       "school"
@@ -2383,6 +2749,8 @@
     "word": "picture",
     "normalizedWord": "picture",
     "meaningZh": "图片",
+    "example": "This is my picture.",
+    "exampleZh": "这是我的图片。",
     "topic": "school",
     "tags": [
       "school"
@@ -2396,6 +2764,8 @@
     "word": "playground",
     "normalizedWord": "playground",
     "meaningZh": "操场",
+    "example": "This is my playground.",
+    "exampleZh": "这是我的操场。",
     "topic": "school",
     "tags": [
       "school"
@@ -2409,6 +2779,8 @@
     "word": "practice",
     "normalizedWord": "practice",
     "meaningZh": "练习",
+    "example": "This is my practice.",
+    "exampleZh": "这是我的练习。",
     "topic": "school",
     "tags": [
       "school"
@@ -2422,6 +2794,8 @@
     "word": "read",
     "normalizedWord": "read",
     "meaningZh": "读",
+    "example": "This is my read.",
+    "exampleZh": "这是我的读。",
     "topic": "school",
     "tags": [
       "school"
@@ -2435,6 +2809,8 @@
     "word": "ruler",
     "normalizedWord": "ruler",
     "meaningZh": "尺子",
+    "example": "This is my ruler.",
+    "exampleZh": "这是我的尺子。",
     "topic": "school",
     "tags": [
       "school"
@@ -2448,6 +2824,8 @@
     "word": "school",
     "normalizedWord": "school",
     "meaningZh": "学校",
+    "example": "This is my school.",
+    "exampleZh": "这是我的学校。",
     "topic": "school",
     "tags": [
       "school"
@@ -2461,6 +2839,8 @@
     "word": "sentence",
     "normalizedWord": "sentence",
     "meaningZh": "句子",
+    "example": "This is my sentence.",
+    "exampleZh": "这是我的句子。",
     "topic": "school",
     "tags": [
       "school"
@@ -2474,6 +2854,8 @@
     "word": "spell",
     "normalizedWord": "spell",
     "meaningZh": "拼写",
+    "example": "This is my spell.",
+    "exampleZh": "这是我的拼写。",
     "topic": "school",
     "tags": [
       "school"
@@ -2487,6 +2869,8 @@
     "word": "student",
     "normalizedWord": "student",
     "meaningZh": "学生",
+    "example": "This is my student.",
+    "exampleZh": "这是我的学生。",
     "topic": "school",
     "tags": [
       "school"
@@ -2500,6 +2884,8 @@
     "word": "study",
     "normalizedWord": "study",
     "meaningZh": "学习",
+    "example": "This is my study.",
+    "exampleZh": "这是我的学习。",
     "topic": "school",
     "tags": [
       "school"
@@ -2513,6 +2899,8 @@
     "word": "teacher",
     "normalizedWord": "teacher",
     "meaningZh": "教师",
+    "example": "This is my teacher.",
+    "exampleZh": "这是我的教师。",
     "topic": "school",
     "tags": [
       "school"
@@ -2526,6 +2914,8 @@
     "word": "test",
     "normalizedWord": "test",
     "meaningZh": "测试",
+    "example": "This is my test.",
+    "exampleZh": "这是我的测试。",
     "topic": "school",
     "tags": [
       "school"
@@ -2539,6 +2929,8 @@
     "word": "word",
     "normalizedWord": "word",
     "meaningZh": "单词",
+    "example": "This is my word.",
+    "exampleZh": "这是我的单词。",
     "topic": "school",
     "tags": [
       "school"
@@ -2552,6 +2944,8 @@
     "word": "write",
     "normalizedWord": "write",
     "meaningZh": "写",
+    "example": "This is my write.",
+    "exampleZh": "这是我的写。",
     "topic": "school",
     "tags": [
       "school"
@@ -2565,6 +2959,8 @@
     "word": "badminton",
     "normalizedWord": "badminton",
     "meaningZh": "羽毛球",
+    "example": "I can play with the badminton.",
+    "exampleZh": "我可以玩羽毛球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2578,6 +2974,8 @@
     "word": "ball",
     "normalizedWord": "ball",
     "meaningZh": "球",
+    "example": "I can play with the ball.",
+    "exampleZh": "我可以玩球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2591,6 +2989,8 @@
     "word": "baseball",
     "normalizedWord": "baseball",
     "meaningZh": "棒球",
+    "example": "I can play with the baseball.",
+    "exampleZh": "我可以玩棒球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2604,6 +3004,8 @@
     "word": "basketball",
     "normalizedWord": "basketball",
     "meaningZh": "篮球",
+    "example": "I can play with the basketball.",
+    "exampleZh": "我可以玩篮球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2617,6 +3019,8 @@
     "word": "bat",
     "normalizedWord": "bat",
     "meaningZh": "球拍/球棒",
+    "example": "I can play with the bat.",
+    "exampleZh": "我可以玩球拍/球棒。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2630,6 +3034,8 @@
     "word": "beach",
     "normalizedWord": "beach",
     "meaningZh": "海滩",
+    "example": "I can play with the beach.",
+    "exampleZh": "我可以玩海滩。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2643,6 +3049,8 @@
     "word": "bike",
     "normalizedWord": "bike",
     "meaningZh": "自行车",
+    "example": "I can play with the bike.",
+    "exampleZh": "我可以玩自行车。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2656,6 +3064,8 @@
     "word": "board game",
     "normalizedWord": "board game",
     "meaningZh": "桌游",
+    "example": "I can play with the board game.",
+    "exampleZh": "我可以玩桌游。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2669,6 +3079,8 @@
     "word": "boat",
     "normalizedWord": "boat",
     "meaningZh": "船",
+    "example": "I can play with the boat.",
+    "exampleZh": "我可以玩船。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2682,6 +3094,8 @@
     "word": "bounce",
     "normalizedWord": "bounce",
     "meaningZh": "弹跳",
+    "example": "I can play with the bounce.",
+    "exampleZh": "我可以玩弹跳。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2695,6 +3109,8 @@
     "word": "camera",
     "normalizedWord": "camera",
     "meaningZh": "相机",
+    "example": "I can play with the camera.",
+    "exampleZh": "我可以玩相机。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2708,6 +3124,8 @@
     "word": "catch",
     "normalizedWord": "catch",
     "meaningZh": "抓住",
+    "example": "I can play with the catch.",
+    "exampleZh": "我可以玩抓住。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2721,6 +3139,8 @@
     "word": "doll",
     "normalizedWord": "doll",
     "meaningZh": "玩具娃娃",
+    "example": "I can play with the doll.",
+    "exampleZh": "我可以玩玩具娃娃。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2734,6 +3154,8 @@
     "word": "draw",
     "normalizedWord": "draw",
     "meaningZh": "画",
+    "example": "I can play with the draw.",
+    "exampleZh": "我可以玩画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2747,6 +3169,8 @@
     "word": "drawing",
     "normalizedWord": "drawing",
     "meaningZh": "绘画",
+    "example": "I can play with the drawing.",
+    "exampleZh": "我可以玩绘画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2760,6 +3184,8 @@
     "word": "drive",
     "normalizedWord": "drive",
     "meaningZh": "驾驶",
+    "example": "I can play with the drive.",
+    "exampleZh": "我可以玩驾驶。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2773,6 +3199,8 @@
     "word": "enjoy",
     "normalizedWord": "enjoy",
     "meaningZh": "享受",
+    "example": "I can play with the enjoy.",
+    "exampleZh": "我可以玩享受。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2786,6 +3214,8 @@
     "word": "favourite",
     "normalizedWord": "favourite",
     "meaningZh": "最喜欢的",
+    "example": "I can play with the favourite.",
+    "exampleZh": "我可以玩最喜欢的。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2799,6 +3229,8 @@
     "word": "fish",
     "normalizedWord": "fish",
     "meaningZh": "钓鱼",
+    "example": "I can play with the fish.",
+    "exampleZh": "我可以玩钓鱼。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2812,6 +3244,8 @@
     "word": "fishing",
     "normalizedWord": "fishing",
     "meaningZh": "钓鱼",
+    "example": "I can play with the fishing.",
+    "exampleZh": "我可以玩钓鱼。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2825,6 +3259,8 @@
     "word": "fly",
     "normalizedWord": "fly",
     "meaningZh": "飞",
+    "example": "I can play with the fly.",
+    "exampleZh": "我可以玩飞。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2838,6 +3274,8 @@
     "word": "football",
     "normalizedWord": "football",
     "meaningZh": "足球",
+    "example": "I can play with the football.",
+    "exampleZh": "我可以玩足球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2851,6 +3289,8 @@
     "word": "game",
     "normalizedWord": "game",
     "meaningZh": "游戏",
+    "example": "I can play with the game.",
+    "exampleZh": "我可以玩游戏。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2864,6 +3304,8 @@
     "word": "guitar",
     "normalizedWord": "guitar",
     "meaningZh": "吉他",
+    "example": "I can play with the guitar.",
+    "exampleZh": "我可以玩吉他。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2877,6 +3319,8 @@
     "word": "hobby",
     "normalizedWord": "hobby",
     "meaningZh": "爱好",
+    "example": "I can play with the hobby.",
+    "exampleZh": "我可以玩爱好。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2890,6 +3334,8 @@
     "word": "hockey",
     "normalizedWord": "hockey",
     "meaningZh": "曲棍球",
+    "example": "I can play with the hockey.",
+    "exampleZh": "我可以玩曲棍球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2903,6 +3349,8 @@
     "word": "kick",
     "normalizedWord": "kick",
     "meaningZh": "踢",
+    "example": "I can play with the kick.",
+    "exampleZh": "我可以玩踢。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2916,6 +3364,8 @@
     "word": "kite",
     "normalizedWord": "kite",
     "meaningZh": "风筝",
+    "example": "I can play with the kite.",
+    "exampleZh": "我可以玩风筝。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2929,6 +3379,8 @@
     "word": "paint",
     "normalizedWord": "paint",
     "meaningZh": "画",
+    "example": "I can play with the paint.",
+    "exampleZh": "我可以玩画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2942,6 +3394,8 @@
     "word": "painting",
     "normalizedWord": "painting",
     "meaningZh": "绘画",
+    "example": "I can play with the painting.",
+    "exampleZh": "我可以玩绘画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2955,6 +3409,8 @@
     "word": "play",
     "normalizedWord": "play",
     "meaningZh": "玩",
+    "example": "I can play with the play.",
+    "exampleZh": "我可以玩玩。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2968,6 +3424,8 @@
     "word": "pool",
     "normalizedWord": "pool",
     "meaningZh": "游泳池",
+    "example": "I can play with the pool.",
+    "exampleZh": "我可以玩游泳池。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2981,6 +3439,8 @@
     "word": "puppet",
     "normalizedWord": "puppet",
     "meaningZh": "木偶",
+    "example": "I can play with the puppet.",
+    "exampleZh": "我可以玩木偶。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -2994,6 +3454,8 @@
     "word": "race",
     "normalizedWord": "race",
     "meaningZh": "比赛",
+    "example": "I can play with the race.",
+    "exampleZh": "我可以玩比赛。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3007,6 +3469,8 @@
     "word": "radio",
     "normalizedWord": "radio",
     "meaningZh": "收音机",
+    "example": "I can play with the radio.",
+    "exampleZh": "我可以玩收音机。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3020,6 +3484,8 @@
     "word": "ride",
     "normalizedWord": "ride",
     "meaningZh": "骑",
+    "example": "I can play with the ride.",
+    "exampleZh": "我可以玩骑。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3033,6 +3499,8 @@
     "word": "run",
     "normalizedWord": "run",
     "meaningZh": "跑",
+    "example": "I can play with the run.",
+    "exampleZh": "我可以玩跑。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3046,6 +3514,8 @@
     "word": "scooter",
     "normalizedWord": "scooter",
     "meaningZh": "滑板车",
+    "example": "I can play with the scooter.",
+    "exampleZh": "我可以玩滑板车。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3059,6 +3529,8 @@
     "word": "see",
     "normalizedWord": "see",
     "meaningZh": "看",
+    "example": "I can play with the see.",
+    "exampleZh": "我可以玩看。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3072,6 +3544,8 @@
     "word": "sing",
     "normalizedWord": "sing",
     "meaningZh": "唱",
+    "example": "I can play with the sing.",
+    "exampleZh": "我可以玩唱。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3085,6 +3559,8 @@
     "word": "skate",
     "normalizedWord": "skate",
     "meaningZh": "滑冰",
+    "example": "I can play with the skate.",
+    "exampleZh": "我可以玩滑冰。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3098,6 +3574,8 @@
     "word": "sport",
     "normalizedWord": "sport",
     "meaningZh": "运动",
+    "example": "I can play with the sport.",
+    "exampleZh": "我可以玩运动。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3111,6 +3589,8 @@
     "word": "swim",
     "normalizedWord": "swim",
     "meaningZh": "游泳",
+    "example": "I can play with the swim.",
+    "exampleZh": "我可以玩游泳。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3124,6 +3604,8 @@
     "word": "table tennis",
     "normalizedWord": "table tennis",
     "meaningZh": "乒乓球",
+    "example": "I can play with the table tennis.",
+    "exampleZh": "我可以玩乒乓球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3137,6 +3619,8 @@
     "word": "teddy",
     "normalizedWord": "teddy",
     "meaningZh": "泰迪熊",
+    "example": "I can play with the teddy.",
+    "exampleZh": "我可以玩泰迪熊。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3150,6 +3634,8 @@
     "word": "tennis",
     "normalizedWord": "tennis",
     "meaningZh": "网球",
+    "example": "I can play with the tennis.",
+    "exampleZh": "我可以玩网球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3163,6 +3649,8 @@
     "word": "toy",
     "normalizedWord": "toy",
     "meaningZh": "玩具",
+    "example": "I can play with the toy.",
+    "exampleZh": "我可以玩玩具。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3176,6 +3664,8 @@
     "word": "travel",
     "normalizedWord": "travel",
     "meaningZh": "旅行",
+    "example": "I can play with the travel.",
+    "exampleZh": "我可以玩旅行。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3189,6 +3679,8 @@
     "word": "walk",
     "normalizedWord": "walk",
     "meaningZh": "走",
+    "example": "I can play with the walk.",
+    "exampleZh": "我可以玩走。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3202,6 +3694,8 @@
     "word": "watch",
     "normalizedWord": "watch",
     "meaningZh": "看",
+    "example": "I can play with the watch.",
+    "exampleZh": "我可以玩看。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3215,6 +3709,8 @@
     "word": "yoga",
     "normalizedWord": "yoga",
     "meaningZh": "瑜伽",
+    "example": "I can play with the yoga.",
+    "exampleZh": "我可以玩瑜伽。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -3228,6 +3724,8 @@
     "word": "alien",
     "normalizedWord": "alien",
     "meaningZh": "外星人",
+    "example": "I have an alien.",
+    "exampleZh": "我有一个外星人。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3241,6 +3739,8 @@
     "word": "ball",
     "normalizedWord": "ball",
     "meaningZh": "球",
+    "example": "I have a ball.",
+    "exampleZh": "我有一个球。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3254,6 +3754,8 @@
     "word": "balloon",
     "normalizedWord": "balloon",
     "meaningZh": "气球",
+    "example": "I have a balloon.",
+    "exampleZh": "我有一个气球。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3267,6 +3769,8 @@
     "word": "baseball",
     "normalizedWord": "baseball",
     "meaningZh": "棒球",
+    "example": "I have a baseball.",
+    "exampleZh": "我有一个棒球。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3280,6 +3784,8 @@
     "word": "basketball",
     "normalizedWord": "basketball",
     "meaningZh": "篮球",
+    "example": "I have a basketball.",
+    "exampleZh": "我有一个篮球。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3293,6 +3799,8 @@
     "word": "bike",
     "normalizedWord": "bike",
     "meaningZh": "自行车",
+    "example": "I have a bike.",
+    "exampleZh": "我有一个自行车。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3306,6 +3814,8 @@
     "word": "board game",
     "normalizedWord": "board game",
     "meaningZh": "桌游",
+    "example": "I have a board game.",
+    "exampleZh": "我有一个桌游。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3319,6 +3829,8 @@
     "word": "boat",
     "normalizedWord": "boat",
     "meaningZh": "船",
+    "example": "I have a boat.",
+    "exampleZh": "我有一个船。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3332,6 +3844,8 @@
     "word": "car",
     "normalizedWord": "car",
     "meaningZh": "汽车",
+    "example": "I have a car.",
+    "exampleZh": "我有一个汽车。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3345,6 +3859,8 @@
     "word": "doll",
     "normalizedWord": "doll",
     "meaningZh": "玩具娃娃",
+    "example": "I have a doll.",
+    "exampleZh": "我有一个玩具娃娃。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3358,6 +3874,8 @@
     "word": "football",
     "normalizedWord": "football",
     "meaningZh": "足球",
+    "example": "I have a football.",
+    "exampleZh": "我有一个足球。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3371,6 +3889,8 @@
     "word": "game",
     "normalizedWord": "game",
     "meaningZh": "游戏",
+    "example": "I have a game.",
+    "exampleZh": "我有一个游戏。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3384,6 +3904,8 @@
     "word": "kite",
     "normalizedWord": "kite",
     "meaningZh": "风筝",
+    "example": "I have a kite.",
+    "exampleZh": "我有一个风筝。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3397,6 +3919,8 @@
     "word": "motorbike",
     "normalizedWord": "motorbike",
     "meaningZh": "摩托车",
+    "example": "I have a motorbike.",
+    "exampleZh": "我有一个摩托车。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3410,6 +3934,8 @@
     "word": "plane",
     "normalizedWord": "plane",
     "meaningZh": "飞机",
+    "example": "I have a plane.",
+    "exampleZh": "我有一个飞机。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3423,6 +3949,8 @@
     "word": "puppet",
     "normalizedWord": "puppet",
     "meaningZh": "木偶",
+    "example": "I have a puppet.",
+    "exampleZh": "我有一个木偶。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3436,6 +3964,8 @@
     "word": "ride",
     "normalizedWord": "ride",
     "meaningZh": "骑",
+    "example": "I have a ride.",
+    "exampleZh": "我有一个骑。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3449,6 +3979,8 @@
     "word": "teddy",
     "normalizedWord": "teddy",
     "meaningZh": "泰迪熊",
+    "example": "I have a teddy.",
+    "exampleZh": "我有一个泰迪熊。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3462,6 +3994,8 @@
     "word": "toy",
     "normalizedWord": "toy",
     "meaningZh": "玩具",
+    "example": "I have a toy.",
+    "exampleZh": "我有一个玩具。",
     "topic": "toys",
     "tags": [
       "toys"
@@ -3475,6 +4009,8 @@
     "word": "ambulance",
     "normalizedWord": "ambulance",
     "meaningZh": "救护车",
+    "example": "I can see an ambulance.",
+    "exampleZh": "我能看到一辆救护车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3488,6 +4024,8 @@
     "word": "bike",
     "normalizedWord": "bike",
     "meaningZh": "自行车",
+    "example": "I can see a bike.",
+    "exampleZh": "我能看到一辆自行车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3501,6 +4039,8 @@
     "word": "boat",
     "normalizedWord": "boat",
     "meaningZh": "船",
+    "example": "I can see a boat.",
+    "exampleZh": "我能看到一辆船。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3514,6 +4054,8 @@
     "word": "bus",
     "normalizedWord": "bus",
     "meaningZh": "公共汽车",
+    "example": "I can see a bus.",
+    "exampleZh": "我能看到一辆公共汽车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3527,6 +4069,8 @@
     "word": "car",
     "normalizedWord": "car",
     "meaningZh": "汽车",
+    "example": "I can see a car.",
+    "exampleZh": "我能看到一辆汽车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3540,6 +4084,8 @@
     "word": "coach",
     "normalizedWord": "coach",
     "meaningZh": "长途汽车",
+    "example": "I can see a coach.",
+    "exampleZh": "我能看到一辆长途汽车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3553,6 +4099,8 @@
     "word": "helicopter",
     "normalizedWord": "helicopter",
     "meaningZh": "直升机",
+    "example": "I can see a helicopter.",
+    "exampleZh": "我能看到一辆直升机。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3566,6 +4114,8 @@
     "word": "lorry",
     "normalizedWord": "lorry",
     "meaningZh": "卡车",
+    "example": "I can see a lorry.",
+    "exampleZh": "我能看到一辆卡车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3579,6 +4129,8 @@
     "word": "motorbike",
     "normalizedWord": "motorbike",
     "meaningZh": "摩托车",
+    "example": "I can see a motorbike.",
+    "exampleZh": "我能看到一辆摩托车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3592,6 +4144,8 @@
     "word": "plane",
     "normalizedWord": "plane",
     "meaningZh": "飞机",
+    "example": "I can see a plane.",
+    "exampleZh": "我能看到一辆飞机。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3605,6 +4159,8 @@
     "word": "ship",
     "normalizedWord": "ship",
     "meaningZh": "船",
+    "example": "I can see a ship.",
+    "exampleZh": "我能看到一辆船。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3618,6 +4174,8 @@
     "word": "taxi",
     "normalizedWord": "taxi",
     "meaningZh": "出租车",
+    "example": "I can see a taxi.",
+    "exampleZh": "我能看到一辆出租车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3631,6 +4189,8 @@
     "word": "tractor",
     "normalizedWord": "tractor",
     "meaningZh": "拖拉机",
+    "example": "I can see a tractor.",
+    "exampleZh": "我能看到一辆拖拉机。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3644,6 +4204,8 @@
     "word": "train",
     "normalizedWord": "train",
     "meaningZh": "火车",
+    "example": "I can see a train.",
+    "exampleZh": "我能看到一辆火车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3657,6 +4219,8 @@
     "word": "truck",
     "normalizedWord": "truck",
     "meaningZh": "卡车",
+    "example": "I can see a truck.",
+    "exampleZh": "我能看到一辆卡车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -3670,6 +4234,8 @@
     "word": "Monday",
     "normalizedWord": "monday",
     "meaningZh": "星期一",
+    "example": "Look at a Monday.",
+    "exampleZh": "看这个星期一。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -3683,6 +4249,8 @@
     "word": "Tuesday",
     "normalizedWord": "tuesday",
     "meaningZh": "星期二",
+    "example": "Look at a Tuesday.",
+    "exampleZh": "看这个星期二。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -3696,6 +4264,8 @@
     "word": "Wednesday",
     "normalizedWord": "wednesday",
     "meaningZh": "星期三",
+    "example": "Look at a Wednesday.",
+    "exampleZh": "看这个星期三。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -3709,6 +4279,8 @@
     "word": "Thursday",
     "normalizedWord": "thursday",
     "meaningZh": "星期四",
+    "example": "Look at a Thursday.",
+    "exampleZh": "看这个星期四。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -3722,6 +4294,8 @@
     "word": "Friday",
     "normalizedWord": "friday",
     "meaningZh": "星期五",
+    "example": "Look at a Friday.",
+    "exampleZh": "看这个星期五。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -3735,6 +4309,8 @@
     "word": "Saturday",
     "normalizedWord": "saturday",
     "meaningZh": "星期六",
+    "example": "Look at a Saturday.",
+    "exampleZh": "看这个星期六。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -3748,6 +4324,8 @@
     "word": "Sunday",
     "normalizedWord": "sunday",
     "meaningZh": "星期日",
+    "example": "Look at a Sunday.",
+    "exampleZh": "看这个星期日。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -3761,6 +4339,8 @@
     "word": "January",
     "normalizedWord": "january",
     "meaningZh": "一月",
+    "example": "Look at a January.",
+    "exampleZh": "看这个一月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3774,6 +4354,8 @@
     "word": "February",
     "normalizedWord": "february",
     "meaningZh": "二月",
+    "example": "Look at a February.",
+    "exampleZh": "看这个二月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3787,6 +4369,8 @@
     "word": "March",
     "normalizedWord": "march",
     "meaningZh": "三月",
+    "example": "Look at a March.",
+    "exampleZh": "看这个三月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3800,6 +4384,8 @@
     "word": "April",
     "normalizedWord": "april",
     "meaningZh": "四月",
+    "example": "Look at an April.",
+    "exampleZh": "看这个四月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3813,6 +4399,8 @@
     "word": "May",
     "normalizedWord": "may",
     "meaningZh": "五月",
+    "example": "Look at a May.",
+    "exampleZh": "看这个五月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3826,6 +4414,8 @@
     "word": "June",
     "normalizedWord": "june",
     "meaningZh": "六月",
+    "example": "Look at a June.",
+    "exampleZh": "看这个六月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3839,6 +4429,8 @@
     "word": "July",
     "normalizedWord": "july",
     "meaningZh": "七月",
+    "example": "Look at a July.",
+    "exampleZh": "看这个七月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3852,6 +4444,8 @@
     "word": "August",
     "normalizedWord": "august",
     "meaningZh": "八月",
+    "example": "Look at an August.",
+    "exampleZh": "看这个八月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3865,6 +4459,8 @@
     "word": "September",
     "normalizedWord": "september",
     "meaningZh": "九月",
+    "example": "Look at a September.",
+    "exampleZh": "看这个九月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3878,6 +4474,8 @@
     "word": "October",
     "normalizedWord": "october",
     "meaningZh": "十月",
+    "example": "Look at an October.",
+    "exampleZh": "看这个十月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3891,6 +4489,8 @@
     "word": "November",
     "normalizedWord": "november",
     "meaningZh": "十一月",
+    "example": "Look at a November.",
+    "exampleZh": "看这个十一月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3904,6 +4504,8 @@
     "word": "December",
     "normalizedWord": "december",
     "meaningZh": "十二月",
+    "example": "Look at a December.",
+    "exampleZh": "看这个十二月。",
     "topic": "months",
     "tags": [
       "months"
@@ -3917,6 +4519,8 @@
     "word": "spring",
     "normalizedWord": "spring",
     "meaningZh": "春天",
+    "example": "Look at a spring.",
+    "exampleZh": "看这个春天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -3930,6 +4534,8 @@
     "word": "summer",
     "normalizedWord": "summer",
     "meaningZh": "夏天",
+    "example": "Look at a summer.",
+    "exampleZh": "看这个夏天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -3943,6 +4549,8 @@
     "word": "autumn",
     "normalizedWord": "autumn",
     "meaningZh": "秋天",
+    "example": "Look at an autumn.",
+    "exampleZh": "看这个秋天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -3956,6 +4564,8 @@
     "word": "fall",
     "normalizedWord": "fall",
     "meaningZh": "秋天",
+    "example": "Look at a fall.",
+    "exampleZh": "看这个秋天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -3969,6 +4579,8 @@
     "word": "winter",
     "normalizedWord": "winter",
     "meaningZh": "冬天",
+    "example": "Look at a winter.",
+    "exampleZh": "看这个冬天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -3982,6 +4594,8 @@
     "word": "cloud",
     "normalizedWord": "cloud",
     "meaningZh": "云",
+    "example": "It is cloud today.",
+    "exampleZh": "今天天气云。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -3995,6 +4609,8 @@
     "word": "cloudy",
     "normalizedWord": "cloudy",
     "meaningZh": "多云的",
+    "example": "It is cloudy today.",
+    "exampleZh": "今天天气多云的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4008,6 +4624,8 @@
     "word": "rain",
     "normalizedWord": "rain",
     "meaningZh": "雨",
+    "example": "It is rain today.",
+    "exampleZh": "今天天气雨。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4021,6 +4639,8 @@
     "word": "rainy",
     "normalizedWord": "rainy",
     "meaningZh": "下雨的",
+    "example": "It is rainy today.",
+    "exampleZh": "今天天气下雨的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4034,6 +4654,8 @@
     "word": "snow",
     "normalizedWord": "snow",
     "meaningZh": "雪",
+    "example": "It is snow today.",
+    "exampleZh": "今天天气雪。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4047,6 +4669,8 @@
     "word": "snowy",
     "normalizedWord": "snowy",
     "meaningZh": "下雪的",
+    "example": "It is snowy today.",
+    "exampleZh": "今天天气下雪的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4060,6 +4684,8 @@
     "word": "sun",
     "normalizedWord": "sun",
     "meaningZh": "太阳",
+    "example": "It is sun today.",
+    "exampleZh": "今天天气太阳。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4073,6 +4699,8 @@
     "word": "sunny",
     "normalizedWord": "sunny",
     "meaningZh": "阳光充足的",
+    "example": "It is sunny today.",
+    "exampleZh": "今天天气阳光充足的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4086,6 +4714,8 @@
     "word": "warm",
     "normalizedWord": "warm",
     "meaningZh": "温暖的",
+    "example": "It is warm today.",
+    "exampleZh": "今天天气温暖的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4099,6 +4729,8 @@
     "word": "weather",
     "normalizedWord": "weather",
     "meaningZh": "天气",
+    "example": "It is weather today.",
+    "exampleZh": "今天天气天气。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4112,6 +4744,8 @@
     "word": "wind",
     "normalizedWord": "wind",
     "meaningZh": "风",
+    "example": "It is wind today.",
+    "exampleZh": "今天天气风。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4125,6 +4759,8 @@
     "word": "windy",
     "normalizedWord": "windy",
     "meaningZh": "有风的",
+    "example": "It is windy today.",
+    "exampleZh": "今天天气有风的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -4138,6 +4774,8 @@
     "word": "behind",
     "normalizedWord": "behind",
     "meaningZh": "在...后面",
+    "example": "The behind is here.",
+    "exampleZh": "在...后面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4151,6 +4789,8 @@
     "word": "between",
     "normalizedWord": "between",
     "meaningZh": "在...之间",
+    "example": "The between is here.",
+    "exampleZh": "在...之间在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4164,6 +4804,8 @@
     "word": "bookshop",
     "normalizedWord": "bookshop",
     "meaningZh": "书店",
+    "example": "The bookshop is here.",
+    "exampleZh": "书店在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4177,6 +4819,8 @@
     "word": "end",
     "normalizedWord": "end",
     "meaningZh": "结束",
+    "example": "The end is here.",
+    "exampleZh": "结束在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4190,6 +4834,8 @@
     "word": "here",
     "normalizedWord": "here",
     "meaningZh": "这里",
+    "example": "The here is here.",
+    "exampleZh": "这里在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4203,6 +4849,8 @@
     "word": "in",
     "normalizedWord": "in",
     "meaningZh": "在...里面",
+    "example": "The in is here.",
+    "exampleZh": "在...里面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4216,6 +4864,8 @@
     "word": "in front of",
     "normalizedWord": "in front of",
     "meaningZh": "在...前面",
+    "example": "The in front of is here.",
+    "exampleZh": "在...前面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4229,6 +4879,8 @@
     "word": "next to",
     "normalizedWord": "next to",
     "meaningZh": "紧邻",
+    "example": "The next to is here.",
+    "exampleZh": "紧邻在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4242,6 +4894,8 @@
     "word": "on",
     "normalizedWord": "on",
     "meaningZh": "在...上面",
+    "example": "The on is here.",
+    "exampleZh": "在...上面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4255,6 +4909,8 @@
     "word": "park",
     "normalizedWord": "park",
     "meaningZh": "公园",
+    "example": "The park is here.",
+    "exampleZh": "公园在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4268,6 +4924,8 @@
     "word": "playground",
     "normalizedWord": "playground",
     "meaningZh": "操场",
+    "example": "The playground is here.",
+    "exampleZh": "操场在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4281,6 +4939,8 @@
     "word": "shop",
     "normalizedWord": "shop",
     "meaningZh": "商店",
+    "example": "The shop is here.",
+    "exampleZh": "商店在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4294,6 +4954,8 @@
     "word": "store",
     "normalizedWord": "store",
     "meaningZh": "商店",
+    "example": "The store is here.",
+    "exampleZh": "商店在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4307,6 +4969,8 @@
     "word": "street",
     "normalizedWord": "street",
     "meaningZh": "街道",
+    "example": "The street is here.",
+    "exampleZh": "街道在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4320,6 +4984,8 @@
     "word": "there",
     "normalizedWord": "there",
     "meaningZh": "那里",
+    "example": "The there is here.",
+    "exampleZh": "那里在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4333,6 +4999,8 @@
     "word": "under",
     "normalizedWord": "under",
     "meaningZh": "在...下面",
+    "example": "The under is here.",
+    "exampleZh": "在...下面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4346,6 +5014,8 @@
     "word": "zoo",
     "normalizedWord": "zoo",
     "meaningZh": "动物园",
+    "example": "The zoo is here.",
+    "exampleZh": "动物园在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -4359,6 +5029,8 @@
     "word": "actor",
     "normalizedWord": "actor",
     "meaningZh": "男/女演员",
+    "example": "She is an actor.",
+    "exampleZh": "她是一名男/女演员。",
     "topic": "work",
     "tags": [
       "work"
@@ -4372,6 +5044,8 @@
     "word": "artist",
     "normalizedWord": "artist",
     "meaningZh": "艺术家",
+    "example": "She is an artist.",
+    "exampleZh": "她是一名艺术家。",
     "topic": "work",
     "tags": [
       "work"
@@ -4385,6 +5059,8 @@
     "word": "business person",
     "normalizedWord": "business person",
     "meaningZh": "商人",
+    "example": "She is a business person.",
+    "exampleZh": "她是一名商人。",
     "topic": "work",
     "tags": [
       "work"
@@ -4398,6 +5074,8 @@
     "word": "chef",
     "normalizedWord": "chef",
     "meaningZh": "厨师",
+    "example": "She is a chef.",
+    "exampleZh": "她是一名厨师。",
     "topic": "work",
     "tags": [
       "work"
@@ -4411,6 +5089,8 @@
     "word": "doctor",
     "normalizedWord": "doctor",
     "meaningZh": "医生",
+    "example": "She is a doctor.",
+    "exampleZh": "她是一名医生。",
     "topic": "work",
     "tags": [
       "work"
@@ -4424,6 +5104,8 @@
     "word": "driver",
     "normalizedWord": "driver",
     "meaningZh": "司机",
+    "example": "She is a driver.",
+    "exampleZh": "她是一名司机。",
     "topic": "work",
     "tags": [
       "work"
@@ -4437,6 +5119,8 @@
     "word": "farmer",
     "normalizedWord": "farmer",
     "meaningZh": "农民",
+    "example": "She is a farmer.",
+    "exampleZh": "她是一名农民。",
     "topic": "work",
     "tags": [
       "work"
@@ -4450,6 +5134,8 @@
     "word": "fire fighter",
     "normalizedWord": "fire fighter",
     "meaningZh": "消防员",
+    "example": "She is a fire fighter.",
+    "exampleZh": "她是一名消防员。",
     "topic": "work",
     "tags": [
       "work"
@@ -4463,6 +5149,8 @@
     "word": "judge",
     "normalizedWord": "judge",
     "meaningZh": "法官",
+    "example": "She is a judge.",
+    "exampleZh": "她是一名法官。",
     "topic": "work",
     "tags": [
       "work"
@@ -4476,6 +5164,8 @@
     "word": "manager",
     "normalizedWord": "manager",
     "meaningZh": "经理",
+    "example": "She is a manager.",
+    "exampleZh": "她是一名经理。",
     "topic": "work",
     "tags": [
       "work"
@@ -4489,6 +5179,8 @@
     "word": "mechanic",
     "normalizedWord": "mechanic",
     "meaningZh": "机械师",
+    "example": "She is a mechanic.",
+    "exampleZh": "她是一名机械师。",
     "topic": "work",
     "tags": [
       "work"
@@ -4502,6 +5194,8 @@
     "word": "musician",
     "normalizedWord": "musician",
     "meaningZh": "音乐家",
+    "example": "She is a musician.",
+    "exampleZh": "她是一名音乐家。",
     "topic": "work",
     "tags": [
       "work"
@@ -4515,6 +5209,8 @@
     "word": "newsreader",
     "normalizedWord": "newsreader",
     "meaningZh": "新闻播音员",
+    "example": "She is a newsreader.",
+    "exampleZh": "她是一名新闻播音员。",
     "topic": "work",
     "tags": [
       "work"
@@ -4528,6 +5224,8 @@
     "word": "nurse",
     "normalizedWord": "nurse",
     "meaningZh": "护士",
+    "example": "She is a nurse.",
+    "exampleZh": "她是一名护士。",
     "topic": "work",
     "tags": [
       "work"
@@ -4541,6 +5239,8 @@
     "word": "painter",
     "normalizedWord": "painter",
     "meaningZh": "画家",
+    "example": "She is a painter.",
+    "exampleZh": "她是一名画家。",
     "topic": "work",
     "tags": [
       "work"
@@ -4554,6 +5254,8 @@
     "word": "photographer",
     "normalizedWord": "photographer",
     "meaningZh": "摄影师",
+    "example": "She is a photographer.",
+    "exampleZh": "她是一名摄影师。",
     "topic": "work",
     "tags": [
       "work"
@@ -4567,6 +5269,8 @@
     "word": "pilot",
     "normalizedWord": "pilot",
     "meaningZh": "飞行员",
+    "example": "She is a pilot.",
+    "exampleZh": "她是一名飞行员。",
     "topic": "work",
     "tags": [
       "work"
@@ -4580,6 +5284,8 @@
     "word": "police officer",
     "normalizedWord": "police officer",
     "meaningZh": "警察",
+    "example": "She is a police officer.",
+    "exampleZh": "她是一名警察。",
     "topic": "work",
     "tags": [
       "work"
@@ -4593,6 +5299,8 @@
     "word": "reporter",
     "normalizedWord": "reporter",
     "meaningZh": "记者",
+    "example": "She is a reporter.",
+    "exampleZh": "她是一名记者。",
     "topic": "work",
     "tags": [
       "work"
@@ -4606,6 +5314,8 @@
     "word": "scientist",
     "normalizedWord": "scientist",
     "meaningZh": "科学家",
+    "example": "She is a scientist.",
+    "exampleZh": "她是一名科学家。",
     "topic": "work",
     "tags": [
       "work"
@@ -4619,6 +5329,8 @@
     "word": "secretary",
     "normalizedWord": "secretary",
     "meaningZh": "秘书",
+    "example": "She is a secretary.",
+    "exampleZh": "她是一名秘书。",
     "topic": "work",
     "tags": [
       "work"
@@ -4632,6 +5344,8 @@
     "word": "soldier",
     "normalizedWord": "soldier",
     "meaningZh": "士兵",
+    "example": "She is a soldier.",
+    "exampleZh": "她是一名士兵。",
     "topic": "work",
     "tags": [
       "work"
@@ -4645,6 +5359,8 @@
     "word": "teacher",
     "normalizedWord": "teacher",
     "meaningZh": "教师",
+    "example": "She is a teacher.",
+    "exampleZh": "她是一名教师。",
     "topic": "work",
     "tags": [
       "work"
@@ -4658,6 +5374,8 @@
     "word": "veterinarian",
     "normalizedWord": "veterinarian",
     "meaningZh": "兽医",
+    "example": "She is a veterinarian.",
+    "exampleZh": "她是一名兽医。",
     "topic": "work",
     "tags": [
       "work"
@@ -4671,6 +5389,8 @@
     "word": "vet",
     "normalizedWord": "vet",
     "meaningZh": "兽医",
+    "example": "She is a vet.",
+    "exampleZh": "她是一名兽医。",
     "topic": "work",
     "tags": [
       "work"
@@ -4684,6 +5404,8 @@
     "word": "writer",
     "normalizedWord": "writer",
     "meaningZh": "作家",
+    "example": "She is a writer.",
+    "exampleZh": "她是一名作家。",
     "topic": "work",
     "tags": [
       "work"

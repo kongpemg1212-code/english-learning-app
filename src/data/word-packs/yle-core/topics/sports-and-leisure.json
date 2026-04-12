@@ -4,6 +4,8 @@
     "word": "badminton",
     "normalizedWord": "badminton",
     "meaningZh": "羽毛球",
+    "example": "I can play with the badminton.",
+    "exampleZh": "我可以玩羽毛球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -17,6 +19,8 @@
     "word": "ball",
     "normalizedWord": "ball",
     "meaningZh": "球",
+    "example": "I can play with the ball.",
+    "exampleZh": "我可以玩球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -30,6 +34,8 @@
     "word": "baseball",
     "normalizedWord": "baseball",
     "meaningZh": "棒球",
+    "example": "I can play with the baseball.",
+    "exampleZh": "我可以玩棒球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -43,6 +49,8 @@
     "word": "basketball",
     "normalizedWord": "basketball",
     "meaningZh": "篮球",
+    "example": "I can play with the basketball.",
+    "exampleZh": "我可以玩篮球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -56,6 +64,8 @@
     "word": "bat",
     "normalizedWord": "bat",
     "meaningZh": "球拍/球棒",
+    "example": "I can play with the bat.",
+    "exampleZh": "我可以玩球拍/球棒。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -69,6 +79,8 @@
     "word": "beach",
     "normalizedWord": "beach",
     "meaningZh": "海滩",
+    "example": "I can play with the beach.",
+    "exampleZh": "我可以玩海滩。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -82,6 +94,8 @@
     "word": "bike",
     "normalizedWord": "bike",
     "meaningZh": "自行车",
+    "example": "I can play with the bike.",
+    "exampleZh": "我可以玩自行车。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -95,6 +109,8 @@
     "word": "board game",
     "normalizedWord": "board game",
     "meaningZh": "桌游",
+    "example": "I can play with the board game.",
+    "exampleZh": "我可以玩桌游。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -108,6 +124,8 @@
     "word": "boat",
     "normalizedWord": "boat",
     "meaningZh": "船",
+    "example": "I can play with the boat.",
+    "exampleZh": "我可以玩船。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -121,6 +139,8 @@
     "word": "bounce",
     "normalizedWord": "bounce",
     "meaningZh": "弹跳",
+    "example": "I can play with the bounce.",
+    "exampleZh": "我可以玩弹跳。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -134,6 +154,8 @@
     "word": "camera",
     "normalizedWord": "camera",
     "meaningZh": "相机",
+    "example": "I can play with the camera.",
+    "exampleZh": "我可以玩相机。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -147,6 +169,8 @@
     "word": "catch",
     "normalizedWord": "catch",
     "meaningZh": "抓住",
+    "example": "I can play with the catch.",
+    "exampleZh": "我可以玩抓住。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -160,6 +184,8 @@
     "word": "doll",
     "normalizedWord": "doll",
     "meaningZh": "玩具娃娃",
+    "example": "I can play with the doll.",
+    "exampleZh": "我可以玩玩具娃娃。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -173,6 +199,8 @@
     "word": "draw",
     "normalizedWord": "draw",
     "meaningZh": "画",
+    "example": "I can play with the draw.",
+    "exampleZh": "我可以玩画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -186,6 +214,8 @@
     "word": "drawing",
     "normalizedWord": "drawing",
     "meaningZh": "绘画",
+    "example": "I can play with the drawing.",
+    "exampleZh": "我可以玩绘画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -199,6 +229,8 @@
     "word": "drive",
     "normalizedWord": "drive",
     "meaningZh": "驾驶",
+    "example": "I can play with the drive.",
+    "exampleZh": "我可以玩驾驶。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -212,6 +244,8 @@
     "word": "enjoy",
     "normalizedWord": "enjoy",
     "meaningZh": "享受",
+    "example": "I can play with the enjoy.",
+    "exampleZh": "我可以玩享受。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -225,6 +259,8 @@
     "word": "favourite",
     "normalizedWord": "favourite",
     "meaningZh": "最喜欢的",
+    "example": "I can play with the favourite.",
+    "exampleZh": "我可以玩最喜欢的。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -238,6 +274,8 @@
     "word": "fish",
     "normalizedWord": "fish",
     "meaningZh": "钓鱼",
+    "example": "I can play with the fish.",
+    "exampleZh": "我可以玩钓鱼。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -251,6 +289,8 @@
     "word": "fishing",
     "normalizedWord": "fishing",
     "meaningZh": "钓鱼",
+    "example": "I can play with the fishing.",
+    "exampleZh": "我可以玩钓鱼。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -264,6 +304,8 @@
     "word": "fly",
     "normalizedWord": "fly",
     "meaningZh": "飞",
+    "example": "I can play with the fly.",
+    "exampleZh": "我可以玩飞。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -277,6 +319,8 @@
     "word": "football",
     "normalizedWord": "football",
     "meaningZh": "足球",
+    "example": "I can play with the football.",
+    "exampleZh": "我可以玩足球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -290,6 +334,8 @@
     "word": "game",
     "normalizedWord": "game",
     "meaningZh": "游戏",
+    "example": "I can play with the game.",
+    "exampleZh": "我可以玩游戏。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -303,6 +349,8 @@
     "word": "guitar",
     "normalizedWord": "guitar",
     "meaningZh": "吉他",
+    "example": "I can play with the guitar.",
+    "exampleZh": "我可以玩吉他。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -316,6 +364,8 @@
     "word": "hobby",
     "normalizedWord": "hobby",
     "meaningZh": "爱好",
+    "example": "I can play with the hobby.",
+    "exampleZh": "我可以玩爱好。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -329,6 +379,8 @@
     "word": "hockey",
     "normalizedWord": "hockey",
     "meaningZh": "曲棍球",
+    "example": "I can play with the hockey.",
+    "exampleZh": "我可以玩曲棍球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -342,6 +394,8 @@
     "word": "kick",
     "normalizedWord": "kick",
     "meaningZh": "踢",
+    "example": "I can play with the kick.",
+    "exampleZh": "我可以玩踢。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -355,6 +409,8 @@
     "word": "kite",
     "normalizedWord": "kite",
     "meaningZh": "风筝",
+    "example": "I can play with the kite.",
+    "exampleZh": "我可以玩风筝。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -368,6 +424,8 @@
     "word": "paint",
     "normalizedWord": "paint",
     "meaningZh": "画",
+    "example": "I can play with the paint.",
+    "exampleZh": "我可以玩画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -381,6 +439,8 @@
     "word": "painting",
     "normalizedWord": "painting",
     "meaningZh": "绘画",
+    "example": "I can play with the painting.",
+    "exampleZh": "我可以玩绘画。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -394,6 +454,8 @@
     "word": "play",
     "normalizedWord": "play",
     "meaningZh": "玩",
+    "example": "I can play with the play.",
+    "exampleZh": "我可以玩玩。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -407,6 +469,8 @@
     "word": "pool",
     "normalizedWord": "pool",
     "meaningZh": "游泳池",
+    "example": "I can play with the pool.",
+    "exampleZh": "我可以玩游泳池。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -420,6 +484,8 @@
     "word": "puppet",
     "normalizedWord": "puppet",
     "meaningZh": "木偶",
+    "example": "I can play with the puppet.",
+    "exampleZh": "我可以玩木偶。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -433,6 +499,8 @@
     "word": "race",
     "normalizedWord": "race",
     "meaningZh": "比赛",
+    "example": "I can play with the race.",
+    "exampleZh": "我可以玩比赛。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -446,6 +514,8 @@
     "word": "radio",
     "normalizedWord": "radio",
     "meaningZh": "收音机",
+    "example": "I can play with the radio.",
+    "exampleZh": "我可以玩收音机。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -459,6 +529,8 @@
     "word": "ride",
     "normalizedWord": "ride",
     "meaningZh": "骑",
+    "example": "I can play with the ride.",
+    "exampleZh": "我可以玩骑。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -472,6 +544,8 @@
     "word": "run",
     "normalizedWord": "run",
     "meaningZh": "跑",
+    "example": "I can play with the run.",
+    "exampleZh": "我可以玩跑。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -485,6 +559,8 @@
     "word": "scooter",
     "normalizedWord": "scooter",
     "meaningZh": "滑板车",
+    "example": "I can play with the scooter.",
+    "exampleZh": "我可以玩滑板车。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -498,6 +574,8 @@
     "word": "see",
     "normalizedWord": "see",
     "meaningZh": "看",
+    "example": "I can play with the see.",
+    "exampleZh": "我可以玩看。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -511,6 +589,8 @@
     "word": "sing",
     "normalizedWord": "sing",
     "meaningZh": "唱",
+    "example": "I can play with the sing.",
+    "exampleZh": "我可以玩唱。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -524,6 +604,8 @@
     "word": "skate",
     "normalizedWord": "skate",
     "meaningZh": "滑冰",
+    "example": "I can play with the skate.",
+    "exampleZh": "我可以玩滑冰。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -537,6 +619,8 @@
     "word": "sport",
     "normalizedWord": "sport",
     "meaningZh": "运动",
+    "example": "I can play with the sport.",
+    "exampleZh": "我可以玩运动。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -550,6 +634,8 @@
     "word": "swim",
     "normalizedWord": "swim",
     "meaningZh": "游泳",
+    "example": "I can play with the swim.",
+    "exampleZh": "我可以玩游泳。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -563,6 +649,8 @@
     "word": "table tennis",
     "normalizedWord": "table tennis",
     "meaningZh": "乒乓球",
+    "example": "I can play with the table tennis.",
+    "exampleZh": "我可以玩乒乓球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -576,6 +664,8 @@
     "word": "teddy",
     "normalizedWord": "teddy",
     "meaningZh": "泰迪熊",
+    "example": "I can play with the teddy.",
+    "exampleZh": "我可以玩泰迪熊。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -589,6 +679,8 @@
     "word": "tennis",
     "normalizedWord": "tennis",
     "meaningZh": "网球",
+    "example": "I can play with the tennis.",
+    "exampleZh": "我可以玩网球。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -602,6 +694,8 @@
     "word": "toy",
     "normalizedWord": "toy",
     "meaningZh": "玩具",
+    "example": "I can play with the toy.",
+    "exampleZh": "我可以玩玩具。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -615,6 +709,8 @@
     "word": "travel",
     "normalizedWord": "travel",
     "meaningZh": "旅行",
+    "example": "I can play with the travel.",
+    "exampleZh": "我可以玩旅行。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -628,6 +724,8 @@
     "word": "walk",
     "normalizedWord": "walk",
     "meaningZh": "走",
+    "example": "I can play with the walk.",
+    "exampleZh": "我可以玩走。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -641,6 +739,8 @@
     "word": "watch",
     "normalizedWord": "watch",
     "meaningZh": "看",
+    "example": "I can play with the watch.",
+    "exampleZh": "我可以玩看。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"
@@ -654,6 +754,8 @@
     "word": "yoga",
     "normalizedWord": "yoga",
     "meaningZh": "瑜伽",
+    "example": "I can play with the yoga.",
+    "exampleZh": "我可以玩瑜伽。",
     "topic": "sports-and-leisure",
     "tags": [
       "sports-and-leisure"

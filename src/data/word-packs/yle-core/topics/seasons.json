@@ -4,6 +4,8 @@
     "word": "spring",
     "normalizedWord": "spring",
     "meaningZh": "春天",
+    "example": "Look at a spring.",
+    "exampleZh": "看这个春天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -17,6 +19,8 @@
     "word": "summer",
     "normalizedWord": "summer",
     "meaningZh": "夏天",
+    "example": "Look at a summer.",
+    "exampleZh": "看这个夏天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -30,6 +34,8 @@
     "word": "autumn",
     "normalizedWord": "autumn",
     "meaningZh": "秋天",
+    "example": "Look at an autumn.",
+    "exampleZh": "看这个秋天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -43,6 +49,8 @@
     "word": "fall",
     "normalizedWord": "fall",
     "meaningZh": "秋天",
+    "example": "Look at a fall.",
+    "exampleZh": "看这个秋天。",
     "topic": "seasons",
     "tags": [
       "seasons"
@@ -56,6 +64,8 @@
     "word": "winter",
     "normalizedWord": "winter",
     "meaningZh": "冬天",
+    "example": "Look at a winter.",
+    "exampleZh": "看这个冬天。",
     "topic": "seasons",
     "tags": [
       "seasons"

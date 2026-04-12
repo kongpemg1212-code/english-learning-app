@@ -4,6 +4,8 @@
     "word": "Monday",
     "normalizedWord": "monday",
     "meaningZh": "星期一",
+    "example": "Look at a Monday.",
+    "exampleZh": "看这个星期一。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -17,6 +19,8 @@
     "word": "Tuesday",
     "normalizedWord": "tuesday",
     "meaningZh": "星期二",
+    "example": "Look at a Tuesday.",
+    "exampleZh": "看这个星期二。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -30,6 +34,8 @@
     "word": "Wednesday",
     "normalizedWord": "wednesday",
     "meaningZh": "星期三",
+    "example": "Look at a Wednesday.",
+    "exampleZh": "看这个星期三。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -43,6 +49,8 @@
     "word": "Thursday",
     "normalizedWord": "thursday",
     "meaningZh": "星期四",
+    "example": "Look at a Thursday.",
+    "exampleZh": "看这个星期四。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -56,6 +64,8 @@
     "word": "Friday",
     "normalizedWord": "friday",
     "meaningZh": "星期五",
+    "example": "Look at a Friday.",
+    "exampleZh": "看这个星期五。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -69,6 +79,8 @@
     "word": "Saturday",
     "normalizedWord": "saturday",
     "meaningZh": "星期六",
+    "example": "Look at a Saturday.",
+    "exampleZh": "看这个星期六。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"
@@ -82,6 +94,8 @@
     "word": "Sunday",
     "normalizedWord": "sunday",
     "meaningZh": "星期日",
+    "example": "Look at a Sunday.",
+    "exampleZh": "看这个星期日。",
     "topic": "days-of-the-week",
     "tags": [
       "days-of-the-week"

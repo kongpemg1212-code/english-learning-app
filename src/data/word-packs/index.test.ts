@@ -8,4 +8,5 @@ test('loads a YLE starter pack with topics and words', async () => {
   expect(pack.words.length).toBeGreaterThanOrEqual(350)
   expect(pack.topics.some((topic) => topic.id === 'weather')).toBe(true)
   expect(pack.words.some((word) => word.word === 'giraffe')).toBe(true)
+  expect(pack.words.every((word) => Boolean(word.example) && Boolean(word.exampleZh))).toBe(true)
 })

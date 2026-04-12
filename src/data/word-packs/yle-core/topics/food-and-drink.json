@@ -4,6 +4,8 @@
     "word": "apple",
     "normalizedWord": "apple",
     "meaningZh": "苹果",
+    "example": "I like apple.",
+    "exampleZh": "我喜欢苹果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -17,6 +19,8 @@
     "word": "banana",
     "normalizedWord": "banana",
     "meaningZh": "香蕉",
+    "example": "I like banana.",
+    "exampleZh": "我喜欢香蕉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -30,6 +34,8 @@
     "word": "bean",
     "normalizedWord": "bean",
     "meaningZh": "豆子",
+    "example": "I like bean.",
+    "exampleZh": "我喜欢豆子。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -43,6 +49,8 @@
     "word": "bread",
     "normalizedWord": "bread",
     "meaningZh": "面包",
+    "example": "I like bread.",
+    "exampleZh": "我喜欢面包。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -56,6 +64,8 @@
     "word": "breakfast",
     "normalizedWord": "breakfast",
     "meaningZh": "早餐",
+    "example": "I like breakfast.",
+    "exampleZh": "我喜欢早餐。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -69,6 +79,8 @@
     "word": "burger",
     "normalizedWord": "burger",
     "meaningZh": "汉堡",
+    "example": "I like burger.",
+    "exampleZh": "我喜欢汉堡。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -82,6 +94,8 @@
     "word": "cake",
     "normalizedWord": "cake",
     "meaningZh": "蛋糕",
+    "example": "I like cake.",
+    "exampleZh": "我喜欢蛋糕。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -95,6 +109,8 @@
     "word": "candy",
     "normalizedWord": "candy",
     "meaningZh": "糖果",
+    "example": "I like candy.",
+    "exampleZh": "我喜欢糖果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -108,6 +124,8 @@
     "word": "carrot",
     "normalizedWord": "carrot",
     "meaningZh": "胡萝卜",
+    "example": "I like carrot.",
+    "exampleZh": "我喜欢胡萝卜。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -121,6 +139,8 @@
     "word": "chicken",
     "normalizedWord": "chicken",
     "meaningZh": "鸡肉",
+    "example": "I like chicken.",
+    "exampleZh": "我喜欢鸡肉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -134,6 +154,8 @@
     "word": "chips",
     "normalizedWord": "chips",
     "meaningZh": "薯条",
+    "example": "I like chips.",
+    "exampleZh": "我喜欢薯条。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -147,6 +169,8 @@
     "word": "chocolate",
     "normalizedWord": "chocolate",
     "meaningZh": "巧克力",
+    "example": "I like chocolate.",
+    "exampleZh": "我喜欢巧克力。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -160,6 +184,8 @@
     "word": "coconut",
     "normalizedWord": "coconut",
     "meaningZh": "椰子",
+    "example": "I like coconut.",
+    "exampleZh": "我喜欢椰子。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -173,6 +199,8 @@
     "word": "dinner",
     "normalizedWord": "dinner",
     "meaningZh": "晚餐",
+    "example": "I like dinner.",
+    "exampleZh": "我喜欢晚餐。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -186,6 +214,8 @@
     "word": "drink",
     "normalizedWord": "drink",
     "meaningZh": "饮料",
+    "example": "I like drink.",
+    "exampleZh": "我喜欢饮料。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -199,6 +229,8 @@
     "word": "egg",
     "normalizedWord": "egg",
     "meaningZh": "鸡蛋",
+    "example": "I like egg.",
+    "exampleZh": "我喜欢鸡蛋。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -212,6 +244,8 @@
     "word": "fish",
     "normalizedWord": "fish",
     "meaningZh": "鱼",
+    "example": "I like fish.",
+    "exampleZh": "我喜欢鱼。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -225,6 +259,8 @@
     "word": "food",
     "normalizedWord": "food",
     "meaningZh": "食物",
+    "example": "I like food.",
+    "exampleZh": "我喜欢食物。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -238,6 +274,8 @@
     "word": "fruit",
     "normalizedWord": "fruit",
     "meaningZh": "水果",
+    "example": "I like fruit.",
+    "exampleZh": "我喜欢水果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -251,6 +289,8 @@
     "word": "grape",
     "normalizedWord": "grape",
     "meaningZh": "葡萄",
+    "example": "I like grape.",
+    "exampleZh": "我喜欢葡萄。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -264,6 +304,8 @@
     "word": "ice cream",
     "normalizedWord": "ice cream",
     "meaningZh": "冰淇淋",
+    "example": "I like ice cream.",
+    "exampleZh": "我喜欢冰淇淋。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -277,6 +319,8 @@
     "word": "juice",
     "normalizedWord": "juice",
     "meaningZh": "果汁",
+    "example": "I like juice.",
+    "exampleZh": "我喜欢果汁。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -290,6 +334,8 @@
     "word": "lunch",
     "normalizedWord": "lunch",
     "meaningZh": "午餐",
+    "example": "I like lunch.",
+    "exampleZh": "我喜欢午餐。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -303,6 +349,8 @@
     "word": "meat",
     "normalizedWord": "meat",
     "meaningZh": "肉",
+    "example": "I like meat.",
+    "exampleZh": "我喜欢肉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -316,6 +364,8 @@
     "word": "meatballs",
     "normalizedWord": "meatballs",
     "meaningZh": "肉丸",
+    "example": "I like meatballs.",
+    "exampleZh": "我喜欢肉丸。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -329,6 +379,8 @@
     "word": "milk",
     "normalizedWord": "milk",
     "meaningZh": "牛奶",
+    "example": "I like milk.",
+    "exampleZh": "我喜欢牛奶。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -342,6 +394,8 @@
     "word": "oil",
     "normalizedWord": "oil",
     "meaningZh": "油",
+    "example": "I like oil.",
+    "exampleZh": "我喜欢油。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -355,6 +409,8 @@
     "word": "pear",
     "normalizedWord": "pear",
     "meaningZh": "梨",
+    "example": "I like pear.",
+    "exampleZh": "我喜欢梨。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -368,6 +424,8 @@
     "word": "pork",
     "normalizedWord": "pork",
     "meaningZh": "猪肉",
+    "example": "I like pork.",
+    "exampleZh": "我喜欢猪肉。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -381,6 +439,8 @@
     "word": "potato",
     "normalizedWord": "potato",
     "meaningZh": "土豆",
+    "example": "I like potato.",
+    "exampleZh": "我喜欢土豆。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -394,6 +454,8 @@
     "word": "rice",
     "normalizedWord": "rice",
     "meaningZh": "米饭",
+    "example": "I like rice.",
+    "exampleZh": "我喜欢米饭。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -407,6 +469,8 @@
     "word": "sandwich",
     "normalizedWord": "sandwich",
     "meaningZh": "三明治",
+    "example": "I like sandwich.",
+    "exampleZh": "我喜欢三明治。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -420,6 +484,8 @@
     "word": "sausage",
     "normalizedWord": "sausage",
     "meaningZh": "香肠",
+    "example": "I like sausage.",
+    "exampleZh": "我喜欢香肠。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -433,6 +499,8 @@
     "word": "soup",
     "normalizedWord": "soup",
     "meaningZh": "汤",
+    "example": "I like soup.",
+    "exampleZh": "我喜欢汤。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -446,6 +514,8 @@
     "word": "sugar",
     "normalizedWord": "sugar",
     "meaningZh": "糖",
+    "example": "I like sugar.",
+    "exampleZh": "我喜欢糖。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -459,6 +529,8 @@
     "word": "sweet",
     "normalizedWord": "sweet",
     "meaningZh": "糖果",
+    "example": "I like sweet.",
+    "exampleZh": "我喜欢糖果。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -472,6 +544,8 @@
     "word": "tomato",
     "normalizedWord": "tomato",
     "meaningZh": "西红柿",
+    "example": "I like tomato.",
+    "exampleZh": "我喜欢西红柿。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -485,6 +559,8 @@
     "word": "vegetable",
     "normalizedWord": "vegetable",
     "meaningZh": "蔬菜",
+    "example": "I like vegetable.",
+    "exampleZh": "我喜欢蔬菜。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"
@@ -498,6 +574,8 @@
     "word": "water",
     "normalizedWord": "water",
     "meaningZh": "水",
+    "example": "I like water.",
+    "exampleZh": "我喜欢水。",
     "topic": "food-and-drink",
     "tags": [
       "food-and-drink"

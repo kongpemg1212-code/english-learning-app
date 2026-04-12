@@ -4,6 +4,8 @@
     "word": "apartment",
     "normalizedWord": "apartment",
     "meaningZh": "公寓",
+    "example": "This is the apartment.",
+    "exampleZh": "这是公寓。",
     "topic": "home",
     "tags": [
       "home"
@@ -17,6 +19,8 @@
     "word": "armchair",
     "normalizedWord": "armchair",
     "meaningZh": "扶手椅",
+    "example": "This is the armchair.",
+    "exampleZh": "这是扶手椅。",
     "topic": "home",
     "tags": [
       "home"
@@ -30,6 +34,8 @@
     "word": "bath",
     "normalizedWord": "bath",
     "meaningZh": "洗澡",
+    "example": "This is the bath.",
+    "exampleZh": "这是洗澡。",
     "topic": "home",
     "tags": [
       "home"
@@ -43,6 +49,8 @@
     "word": "bathroom",
     "normalizedWord": "bathroom",
     "meaningZh": "浴室",
+    "example": "This is the bathroom.",
+    "exampleZh": "这是浴室。",
     "topic": "home",
     "tags": [
       "home"
@@ -56,6 +64,8 @@
     "word": "bed",
     "normalizedWord": "bed",
     "meaningZh": "床",
+    "example": "This is the bed.",
+    "exampleZh": "这是床。",
     "topic": "home",
     "tags": [
       "home"
@@ -69,6 +79,8 @@
     "word": "bedroom",
     "normalizedWord": "bedroom",
     "meaningZh": "卧室",
+    "example": "This is the bedroom.",
+    "exampleZh": "这是卧室。",
     "topic": "home",
     "tags": [
       "home"
@@ -82,6 +94,8 @@
     "word": "bookcase",
     "normalizedWord": "bookcase",
     "meaningZh": "书架",
+    "example": "This is the bookcase.",
+    "exampleZh": "这是书架。",
     "topic": "home",
     "tags": [
       "home"
@@ -95,6 +109,8 @@
     "word": "box",
     "normalizedWord": "box",
     "meaningZh": "盒子",
+    "example": "This is the box.",
+    "exampleZh": "这是盒子。",
     "topic": "home",
     "tags": [
       "home"
@@ -108,6 +124,8 @@
     "word": "chair",
     "normalizedWord": "chair",
     "meaningZh": "椅子",
+    "example": "This is the chair.",
+    "exampleZh": "这是椅子。",
     "topic": "home",
     "tags": [
       "home"
@@ -121,6 +139,8 @@
     "word": "clock",
     "normalizedWord": "clock",
     "meaningZh": "时钟",
+    "example": "This is the clock.",
+    "exampleZh": "这是时钟。",
     "topic": "home",
     "tags": [
       "home"
@@ -134,6 +154,8 @@
     "word": "computer",
     "normalizedWord": "computer",
     "meaningZh": "电脑",
+    "example": "This is the computer.",
+    "exampleZh": "这是电脑。",
     "topic": "home",
     "tags": [
       "home"
@@ -147,6 +169,8 @@
     "word": "cupboard",
     "normalizedWord": "cupboard",
     "meaningZh": "橱柜",
+    "example": "This is the cupboard.",
+    "exampleZh": "这是橱柜。",
     "topic": "home",
     "tags": [
       "home"
@@ -160,6 +184,8 @@
     "word": "desk",
     "normalizedWord": "desk",
     "meaningZh": "书桌",
+    "example": "This is the desk.",
+    "exampleZh": "这是书桌。",
     "topic": "home",
     "tags": [
       "home"
@@ -173,6 +199,8 @@
     "word": "dining room",
     "normalizedWord": "dining room",
     "meaningZh": "餐厅",
+    "example": "This is the dining room.",
+    "exampleZh": "这是餐厅。",
     "topic": "home",
     "tags": [
       "home"
@@ -186,6 +214,8 @@
     "word": "door",
     "normalizedWord": "door",
     "meaningZh": "门",
+    "example": "This is the door.",
+    "exampleZh": "这是门。",
     "topic": "home",
     "tags": [
       "home"
@@ -199,6 +229,8 @@
     "word": "floor",
     "normalizedWord": "floor",
     "meaningZh": "地板",
+    "example": "This is the floor.",
+    "exampleZh": "这是地板。",
     "topic": "home",
     "tags": [
       "home"
@@ -212,6 +244,8 @@
     "word": "furniture",
     "normalizedWord": "furniture",
     "meaningZh": "家具",
+    "example": "This is the furniture.",
+    "exampleZh": "这是家具。",
     "topic": "home",
     "tags": [
       "home"
@@ -225,6 +259,8 @@
     "word": "garage",
     "normalizedWord": "garage",
     "meaningZh": "车库",
+    "example": "This is the garage.",
+    "exampleZh": "这是车库。",
     "topic": "home",
     "tags": [
       "home"
@@ -238,6 +274,8 @@
     "word": "garden",
     "normalizedWord": "garden",
     "meaningZh": "花园",
+    "example": "This is the garden.",
+    "exampleZh": "这是花园。",
     "topic": "home",
     "tags": [
       "home"
@@ -251,6 +289,8 @@
     "word": "house",
     "normalizedWord": "house",
     "meaningZh": "房子",
+    "example": "This is the house.",
+    "exampleZh": "这是房子。",
     "topic": "home",
     "tags": [
       "home"
@@ -264,6 +304,8 @@
     "word": "kitchen",
     "normalizedWord": "kitchen",
     "meaningZh": "厨房",
+    "example": "This is the kitchen.",
+    "exampleZh": "这是厨房。",
     "topic": "home",
     "tags": [
       "home"
@@ -277,6 +319,8 @@
     "word": "lamp",
     "normalizedWord": "lamp",
     "meaningZh": "灯",
+    "example": "This is the lamp.",
+    "exampleZh": "这是灯。",
     "topic": "home",
     "tags": [
       "home"
@@ -290,6 +334,8 @@
     "word": "lift",
     "normalizedWord": "lift",
     "meaningZh": "电梯",
+    "example": "This is the lift.",
+    "exampleZh": "这是电梯。",
     "topic": "home",
     "tags": [
       "home"
@@ -303,6 +349,8 @@
     "word": "living room",
     "normalizedWord": "living room",
     "meaningZh": "客厅",
+    "example": "This is the living room.",
+    "exampleZh": "这是客厅。",
     "topic": "home",
     "tags": [
       "home"
@@ -316,6 +364,8 @@
     "word": "mirror",
     "normalizedWord": "mirror",
     "meaningZh": "镜子",
+    "example": "This is the mirror.",
+    "exampleZh": "这是镜子。",
     "topic": "home",
     "tags": [
       "home"
@@ -329,6 +379,8 @@
     "word": "office",
     "normalizedWord": "office",
     "meaningZh": "办公室",
+    "example": "This is the office.",
+    "exampleZh": "这是办公室。",
     "topic": "home",
     "tags": [
       "home"
@@ -342,6 +394,8 @@
     "word": "picture",
     "normalizedWord": "picture",
     "meaningZh": "图片",
+    "example": "This is the picture.",
+    "exampleZh": "这是图片。",
     "topic": "home",
     "tags": [
       "home"
@@ -355,6 +409,8 @@
     "word": "plant",
     "normalizedWord": "plant",
     "meaningZh": "植物",
+    "example": "This is the plant.",
+    "exampleZh": "这是植物。",
     "topic": "home",
     "tags": [
       "home"
@@ -368,6 +424,8 @@
     "word": "pool",
     "normalizedWord": "pool",
     "meaningZh": "游泳池",
+    "example": "This is the pool.",
+    "exampleZh": "这是游泳池。",
     "topic": "home",
     "tags": [
       "home"
@@ -381,6 +439,8 @@
     "word": "room",
     "normalizedWord": "room",
     "meaningZh": "房间",
+    "example": "This is the room.",
+    "exampleZh": "这是房间。",
     "topic": "home",
     "tags": [
       "home"
@@ -394,6 +454,8 @@
     "word": "sofa",
     "normalizedWord": "sofa",
     "meaningZh": "沙发",
+    "example": "This is the sofa.",
+    "exampleZh": "这是沙发。",
     "topic": "home",
     "tags": [
       "home"
@@ -407,6 +469,8 @@
     "word": "staircase",
     "normalizedWord": "staircase",
     "meaningZh": "楼梯",
+    "example": "This is the staircase.",
+    "exampleZh": "这是楼梯。",
     "topic": "home",
     "tags": [
       "home"
@@ -420,6 +484,8 @@
     "word": "table",
     "normalizedWord": "table",
     "meaningZh": "桌子",
+    "example": "This is the table.",
+    "exampleZh": "这是桌子。",
     "topic": "home",
     "tags": [
       "home"
@@ -433,6 +499,8 @@
     "word": "towel",
     "normalizedWord": "towel",
     "meaningZh": "毛巾",
+    "example": "This is the towel.",
+    "exampleZh": "这是毛巾。",
     "topic": "home",
     "tags": [
       "home"
@@ -446,6 +514,8 @@
     "word": "tower",
     "normalizedWord": "tower",
     "meaningZh": "塔",
+    "example": "This is the tower.",
+    "exampleZh": "这是塔。",
     "topic": "home",
     "tags": [
       "home"
@@ -459,6 +529,8 @@
     "word": "wall",
     "normalizedWord": "wall",
     "meaningZh": "墙",
+    "example": "This is the wall.",
+    "exampleZh": "这是墙。",
     "topic": "home",
     "tags": [
       "home"
@@ -472,6 +544,8 @@
     "word": "window",
     "normalizedWord": "window",
     "meaningZh": "窗户",
+    "example": "This is the window.",
+    "exampleZh": "这是窗户。",
     "topic": "home",
     "tags": [
       "home"

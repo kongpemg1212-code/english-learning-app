@@ -4,6 +4,8 @@
     "word": "ambulance",
     "normalizedWord": "ambulance",
     "meaningZh": "救护车",
+    "example": "I can see an ambulance.",
+    "exampleZh": "我能看到一辆救护车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -17,6 +19,8 @@
     "word": "bike",
     "normalizedWord": "bike",
     "meaningZh": "自行车",
+    "example": "I can see a bike.",
+    "exampleZh": "我能看到一辆自行车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -30,6 +34,8 @@
     "word": "boat",
     "normalizedWord": "boat",
     "meaningZh": "船",
+    "example": "I can see a boat.",
+    "exampleZh": "我能看到一辆船。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -43,6 +49,8 @@
     "word": "bus",
     "normalizedWord": "bus",
     "meaningZh": "公共汽车",
+    "example": "I can see a bus.",
+    "exampleZh": "我能看到一辆公共汽车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -56,6 +64,8 @@
     "word": "car",
     "normalizedWord": "car",
     "meaningZh": "汽车",
+    "example": "I can see a car.",
+    "exampleZh": "我能看到一辆汽车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -69,6 +79,8 @@
     "word": "coach",
     "normalizedWord": "coach",
     "meaningZh": "长途汽车",
+    "example": "I can see a coach.",
+    "exampleZh": "我能看到一辆长途汽车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -82,6 +94,8 @@
     "word": "helicopter",
     "normalizedWord": "helicopter",
     "meaningZh": "直升机",
+    "example": "I can see a helicopter.",
+    "exampleZh": "我能看到一辆直升机。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -95,6 +109,8 @@
     "word": "lorry",
     "normalizedWord": "lorry",
     "meaningZh": "卡车",
+    "example": "I can see a lorry.",
+    "exampleZh": "我能看到一辆卡车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -108,6 +124,8 @@
     "word": "motorbike",
     "normalizedWord": "motorbike",
     "meaningZh": "摩托车",
+    "example": "I can see a motorbike.",
+    "exampleZh": "我能看到一辆摩托车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -121,6 +139,8 @@
     "word": "plane",
     "normalizedWord": "plane",
     "meaningZh": "飞机",
+    "example": "I can see a plane.",
+    "exampleZh": "我能看到一辆飞机。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -134,6 +154,8 @@
     "word": "ship",
     "normalizedWord": "ship",
     "meaningZh": "船",
+    "example": "I can see a ship.",
+    "exampleZh": "我能看到一辆船。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -147,6 +169,8 @@
     "word": "taxi",
     "normalizedWord": "taxi",
     "meaningZh": "出租车",
+    "example": "I can see a taxi.",
+    "exampleZh": "我能看到一辆出租车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -160,6 +184,8 @@
     "word": "tractor",
     "normalizedWord": "tractor",
     "meaningZh": "拖拉机",
+    "example": "I can see a tractor.",
+    "exampleZh": "我能看到一辆拖拉机。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -173,6 +199,8 @@
     "word": "train",
     "normalizedWord": "train",
     "meaningZh": "火车",
+    "example": "I can see a train.",
+    "exampleZh": "我能看到一辆火车。",
     "topic": "transport",
     "tags": [
       "transport"
@@ -186,6 +214,8 @@
     "word": "truck",
     "normalizedWord": "truck",
     "meaningZh": "卡车",
+    "example": "I can see a truck.",
+    "exampleZh": "我能看到一辆卡车。",
     "topic": "transport",
     "tags": [
       "transport"

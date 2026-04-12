@@ -4,6 +4,8 @@
     "word": "black",
     "normalizedWord": "black",
     "meaningZh": "黑色",
+    "example": "It is black.",
+    "exampleZh": "它是黑色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -17,6 +19,8 @@
     "word": "blue",
     "normalizedWord": "blue",
     "meaningZh": "蓝色",
+    "example": "It is blue.",
+    "exampleZh": "它是蓝色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -30,6 +34,8 @@
     "word": "brown",
     "normalizedWord": "brown",
     "meaningZh": "棕色",
+    "example": "It is brown.",
+    "exampleZh": "它是棕色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -43,6 +49,8 @@
     "word": "colour",
     "normalizedWord": "colour",
     "meaningZh": "颜色",
+    "example": "It is colour.",
+    "exampleZh": "它是颜色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -56,6 +64,8 @@
     "word": "gray",
     "normalizedWord": "gray",
     "meaningZh": "灰色",
+    "example": "It is gray.",
+    "exampleZh": "它是灰色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -69,6 +79,8 @@
     "word": "green",
     "normalizedWord": "green",
     "meaningZh": "绿色",
+    "example": "It is green.",
+    "exampleZh": "它是绿色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -82,6 +94,8 @@
     "word": "grey",
     "normalizedWord": "grey",
     "meaningZh": "灰色",
+    "example": "It is grey.",
+    "exampleZh": "它是灰色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -95,6 +109,8 @@
     "word": "orange",
     "normalizedWord": "orange",
     "meaningZh": "橙色",
+    "example": "It is orange.",
+    "exampleZh": "它是橙色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -108,6 +124,8 @@
     "word": "pink",
     "normalizedWord": "pink",
     "meaningZh": "粉色",
+    "example": "It is pink.",
+    "exampleZh": "它是粉色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -121,6 +139,8 @@
     "word": "purple",
     "normalizedWord": "purple",
     "meaningZh": "紫色",
+    "example": "It is purple.",
+    "exampleZh": "它是紫色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -134,6 +154,8 @@
     "word": "red",
     "normalizedWord": "red",
     "meaningZh": "红色",
+    "example": "It is red.",
+    "exampleZh": "它是红色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -147,6 +169,8 @@
     "word": "white",
     "normalizedWord": "white",
     "meaningZh": "白色",
+    "example": "It is white.",
+    "exampleZh": "它是白色的。",
     "topic": "colours",
     "tags": [
       "colours"
@@ -160,6 +184,8 @@
     "word": "yellow",
     "normalizedWord": "yellow",
     "meaningZh": "黄色",
+    "example": "It is yellow.",
+    "exampleZh": "它是黄色的。",
     "topic": "colours",
     "tags": [
       "colours"

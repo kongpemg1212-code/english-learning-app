@@ -4,6 +4,8 @@
     "word": "behind",
     "normalizedWord": "behind",
     "meaningZh": "在...后面",
+    "example": "The behind is here.",
+    "exampleZh": "在...后面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -17,6 +19,8 @@
     "word": "between",
     "normalizedWord": "between",
     "meaningZh": "在...之间",
+    "example": "The between is here.",
+    "exampleZh": "在...之间在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -30,6 +34,8 @@
     "word": "bookshop",
     "normalizedWord": "bookshop",
     "meaningZh": "书店",
+    "example": "The bookshop is here.",
+    "exampleZh": "书店在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -43,6 +49,8 @@
     "word": "end",
     "normalizedWord": "end",
     "meaningZh": "结束",
+    "example": "The end is here.",
+    "exampleZh": "结束在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -56,6 +64,8 @@
     "word": "here",
     "normalizedWord": "here",
     "meaningZh": "这里",
+    "example": "The here is here.",
+    "exampleZh": "这里在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -69,6 +79,8 @@
     "word": "in",
     "normalizedWord": "in",
     "meaningZh": "在...里面",
+    "example": "The in is here.",
+    "exampleZh": "在...里面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -82,6 +94,8 @@
     "word": "in front of",
     "normalizedWord": "in front of",
     "meaningZh": "在...前面",
+    "example": "The in front of is here.",
+    "exampleZh": "在...前面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -95,6 +109,8 @@
     "word": "next to",
     "normalizedWord": "next to",
     "meaningZh": "紧邻",
+    "example": "The next to is here.",
+    "exampleZh": "紧邻在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -108,6 +124,8 @@
     "word": "on",
     "normalizedWord": "on",
     "meaningZh": "在...上面",
+    "example": "The on is here.",
+    "exampleZh": "在...上面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -121,6 +139,8 @@
     "word": "park",
     "normalizedWord": "park",
     "meaningZh": "公园",
+    "example": "The park is here.",
+    "exampleZh": "公园在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -134,6 +154,8 @@
     "word": "playground",
     "normalizedWord": "playground",
     "meaningZh": "操场",
+    "example": "The playground is here.",
+    "exampleZh": "操场在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -147,6 +169,8 @@
     "word": "shop",
     "normalizedWord": "shop",
     "meaningZh": "商店",
+    "example": "The shop is here.",
+    "exampleZh": "商店在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -160,6 +184,8 @@
     "word": "store",
     "normalizedWord": "store",
     "meaningZh": "商店",
+    "example": "The store is here.",
+    "exampleZh": "商店在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -173,6 +199,8 @@
     "word": "street",
     "normalizedWord": "street",
     "meaningZh": "街道",
+    "example": "The street is here.",
+    "exampleZh": "街道在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -186,6 +214,8 @@
     "word": "there",
     "normalizedWord": "there",
     "meaningZh": "那里",
+    "example": "The there is here.",
+    "exampleZh": "那里在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -199,6 +229,8 @@
     "word": "under",
     "normalizedWord": "under",
     "meaningZh": "在...下面",
+    "example": "The under is here.",
+    "exampleZh": "在...下面在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"
@@ -212,6 +244,8 @@
     "word": "zoo",
     "normalizedWord": "zoo",
     "meaningZh": "动物园",
+    "example": "The zoo is here.",
+    "exampleZh": "动物园在这里。",
     "topic": "places-and-directions",
     "tags": [
       "places-and-directions"

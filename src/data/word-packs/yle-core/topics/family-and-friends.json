@@ -4,6 +4,8 @@
     "word": "baby",
     "normalizedWord": "baby",
     "meaningZh": "婴儿",
+    "example": "This is my baby.",
+    "exampleZh": "这是我的婴儿。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -17,6 +19,8 @@
     "word": "boy",
     "normalizedWord": "boy",
     "meaningZh": "男孩",
+    "example": "This is my boy.",
+    "exampleZh": "这是我的男孩。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -30,6 +34,8 @@
     "word": "brother",
     "normalizedWord": "brother",
     "meaningZh": "兄弟",
+    "example": "This is my brother.",
+    "exampleZh": "这是我的兄弟。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -43,6 +49,8 @@
     "word": "child",
     "normalizedWord": "child",
     "meaningZh": "孩子/孩子们",
+    "example": "This is my child.",
+    "exampleZh": "这是我的孩子/孩子们。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -56,6 +64,8 @@
     "word": "classmate",
     "normalizedWord": "classmate",
     "meaningZh": "同学",
+    "example": "This is my classmate.",
+    "exampleZh": "这是我的同学。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -69,6 +79,8 @@
     "word": "cousin",
     "normalizedWord": "cousin",
     "meaningZh": "表兄弟姐妹",
+    "example": "This is my cousin.",
+    "exampleZh": "这是我的表兄弟姐妹。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -82,6 +94,8 @@
     "word": "dad",
     "normalizedWord": "dad",
     "meaningZh": "爸爸",
+    "example": "This is my dad.",
+    "exampleZh": "这是我的爸爸。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -95,6 +109,8 @@
     "word": "family",
     "normalizedWord": "family",
     "meaningZh": "家庭",
+    "example": "This is my family.",
+    "exampleZh": "这是我的家庭。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -108,6 +124,8 @@
     "word": "father",
     "normalizedWord": "father",
     "meaningZh": "父亲",
+    "example": "This is my father.",
+    "exampleZh": "这是我的父亲。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -121,6 +139,8 @@
     "word": "friend",
     "normalizedWord": "friend",
     "meaningZh": "朋友",
+    "example": "This is my friend.",
+    "exampleZh": "这是我的朋友。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -134,6 +154,8 @@
     "word": "girl",
     "normalizedWord": "girl",
     "meaningZh": "女孩",
+    "example": "This is my girl.",
+    "exampleZh": "这是我的女孩。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -147,6 +169,8 @@
     "word": "grandfather",
     "normalizedWord": "grandfather",
     "meaningZh": "爷爷/外公",
+    "example": "This is my grandfather.",
+    "exampleZh": "这是我的爷爷/外公。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -160,6 +184,8 @@
     "word": "grandma",
     "normalizedWord": "grandma",
     "meaningZh": "奶奶/外婆",
+    "example": "This is my grandma.",
+    "exampleZh": "这是我的奶奶/外婆。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -173,6 +199,8 @@
     "word": "grandmother",
     "normalizedWord": "grandmother",
     "meaningZh": "奶奶/外婆",
+    "example": "This is my grandmother.",
+    "exampleZh": "这是我的奶奶/外婆。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -186,6 +214,8 @@
     "word": "grandpa",
     "normalizedWord": "grandpa",
     "meaningZh": "爷爷/外公",
+    "example": "This is my grandpa.",
+    "exampleZh": "这是我的爷爷/外公。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -199,6 +229,8 @@
     "word": "grandparent",
     "normalizedWord": "grandparent",
     "meaningZh": "祖父母",
+    "example": "This is my grandparent.",
+    "exampleZh": "这是我的祖父母。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -212,6 +244,8 @@
     "word": "kid",
     "normalizedWord": "kid",
     "meaningZh": "小孩",
+    "example": "This is my kid.",
+    "exampleZh": "这是我的小孩。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -225,6 +259,8 @@
     "word": "man",
     "normalizedWord": "man",
     "meaningZh": "男人",
+    "example": "This is my man.",
+    "exampleZh": "这是我的男人。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -238,6 +274,8 @@
     "word": "mother",
     "normalizedWord": "mother",
     "meaningZh": "妈妈",
+    "example": "This is my mother.",
+    "exampleZh": "这是我的妈妈。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -251,6 +289,8 @@
     "word": "mum",
     "normalizedWord": "mum",
     "meaningZh": "妈妈",
+    "example": "This is my mum.",
+    "exampleZh": "这是我的妈妈。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -264,6 +304,8 @@
     "word": "old person",
     "normalizedWord": "old person",
     "meaningZh": "老人",
+    "example": "This is my old person.",
+    "exampleZh": "这是我的老人。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -277,6 +319,8 @@
     "word": "parent",
     "normalizedWord": "parent",
     "meaningZh": "父母",
+    "example": "This is my parent.",
+    "exampleZh": "这是我的父母。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -290,6 +334,8 @@
     "word": "sister",
     "normalizedWord": "sister",
     "meaningZh": "姐妹",
+    "example": "This is my sister.",
+    "exampleZh": "这是我的姐妹。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -303,6 +349,8 @@
     "word": "woman",
     "normalizedWord": "woman",
     "meaningZh": "女人/女人们",
+    "example": "This is my woman.",
+    "exampleZh": "这是我的女人/女人们。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"
@@ -316,6 +364,8 @@
     "word": "young",
     "normalizedWord": "young",
     "meaningZh": "年轻的",
+    "example": "This is my young.",
+    "exampleZh": "这是我的年轻的。",
     "topic": "family-and-friends",
     "tags": [
       "family-and-friends"

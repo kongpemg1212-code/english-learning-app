@@ -4,6 +4,8 @@
     "word": "animal",
     "normalizedWord": "animal",
     "meaningZh": "动物",
+    "example": "Look at an animal.",
+    "exampleZh": "看这个动物。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -17,6 +19,8 @@
     "word": "bear",
     "normalizedWord": "bear",
     "meaningZh": "熊",
+    "example": "Look at a bear.",
+    "exampleZh": "看这个熊。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -30,6 +34,8 @@
     "word": "bee",
     "normalizedWord": "bee",
     "meaningZh": "蜜蜂",
+    "example": "Look at a bee.",
+    "exampleZh": "看这个蜜蜂。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -43,6 +49,8 @@
     "word": "bird",
     "normalizedWord": "bird",
     "meaningZh": "鸟",
+    "example": "Look at a bird.",
+    "exampleZh": "看这个鸟。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -56,6 +64,8 @@
     "word": "cat",
     "normalizedWord": "cat",
     "meaningZh": "猫",
+    "example": "Look at a cat.",
+    "exampleZh": "看这个猫。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -69,6 +79,8 @@
     "word": "chicken",
     "normalizedWord": "chicken",
     "meaningZh": "鸡",
+    "example": "Look at a chicken.",
+    "exampleZh": "看这个鸡。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -82,6 +94,8 @@
     "word": "cow",
     "normalizedWord": "cow",
     "meaningZh": "奶牛",
+    "example": "Look at a cow.",
+    "exampleZh": "看这个奶牛。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -95,6 +109,8 @@
     "word": "crocodile",
     "normalizedWord": "crocodile",
     "meaningZh": "鳄鱼",
+    "example": "Look at a crocodile.",
+    "exampleZh": "看这个鳄鱼。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -108,6 +124,8 @@
     "word": "dog",
     "normalizedWord": "dog",
     "meaningZh": "狗",
+    "example": "Look at a dog.",
+    "exampleZh": "看这个狗。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -121,6 +139,8 @@
     "word": "donkey",
     "normalizedWord": "donkey",
     "meaningZh": "驴",
+    "example": "Look at a donkey.",
+    "exampleZh": "看这个驴。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -134,6 +154,8 @@
     "word": "duck",
     "normalizedWord": "duck",
     "meaningZh": "鸭子",
+    "example": "Look at a duck.",
+    "exampleZh": "看这个鸭子。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -147,6 +169,8 @@
     "word": "elephant",
     "normalizedWord": "elephant",
     "meaningZh": "大象",
+    "example": "Look at an elephant.",
+    "exampleZh": "看这个大象。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -160,6 +184,8 @@
     "word": "fish",
     "normalizedWord": "fish",
     "meaningZh": "鱼",
+    "example": "Look at a fish.",
+    "exampleZh": "看这个鱼。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -173,6 +199,8 @@
     "word": "fox",
     "normalizedWord": "fox",
     "meaningZh": "狐狸",
+    "example": "Look at a fox.",
+    "exampleZh": "看这个狐狸。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -186,6 +214,8 @@
     "word": "frog",
     "normalizedWord": "frog",
     "meaningZh": "青蛙",
+    "example": "Look at a frog.",
+    "exampleZh": "看这个青蛙。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -199,6 +229,8 @@
     "word": "giraffe",
     "normalizedWord": "giraffe",
     "meaningZh": "长颈鹿",
+    "example": "Look at a giraffe.",
+    "exampleZh": "看这个长颈鹿。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -212,6 +244,8 @@
     "word": "goat",
     "normalizedWord": "goat",
     "meaningZh": "山羊",
+    "example": "Look at a goat.",
+    "exampleZh": "看这个山羊。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -225,6 +259,8 @@
     "word": "hippo",
     "normalizedWord": "hippo",
     "meaningZh": "河马",
+    "example": "Look at a hippo.",
+    "exampleZh": "看这个河马。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -238,6 +274,8 @@
     "word": "horse",
     "normalizedWord": "horse",
     "meaningZh": "马",
+    "example": "Look at a horse.",
+    "exampleZh": "看这个马。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -251,6 +289,8 @@
     "word": "lizard",
     "normalizedWord": "lizard",
     "meaningZh": "蜥蜴",
+    "example": "Look at a lizard.",
+    "exampleZh": "看这个蜥蜴。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -264,6 +304,8 @@
     "word": "monkey",
     "normalizedWord": "monkey",
     "meaningZh": "猴子",
+    "example": "Look at a monkey.",
+    "exampleZh": "看这个猴子。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -277,6 +319,8 @@
     "word": "mouse",
     "normalizedWord": "mouse",
     "meaningZh": "老鼠",
+    "example": "Look at a mouse.",
+    "exampleZh": "看这个老鼠。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -290,6 +334,8 @@
     "word": "panda",
     "normalizedWord": "panda",
     "meaningZh": "熊猫",
+    "example": "Look at a panda.",
+    "exampleZh": "看这个熊猫。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -303,6 +349,8 @@
     "word": "pet",
     "normalizedWord": "pet",
     "meaningZh": "宠物",
+    "example": "Look at a pet.",
+    "exampleZh": "看这个宠物。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -316,6 +364,8 @@
     "word": "sheep",
     "normalizedWord": "sheep",
     "meaningZh": "绵羊",
+    "example": "Look at a sheep.",
+    "exampleZh": "看这个绵羊。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -329,6 +379,8 @@
     "word": "snake",
     "normalizedWord": "snake",
     "meaningZh": "蛇",
+    "example": "Look at a snake.",
+    "exampleZh": "看这个蛇。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -342,6 +394,8 @@
     "word": "spider",
     "normalizedWord": "spider",
     "meaningZh": "蜘蛛",
+    "example": "Look at a spider.",
+    "exampleZh": "看这个蜘蛛。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -355,6 +409,8 @@
     "word": "tail",
     "normalizedWord": "tail",
     "meaningZh": "尾巴",
+    "example": "Look at a tail.",
+    "exampleZh": "看这个尾巴。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -368,6 +424,8 @@
     "word": "tiger",
     "normalizedWord": "tiger",
     "meaningZh": "老虎",
+    "example": "Look at a tiger.",
+    "exampleZh": "看这个老虎。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -381,6 +439,8 @@
     "word": "zebra",
     "normalizedWord": "zebra",
     "meaningZh": "斑马",
+    "example": "Look at a zebra.",
+    "exampleZh": "看这个斑马。",
     "topic": "animals",
     "tags": [
       "animals"
@@ -394,6 +454,8 @@
     "word": "zoo",
     "normalizedWord": "zoo",
     "meaningZh": "动物园",
+    "example": "Look at a zoo.",
+    "exampleZh": "看这个动物园。",
     "topic": "animals",
     "tags": [
       "animals"

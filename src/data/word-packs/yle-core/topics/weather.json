@@ -4,6 +4,8 @@
     "word": "cloud",
     "normalizedWord": "cloud",
     "meaningZh": "云",
+    "example": "It is cloud today.",
+    "exampleZh": "今天天气云。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -17,6 +19,8 @@
     "word": "cloudy",
     "normalizedWord": "cloudy",
     "meaningZh": "多云的",
+    "example": "It is cloudy today.",
+    "exampleZh": "今天天气多云的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -30,6 +34,8 @@
     "word": "rain",
     "normalizedWord": "rain",
     "meaningZh": "雨",
+    "example": "It is rain today.",
+    "exampleZh": "今天天气雨。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -43,6 +49,8 @@
     "word": "rainy",
     "normalizedWord": "rainy",
     "meaningZh": "下雨的",
+    "example": "It is rainy today.",
+    "exampleZh": "今天天气下雨的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -56,6 +64,8 @@
     "word": "snow",
     "normalizedWord": "snow",
     "meaningZh": "雪",
+    "example": "It is snow today.",
+    "exampleZh": "今天天气雪。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -69,6 +79,8 @@
     "word": "snowy",
     "normalizedWord": "snowy",
     "meaningZh": "下雪的",
+    "example": "It is snowy today.",
+    "exampleZh": "今天天气下雪的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -82,6 +94,8 @@
     "word": "sun",
     "normalizedWord": "sun",
     "meaningZh": "太阳",
+    "example": "It is sun today.",
+    "exampleZh": "今天天气太阳。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -95,6 +109,8 @@
     "word": "sunny",
     "normalizedWord": "sunny",
     "meaningZh": "阳光充足的",
+    "example": "It is sunny today.",
+    "exampleZh": "今天天气阳光充足的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -108,6 +124,8 @@
     "word": "warm",
     "normalizedWord": "warm",
     "meaningZh": "温暖的",
+    "example": "It is warm today.",
+    "exampleZh": "今天天气温暖的。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -121,6 +139,8 @@
     "word": "weather",
     "normalizedWord": "weather",
     "meaningZh": "天气",
+    "example": "It is weather today.",
+    "exampleZh": "今天天气天气。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -134,6 +154,8 @@
     "word": "wind",
     "normalizedWord": "wind",
     "meaningZh": "风",
+    "example": "It is wind today.",
+    "exampleZh": "今天天气风。",
     "topic": "weather",
     "tags": [
       "weather"
@@ -147,6 +169,8 @@
     "word": "windy",
     "normalizedWord": "windy",
     "meaningZh": "有风的",
+    "example": "It is windy today.",
+    "exampleZh": "今天天气有风的。",
     "topic": "weather",
     "tags": [
       "weather"
