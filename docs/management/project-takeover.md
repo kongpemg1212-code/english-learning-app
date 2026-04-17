@@ -42,12 +42,12 @@
 - 重点关注：`src/features/import/`、`src/data/word-packs/`、`src/components/ui/wordVisualMap.ts`
 - 成功信号：导入后主题可见、任务可生成、句子和图形兜底可用
 
-### C. 持久化与云端存档
+### C. 持久化与本机账号
 
-目标是降低本地记录、轻量账号云端找回、词库切换之间的认知和回归风险。
+目标是降低本机 SQLite、轻量账号切换、词库切换之间的认知和回归风险。
 
-- 重点关注：`src/storage/`、`src/lib/supabase.ts`、`src/features/profile/`、`src/pages/ParentPage.tsx`
-- 成功信号：云端状态可理解、失败有提示、已有学习数据不会悄悄丢失
+- 重点关注：`src/storage/`、`src/storage/sqlite/`、`src/features/profile/`、`src/pages/ParentPage.tsx`
+- 成功信号：本机状态可理解、切换账号不会串档、已有学习数据不会悄悄丢失
 
 ### D. 交付与发布可预测性
 
@@ -98,6 +98,6 @@
 ## 8. 当前主要风险
 
 - 学习引擎、页面状态和持久化之间存在跨文件耦合，容易出现“局部改好，整链路退化”。
-- 本地优先与轻量账号云端并存，最容易在切换、首次同步和异常提示处出现体验断层。
+- 本机 SQLite 与轻量账号切换并存，最容易在切换、首次写入和异常恢复处出现体验断层。
 - 在线 Pages 版本与本地 `standalone.html` 同时存在，发布链路需要持续对齐。
 - 词包 schema、导入清洗和视觉兜底是同一条内容链路，任何一环变更都可能影响今日任务和地图主题。

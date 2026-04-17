@@ -1,21 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 
-import {
-  getCloudAppState,
-  hasSupabaseConfig,
-  saveCloudAppState,
-} from '../../lib/supabase'
-import { getDailySessionRepo } from '../../storage/repositories/dailySessionRepo'
-import { getWordProgressRepo } from '../../storage/repositories/wordProgressRepo'
 import { createDefaultCloudAppState, useAppStore } from '../../store/useAppStore'
+import { loadProfileState, saveProfileState } from '../../storage/sqlite/client'
 
 import { DEFAULT_PROFILE_ID, generateProfileId } from './profileId'
 
-async function clearLocalLearningData() {
-  await Promise.all([getWordProgressRepo().clear(), getDailySessionRepo().clear()])
-}
-
-export function useCloudProfileSync() {
+export function useLocalProfileSync() {
   const cloudProfileId = useAppStore((state) => state.cloudProfileId)
   const setCloudProfileId = useAppStore((state) => state.setCloudProfileId)
   const applyCloudAppState = useAppStore((state) => state.applyCloudAppState)
@@ -77,28 +67,10 @@ export function useCloudProfileSync() {
     let active = true
 
     async function hydrateProfile() {
-      const previousProfileId = previousProfileIdRef.current
-      if (previousProfileId && previousProfileId !== nextProfileId) {
-        await clearLocalLearningData()
-        useAppStore.setState((state) => ({
-          ...state,
-          ...createDefaultCloudAppState(),
-          cloudProfileId: nextProfileId,
-        }))
-      }
-
-      if (!hasSupabaseConfig) {
-        if (active) {
-          previousProfileIdRef.current = nextProfileId
-          setHydratedProfileId(nextProfileId)
-        }
-        return
-      }
-
       try {
-        const cloudSnapshot = await getCloudAppState(nextProfileId)
-        if (active && cloudSnapshot) {
-          applyCloudAppState(cloudSnapshot)
+        const localSnapshot = await loadProfileState(nextProfileId)
+        if (active) {
+          applyCloudAppState(localSnapshot ?? createDefaultCloudAppState())
         }
       } finally {
         if (active) {
@@ -106,6 +78,10 @@ export function useCloudProfileSync() {
           setHydratedProfileId(nextProfileId)
         }
       }
+    }
+
+    if (previousProfileIdRef.current && previousProfileIdRef.current !== nextProfileId) {
+      applyCloudAppState(createDefaultCloudAppState())
     }
 
     void hydrateProfile()
@@ -116,12 +92,12 @@ export function useCloudProfileSync() {
   }, [applyCloudAppState, cloudProfileId])
 
   useEffect(() => {
-    if (!hasSupabaseConfig || !cloudProfileId || hydratedProfileId !== cloudProfileId) {
+    if (!cloudProfileId || hydratedProfileId !== cloudProfileId) {
       return
     }
 
     const timer = window.setTimeout(() => {
-      void saveCloudAppState(cloudProfileId, snapshot).catch(() => undefined)
+      void saveProfileState(cloudProfileId, snapshot).catch(() => undefined)
     }, 180)
 
     return () => {
@@ -132,8 +108,7 @@ export function useCloudProfileSync() {
   return useMemo(
     () => ({
       profileId: cloudProfileId ?? '',
-      cloudEnabled: hasSupabaseConfig,
-      synced: hasSupabaseConfig && hydratedProfileId === cloudProfileId,
+      synced: hydratedProfileId === cloudProfileId,
     }),
     [cloudProfileId, hydratedProfileId],
   )

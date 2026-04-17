@@ -16,7 +16,7 @@ beforeEach(() => {
     selectedPackId: undefined,
     importedPacks: [],
     soundEnabled: true,
-    cloudProfileId: 'kid-home-1234',
+    cloudProfileId: 'maya',
   })
 })
 

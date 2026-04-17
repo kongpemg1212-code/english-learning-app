@@ -14,7 +14,6 @@ type AppShellProps = PropsWithChildren<{
   onNavigate: (route: AppRoute) => void
   profileLabel?: string
   currentPackName?: string
-  cloudEnabled?: boolean
 }>
 
 export function AppShell({
@@ -23,7 +22,6 @@ export function AppShell({
   onNavigate,
   profileLabel,
   currentPackName,
-  cloudEnabled = false,
 }: AppShellProps) {
   return (
     <div style={{ minHeight: '100vh', paddingBottom: '92px' }}>
@@ -51,7 +49,7 @@ export function AppShell({
               ) : null}
             </div>
             <span style={{ color: 'var(--color-text-light)', fontWeight: 700 }}>
-              {cloudEnabled ? '轻量云端同步中' : '当前仅本机保存'}
+              本机 SQLite 保存
             </span>
           </header>
         ) : null}

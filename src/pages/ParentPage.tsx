@@ -6,7 +6,6 @@ import { normalizeImportedPack } from '../features/import/normalizeImportedPack'
 import { parseCsv } from '../features/import/parseCsv'
 import { Card } from '../components/ui/Card'
 import { useAppStore } from '../store/useAppStore'
-import { hasSupabaseConfig } from '../lib/supabase'
 
 export function ParentPage() {
   const totalStars = useAppStore((state) => state.totalStars)
@@ -128,9 +127,7 @@ export function ParentPage() {
             切换账号并找回历史
           </button>
           <p style={{ margin: 0, color: 'var(--color-text-light)' }}>
-            {hasSupabaseConfig
-              ? '这是轻量账号，不是复杂登录。知道账号的人都能切换到这份记录，所以请只在自己家里使用。'
-              : '当前还没有配置 Supabase，所以现在仍然只是本机保存。配置好后，这个账号才会跨设备生效。'}
+            这是本机 SQLite 里的轻量账号，不是复杂登录。知道账号名字的人，都可以在这台设备上切换到这份记录。
           </p>
         </div>
         <div style={{ display: 'grid', gap: '10px' }}>

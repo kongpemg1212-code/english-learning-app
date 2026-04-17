@@ -14,7 +14,7 @@
 
 - 在 `进度 -> 家长页` 看当前词库、星星、连续学习
 - 可以输入一个简单名字作为学习账号，例如 `maya`
-- 换设备时输入同一个名字，就会尝试找回历史
+- 同一台设备上切换这个名字时，会切换到对应的本地学习记录
 - 可以下载 CSV 模板、导入自己的词表、切换词库
 
 ## 当前产品形态
@@ -72,42 +72,24 @@
 - `src/engine/scoring.ts`
   星星与任务奖励计算。
 
-### 5. 存储与同步层
+### 5. 存储层
 
 - `src/store/useAppStore.ts`
   UI 级状态：星星、花园、当前主题、当前词库、声音开关、轻量账号等。
 - `src/storage/repositories/*.ts`
-  本地 IndexedDB + 云端同步仓库。
-- `src/lib/supabase.ts`
-  轻量账号云端同步。现在使用 `learning_profiles` 表，而不是匿名登录 metadata。
+  读写单词进度、每日任务。
+- `src/storage/sqlite/client.ts`
+  浏览器内 SQLite 客户端。把 profile 状态、单词进度、每日任务都存在本机 SQLite 数据库里。
 - `src/features/profile/*`
-  轻量账号名处理与同步逻辑。
+  轻量账号名处理与本地 profile 切换逻辑。
 
 ## 轻量账号说明
 
 - 这是单人自用的“找回历史”方案，不是正式账号系统
 - 推荐用好记的名字，例如 `maya`
-- 知道这个名字的人，也可以切换到同一份记录
-- 如果你后面真的需要更强安全性，再升级成邮箱登录或恢复码
-
-## Supabase 需要什么
-
-项目使用下面 3 个环境变量：
-
-```bash
-VITE_SUPABASE_URL=...
-VITE_SUPABASE_ANON_KEY=...
-VITE_PUBLIC_APP_URL=https://kongpemg1212-code.github.io/english-learning-app/
-```
-
-还需要先创建 `learning_profiles` 表：
-
-```bash
-# SQL 文件已放在这里
-supabase/sql/learning_profiles.sql
-```
-
-如果没配 Supabase 或没建表，应用会退回本机保存，网站仍然能用，只是不能跨设备找回。
+- 同一台设备上，知道这个名字的人也可以切换到这份记录
+- 这是本机方案，不支持不同设备之间自动同步
+- 如果你后面真的需要跨设备或更强安全性，再升级成正式账号体系
 
 ## 开发命令
 
@@ -124,7 +106,6 @@ npm run build
 - `src/`：应用源码
 - `src/data/word-packs/`：默认词库与主题数据
 - `docs/`：设计、计划、协议、工作流与总控文档
-- `supabase/sql/`：云端表结构 SQL
 - `scripts/`：词库导入与本地构建辅助脚本
 - `public/`：PWA 静态资源
 

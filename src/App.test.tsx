@@ -1,4 +1,12 @@
 import { render, screen } from '@testing-library/react'
+import { vi } from 'vitest'
+
+vi.mock('./features/profile/useLocalProfileSync', () => ({
+  useLocalProfileSync: () => ({
+    profileId: 'maya',
+    synced: true,
+  }),
+}))
 
 import App from './App'
 

@@ -12,11 +12,11 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.56.0",
     "framer-motion": "^12.23.24",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.9.5",
+    "sql.js": "^1.14.1",
     "zustand": "^5.0.8"
   },
   "devDependencies": {
@@ -27,11 +27,12 @@
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@types/sql.js": "^1.4.11",
     "@vitejs/plugin-react": "^5.2.0",
+    "esbuild": "^0.27.0",
     "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
-    "esbuild": "^0.27.0",
     "globals": "^17.4.0",
     "jsdom": "^27.1.0",
     "typescript": "~6.0.2",

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 import { AppShell } from './components/layout/AppShell'
 import { getActiveWordPack } from './data/word-packs/activePack'
-import { useCloudProfileSync } from './features/profile/useCloudProfileSync'
+import { useLocalProfileSync } from './features/profile/useLocalProfileSync'
 import { GardenPage } from './pages/GardenPage'
 import { MapPage } from './pages/MapPage'
 import { ParentPage } from './pages/ParentPage'
@@ -13,7 +13,7 @@ import { useAppStore } from './store/useAppStore'
 
 function App() {
   const [route, setRoute] = useState<AppRoute>(() => getRouteFromHash())
-  const profile = useCloudProfileSync()
+  const profile = useLocalProfileSync()
   const importedPacks = useAppStore((state) => state.importedPacks)
   const selectedPackId = useAppStore((state) => state.selectedPackId)
   const activePack = getActiveWordPack(importedPacks, selectedPackId)
@@ -43,7 +43,7 @@ function App() {
     content = <ParentPage />
   }
 
-  const profileLabel = profile.profileId ? `账号：${profile.profileId}` : '账号：仅本机'
+  const profileLabel = profile.profileId ? `账号：${profile.profileId}` : '账号：本机'
 
   return (
     <AppShell
@@ -51,7 +51,6 @@ function App() {
       onNavigate={navigateToRoute}
       profileLabel={profileLabel}
       currentPackName={activePack.meta.name}
-      cloudEnabled={profile.cloudEnabled}
     >
       {content}
     </AppShell>

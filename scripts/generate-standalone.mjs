@@ -19,8 +19,6 @@ const result = await build({
   target: ['es2020'],
   jsx: 'automatic',
   define: {
-    'import.meta.env.VITE_SUPABASE_URL': 'undefined',
-    'import.meta.env.VITE_SUPABASE_ANON_KEY': 'undefined',
     'import.meta.env.VITE_PUBLIC_APP_URL': 'undefined',
   },
   outdir,
@@ -29,14 +27,29 @@ const result = await build({
     '.svg': 'dataurl',
     '.png': 'dataurl',
     '.json': 'json',
+    '.wasm': 'file',
   },
 })
 
 const jsFile = result.outputFiles.find((file) => file.path.endsWith('.js'))
 const cssFile = result.outputFiles.find((file) => file.path.endsWith('.css'))
+const assetFiles = result.outputFiles.filter(
+  (file) => !file.path.endsWith('.js') && !file.path.endsWith('.css'),
+)
 
 if (!jsFile) {
   throw new Error('Standalone bundle generation failed: missing JS output')
+}
+
+for (const assetFile of assetFiles) {
+  await fs.mkdir(path.dirname(assetFile.path), { recursive: true })
+  await fs.writeFile(assetFile.path, assetFile.contents)
+}
+
+let jsText = jsFile.text
+for (const assetFile of assetFiles) {
+  const assetName = path.basename(assetFile.path)
+  jsText = jsText.replaceAll(`"./${assetName}"`, `"./standalone-bundle/${assetName}"`)
 }
 
 const html = `<!doctype html>
@@ -49,7 +62,7 @@ const html = `<!doctype html>
   </head>
   <body>
     <div id="root"></div>
-    <script>${jsFile.text}</script>
+    <script>${jsText}</script>
   </body>
 </html>
 `

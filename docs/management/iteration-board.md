@@ -18,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- |
 | P1 | 词包导入硬化 | 提高 CSV 归一化、主题可见性、图片/音频字段和闪卡兜底的稳定性 | `src/features/import/` `src/data/word-packs/` `src/components/ui/wordVisualMap.ts` `docs/workflows/pack-import.md` | 导入后可生成任务、可切词库、可见主题、句子不丢 | In Progress |
 | P1 | 真实素材升级 | 把默认词库从 emoji 兜底逐步升级成更像儿童闪卡的统一图片资产 | `src/data/word-packs/` `src/components/ui/WordVisual.tsx` `public/` | 高频主题拥有更高质量的卡通素材，不只依赖 emoji | Queued |
-| P1 | 家长端与云端状态清晰化 | 让轻量账号、历史找回、回填逻辑更可理解且更可验证 | `src/lib/supabase.ts` `src/features/profile/` `src/storage/` `src/pages/ParentPage.tsx` | 同步/失败/未配置云端时的用户感知更清楚 | In Progress |
+| P1 | 家长端与本机账号状态清晰化 | 让轻量账号、本机 SQLite、历史切换逻辑更可理解且更可验证 | `src/storage/sqlite/` `src/features/profile/` `src/storage/` `src/pages/ParentPage.tsx` | 切换账号后状态稳定、不会串档、用户感知清楚 | In Progress |
 
 ## Later
 
@@ -26,7 +26,7 @@
 | --- | --- | --- | --- | --- | --- |
 | P2 | 内容运营模板化 | 让新教材词表接入更像运营动作，而不是一次性工程处理 | `docs/workflows/pack-import.md` `src/features/import/` `src/data/word-packs/` | 新词表接入成本下降，回归步骤更清晰 | Watch |
 | P2 | 复习算法升级评估 | 在现有 Leitner 稳定后，再评估是否值得迁移到更复杂的调度模型 | `src/engine/scheduler.ts` `docs/superpowers/reference/review-scheduler.md` | 有明确收益假设和验证方案再开工 | Watch |
-| P2 | 跨设备恢复策略 | 评估是否从轻量账号升级到邮箱绑定或恢复码方案 | `src/lib/supabase.ts` `src/features/profile/` `docs/project-control.md` | 只有在真实用户场景需要时再升级 | Watch |
+| P2 | 跨设备恢复策略 | 如果未来重新需要跨设备，再评估是否从本机 SQLite 升级到正式账号或恢复码方案 | `src/storage/sqlite/` `src/features/profile/` `docs/project-control.md` | 只有在真实用户场景需要时再升级 | Watch |
 
 ## 每项任务必须补的证据
 
