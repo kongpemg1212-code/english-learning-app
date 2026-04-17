@@ -122,4 +122,4 @@ npm run build
 - [`docs/workflows/pack-import.md`](/Users/kong/Downloads/少儿单词背诵/docs/workflows/pack-import.md)
 - [`docs/workflows/release-checklist.md`](/Users/kong/Downloads/少儿单词背诵/docs/workflows/release-checklist.md)
 
-这个仓库仍然是一个以业务交付为主的前端应用仓库，不会为了 AI 工作流而引入重型目录和复杂约定。
+这个仓库仍然是一个以业务交付为主的前端应用仓库，不会为了 AI 工作流而引入重型目录和复杂约定。当前还主动关闭了旧的 service worker 缓存链路，避免 GitHub Pages 发布后手机端长期拿到旧页面。
