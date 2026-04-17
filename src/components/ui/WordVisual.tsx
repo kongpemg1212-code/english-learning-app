@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import type { WordItem } from '../../types/word'
 
+import { getBuiltInIllustration } from './builtInIllustrations'
 import { getBuiltInVisualToken } from './wordVisualMap'
 
 type WordVisualProps = {
@@ -18,6 +19,7 @@ const sizeMap = {
 export function WordVisual({ word, size = 'md' }: WordVisualProps) {
   const [imageFailed, setImageFailed] = useState(false)
   const config = sizeMap[size]
+  const builtInIllustration = getBuiltInIllustration(word, size)
   const emoji = getBuiltInVisualToken(word) ?? '✨'
 
   return (
@@ -51,6 +53,8 @@ export function WordVisual({ word, size = 'md' }: WordVisualProps) {
             padding: '10%',
           }}
         />
+      ) : builtInIllustration ? (
+        builtInIllustration
       ) : (
         emoji
       )}

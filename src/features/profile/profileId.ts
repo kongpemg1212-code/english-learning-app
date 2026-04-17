@@ -1,7 +1,7 @@
 export const DEFAULT_PROFILE_ID = 'maya'
 
 export function generateProfileId() {
-  return DEFAULT_PROFILE_ID
+  return `guest-${Math.random().toString(36).slice(2, 8)}`
 }
 
 export function normalizeProfileId(value: string) {

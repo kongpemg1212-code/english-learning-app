@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { createDefaultCloudAppState, useAppStore } from '../../store/useAppStore'
 import { loadProfileState, saveProfileState } from '../../storage/sqlite/client'
 
-import { DEFAULT_PROFILE_ID, generateProfileId } from './profileId'
+import { DEFAULT_PROFILE_ID } from './profileId'
 
 export function useLocalProfileSync() {
   const cloudProfileId = useAppStore((state) => state.cloudProfileId)
@@ -49,7 +49,6 @@ export function useLocalProfileSync() {
 
   useEffect(() => {
     if (!cloudProfileId) {
-      setCloudProfileId(generateProfileId())
       return
     }
 

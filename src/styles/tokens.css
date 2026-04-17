@@ -4,12 +4,12 @@
   --color-accent: #ffe66d;
   --color-success: #51cf66;
   --color-warning: #ffb347;
-  --color-bg: #fff8f0;
-  --color-surface: rgba(255, 255, 255, 0.92);
-  --color-surface-border: rgba(255, 107, 107, 0.16);
+  --color-bg: #fffaf4;
+  --color-surface: rgba(255, 255, 255, 0.95);
+  --color-surface-border: rgba(255, 160, 130, 0.20);
   --color-text: #3d3a35;
   --color-text-light: #6b675f;
-  --color-shadow: rgba(255, 107, 107, 0.18);
+  --color-shadow: rgba(255, 174, 140, 0.24);
 
   --font-heading: "Fredoka", "Baloo 2", "Trebuchet MS", "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --font-body: "Nunito", "Quicksand", system-ui, sans-serif;
@@ -22,8 +22,8 @@
   --touch-target: 64px;
   --touch-target-lg: 80px;
 
-  --shadow-card: 0 24px 48px -28px var(--color-shadow);
-  --shadow-button: 0 18px 32px -22px rgba(255, 107, 107, 0.5);
+  --shadow-card: 0 22px 40px -26px var(--color-shadow);
+  --shadow-button: 0 18px 32px -22px rgba(255, 137, 117, 0.38);
 }
 
 .touch-target {

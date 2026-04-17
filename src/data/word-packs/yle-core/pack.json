@@ -39,80 +39,87 @@
       "icon": "apple"
     },
     {
+      "id": "daily-routines",
+      "title": "Daily Routines",
+      "titleZh": "日常生活",
+      "order": 5,
+      "icon": "sunrise"
+    },
+    {
       "id": "home",
       "title": "The Home",
       "titleZh": "家",
-      "order": 5,
+      "order": 6,
       "icon": "home"
     },
     {
       "id": "school",
       "title": "School",
       "titleZh": "学校",
-      "order": 6,
+      "order": 7,
       "icon": "backpack"
     },
     {
       "id": "sports-and-leisure",
       "title": "Sports & Leisure",
       "titleZh": "运动和休闲",
-      "order": 7,
+      "order": 8,
       "icon": "ball"
     },
     {
       "id": "toys",
       "title": "Toys",
       "titleZh": "玩具",
-      "order": 8,
+      "order": 9,
       "icon": "toy"
     },
     {
       "id": "transport",
       "title": "Transport",
       "titleZh": "交通工具",
-      "order": 9,
+      "order": 10,
       "icon": "car"
     },
     {
       "id": "days-of-the-week",
       "title": "Days of the Week",
       "titleZh": "星期",
-      "order": 10,
+      "order": 11,
       "icon": "calendar"
     },
     {
       "id": "months",
       "title": "Months",
       "titleZh": "月份",
-      "order": 11,
+      "order": 12,
       "icon": "calendar-month"
     },
     {
       "id": "seasons",
       "title": "Seasons",
       "titleZh": "季节",
-      "order": 12,
+      "order": 13,
       "icon": "leaf"
     },
     {
       "id": "weather",
       "title": "Weather",
       "titleZh": "天气",
-      "order": 13,
+      "order": 14,
       "icon": "cloud"
     },
     {
       "id": "places-and-directions",
       "title": "Places & Directions",
       "titleZh": "地点和方向",
-      "order": 14,
+      "order": 15,
       "icon": "map-pin"
     },
     {
       "id": "work",
       "title": "Work",
       "titleZh": "工作",
-      "order": 15,
+      "order": 16,
       "icon": "briefcase"
     }
   ]

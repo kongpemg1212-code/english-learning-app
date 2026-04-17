@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { AppShell } from './components/layout/AppShell'
 import { getActiveWordPack } from './data/word-packs/activePack'
 import { useLocalProfileSync } from './features/profile/useLocalProfileSync'
+import { EntryPage } from './pages/EntryPage'
 import { GardenPage } from './pages/GardenPage'
 import { MapPage } from './pages/MapPage'
 import { ParentPage } from './pages/ParentPage'
@@ -13,7 +14,9 @@ import { useAppStore } from './store/useAppStore'
 
 function App() {
   const [route, setRoute] = useState<AppRoute>(() => getRouteFromHash())
+  const [hasEntered, setHasEntered] = useState(false)
   const profile = useLocalProfileSync()
+  const setCloudProfileId = useAppStore((state) => state.setCloudProfileId)
   const importedPacks = useAppStore((state) => state.importedPacks)
   const selectedPackId = useAppStore((state) => state.selectedPackId)
   const activePack = getActiveWordPack(importedPacks, selectedPackId)
@@ -30,6 +33,22 @@ function App() {
       window.removeEventListener('hashchange', onHashChange)
     }
   }, [])
+
+  if (!hasEntered) {
+    return (
+      <EntryPage
+        lastProfileId={profile.profileId}
+        onChooseTemporary={(profileId) => {
+          setCloudProfileId(profileId)
+          setHasEntered(true)
+        }}
+        onChooseNamed={(profileId) => {
+          setCloudProfileId(profileId)
+          setHasEntered(true)
+        }}
+      />
+    )
+  }
 
   let content = <TodayPage onNavigate={navigateToRoute} />
 

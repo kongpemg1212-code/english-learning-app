@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { vi } from 'vitest'
 
 vi.mock('./features/profile/useLocalProfileSync', () => ({
@@ -8,11 +9,25 @@ vi.mock('./features/profile/useLocalProfileSync', () => ({
   }),
 }))
 
+vi.mock('./pages/TodayPage', () => ({
+  TodayPage: () => <div>today-page</div>,
+}))
+
 import App from './App'
 
-test('renders the today mission instead of a login gate', () => {
+test('shows entry choices before entering the app', () => {
   render(<App />)
 
-  expect(screen.getByText('一起开始今天的英语冒险')).toBeInTheDocument()
-  expect(screen.getByRole('button', { name: '开始今天的冒险' })).toBeInTheDocument()
+  expect(screen.getByText('先选一种进入方式')).toBeInTheDocument()
+  expect(screen.getByRole('button', { name: '临时开始' })).toBeInTheDocument()
+  expect(screen.getByRole('button', { name: '继续学习' })).toBeInTheDocument()
+})
+
+test('enters the app after choosing a named profile', async () => {
+  const user = userEvent.setup()
+
+  render(<App />)
+  await user.click(screen.getByRole('button', { name: '继续学习' }))
+
+  expect(screen.getByText('today-page')).toBeInTheDocument()
 })

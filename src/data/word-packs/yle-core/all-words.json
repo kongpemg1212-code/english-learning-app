@@ -660,6 +660,246 @@
     "sortOrder": 13
   },
   {
+    "id": "yle-daily-routines-wake-up",
+    "word": "wake up",
+    "normalizedWord": "wake up",
+    "meaningZh": "起床",
+    "example": "I wake up at seven.",
+    "exampleZh": "我七点起床。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-daily-routines-get-dressed",
+    "word": "get dressed",
+    "normalizedWord": "get dressed",
+    "meaningZh": "穿衣服",
+    "example": "I get dressed in the morning.",
+    "exampleZh": "我早上穿衣服。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-daily-routines-go-to-school",
+    "word": "go to school",
+    "normalizedWord": "go to school",
+    "meaningZh": "去上学",
+    "example": "I go to school every day.",
+    "exampleZh": "我每天去上学。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-daily-routines-have-lunch",
+    "word": "have lunch",
+    "normalizedWord": "have lunch",
+    "meaningZh": "吃午饭",
+    "example": "I have lunch at school.",
+    "exampleZh": "我在学校吃午饭。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-daily-routines-clean-my-teeth",
+    "word": "clean my teeth",
+    "normalizedWord": "clean my teeth",
+    "meaningZh": "刷牙",
+    "example": "I clean my teeth after breakfast.",
+    "exampleZh": "我早餐后刷牙。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-daily-routines-have-a-shower",
+    "word": "have a shower",
+    "normalizedWord": "have a shower",
+    "meaningZh": "洗澡",
+    "example": "I have a shower in the evening.",
+    "exampleZh": "我晚上洗澡。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-daily-routines-do-homework",
+    "word": "do homework",
+    "normalizedWord": "do homework",
+    "meaningZh": "做作业",
+    "example": "I do homework after school.",
+    "exampleZh": "我放学后做作业。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-daily-routines-go-home",
+    "word": "go home",
+    "normalizedWord": "go home",
+    "meaningZh": "回家",
+    "example": "I go home with my family.",
+    "exampleZh": "我和家人一起回家。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-daily-routines-go-to-bed",
+    "word": "go to bed",
+    "normalizedWord": "go to bed",
+    "meaningZh": "去睡觉",
+    "example": "I go to bed at night.",
+    "exampleZh": "我晚上去睡觉。",
+    "topic": "daily-routines",
+    "tags": [
+      "daily-routines"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-days-of-the-week-monday",
+    "word": "Monday",
+    "normalizedWord": "monday",
+    "meaningZh": "星期一",
+    "example": "Look at a Monday.",
+    "exampleZh": "看这个星期一。",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-days-of-the-week-tuesday",
+    "word": "Tuesday",
+    "normalizedWord": "tuesday",
+    "meaningZh": "星期二",
+    "example": "Look at a Tuesday.",
+    "exampleZh": "看这个星期二。",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-days-of-the-week-wednesday",
+    "word": "Wednesday",
+    "normalizedWord": "wednesday",
+    "meaningZh": "星期三",
+    "example": "Look at a Wednesday.",
+    "exampleZh": "看这个星期三。",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-days-of-the-week-thursday",
+    "word": "Thursday",
+    "normalizedWord": "thursday",
+    "meaningZh": "星期四",
+    "example": "Look at a Thursday.",
+    "exampleZh": "看这个星期四。",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-days-of-the-week-friday",
+    "word": "Friday",
+    "normalizedWord": "friday",
+    "meaningZh": "星期五",
+    "example": "Look at a Friday.",
+    "exampleZh": "看这个星期五。",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-days-of-the-week-saturday",
+    "word": "Saturday",
+    "normalizedWord": "saturday",
+    "meaningZh": "星期六",
+    "example": "Look at a Saturday.",
+    "exampleZh": "看这个星期六。",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-days-of-the-week-sunday",
+    "word": "Sunday",
+    "normalizedWord": "sunday",
+    "meaningZh": "星期日",
+    "example": "Look at a Sunday.",
+    "exampleZh": "看这个星期日。",
+    "topic": "days-of-the-week",
+    "tags": [
+      "days-of-the-week"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
     "id": "yle-family-and-friends-baby",
     "word": "baby",
     "normalizedWord": "baby",
@@ -2175,6 +2415,441 @@
     "sortOrder": 37
   },
   {
+    "id": "yle-months-january",
+    "word": "January",
+    "normalizedWord": "january",
+    "meaningZh": "一月",
+    "example": "Look at a January.",
+    "exampleZh": "看这个一月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-months-february",
+    "word": "February",
+    "normalizedWord": "february",
+    "meaningZh": "二月",
+    "example": "Look at a February.",
+    "exampleZh": "看这个二月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-months-march",
+    "word": "March",
+    "normalizedWord": "march",
+    "meaningZh": "三月",
+    "example": "Look at a March.",
+    "exampleZh": "看这个三月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-months-april",
+    "word": "April",
+    "normalizedWord": "april",
+    "meaningZh": "四月",
+    "example": "Look at an April.",
+    "exampleZh": "看这个四月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-months-may",
+    "word": "May",
+    "normalizedWord": "may",
+    "meaningZh": "五月",
+    "example": "Look at a May.",
+    "exampleZh": "看这个五月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-months-june",
+    "word": "June",
+    "normalizedWord": "june",
+    "meaningZh": "六月",
+    "example": "Look at a June.",
+    "exampleZh": "看这个六月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-months-july",
+    "word": "July",
+    "normalizedWord": "july",
+    "meaningZh": "七月",
+    "example": "Look at a July.",
+    "exampleZh": "看这个七月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-months-august",
+    "word": "August",
+    "normalizedWord": "august",
+    "meaningZh": "八月",
+    "example": "Look at an August.",
+    "exampleZh": "看这个八月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-months-september",
+    "word": "September",
+    "normalizedWord": "september",
+    "meaningZh": "九月",
+    "example": "Look at a September.",
+    "exampleZh": "看这个九月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-months-october",
+    "word": "October",
+    "normalizedWord": "october",
+    "meaningZh": "十月",
+    "example": "Look at an October.",
+    "exampleZh": "看这个十月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-months-november",
+    "word": "November",
+    "normalizedWord": "november",
+    "meaningZh": "十一月",
+    "example": "Look at a November.",
+    "exampleZh": "看这个十一月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-months-december",
+    "word": "December",
+    "normalizedWord": "december",
+    "meaningZh": "十二月",
+    "example": "Look at a December.",
+    "exampleZh": "看这个十二月。",
+    "topic": "months",
+    "tags": [
+      "months"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-places-and-directions-behind",
+    "word": "behind",
+    "normalizedWord": "behind",
+    "meaningZh": "在...后面",
+    "example": "The behind is here.",
+    "exampleZh": "在...后面在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-places-and-directions-between",
+    "word": "between",
+    "normalizedWord": "between",
+    "meaningZh": "在...之间",
+    "example": "The between is here.",
+    "exampleZh": "在...之间在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-places-and-directions-bookshop",
+    "word": "bookshop",
+    "normalizedWord": "bookshop",
+    "meaningZh": "书店",
+    "example": "The bookshop is here.",
+    "exampleZh": "书店在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-places-and-directions-end",
+    "word": "end",
+    "normalizedWord": "end",
+    "meaningZh": "结束",
+    "example": "The end is here.",
+    "exampleZh": "结束在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-places-and-directions-here",
+    "word": "here",
+    "normalizedWord": "here",
+    "meaningZh": "这里",
+    "example": "The here is here.",
+    "exampleZh": "这里在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
+  },
+  {
+    "id": "yle-places-and-directions-in",
+    "word": "in",
+    "normalizedWord": "in",
+    "meaningZh": "在...里面",
+    "example": "The in is here.",
+    "exampleZh": "在...里面在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 6
+  },
+  {
+    "id": "yle-places-and-directions-in-front-of",
+    "word": "in front of",
+    "normalizedWord": "in front of",
+    "meaningZh": "在...前面",
+    "example": "The in front of is here.",
+    "exampleZh": "在...前面在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 7
+  },
+  {
+    "id": "yle-places-and-directions-next-to",
+    "word": "next to",
+    "normalizedWord": "next to",
+    "meaningZh": "紧邻",
+    "example": "The next to is here.",
+    "exampleZh": "紧邻在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 8
+  },
+  {
+    "id": "yle-places-and-directions-on",
+    "word": "on",
+    "normalizedWord": "on",
+    "meaningZh": "在...上面",
+    "example": "The on is here.",
+    "exampleZh": "在...上面在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 9
+  },
+  {
+    "id": "yle-places-and-directions-park",
+    "word": "park",
+    "normalizedWord": "park",
+    "meaningZh": "公园",
+    "example": "The park is here.",
+    "exampleZh": "公园在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 10
+  },
+  {
+    "id": "yle-places-and-directions-playground",
+    "word": "playground",
+    "normalizedWord": "playground",
+    "meaningZh": "操场",
+    "example": "The playground is here.",
+    "exampleZh": "操场在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 11
+  },
+  {
+    "id": "yle-places-and-directions-shop",
+    "word": "shop",
+    "normalizedWord": "shop",
+    "meaningZh": "商店",
+    "example": "The shop is here.",
+    "exampleZh": "商店在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 12
+  },
+  {
+    "id": "yle-places-and-directions-store",
+    "word": "store",
+    "normalizedWord": "store",
+    "meaningZh": "商店",
+    "example": "The store is here.",
+    "exampleZh": "商店在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 13
+  },
+  {
+    "id": "yle-places-and-directions-street",
+    "word": "street",
+    "normalizedWord": "street",
+    "meaningZh": "街道",
+    "example": "The street is here.",
+    "exampleZh": "街道在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 14
+  },
+  {
+    "id": "yle-places-and-directions-there",
+    "word": "there",
+    "normalizedWord": "there",
+    "meaningZh": "那里",
+    "example": "The there is here.",
+    "exampleZh": "那里在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 15
+  },
+  {
+    "id": "yle-places-and-directions-under",
+    "word": "under",
+    "normalizedWord": "under",
+    "meaningZh": "在...下面",
+    "example": "The under is here.",
+    "exampleZh": "在...下面在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 16
+  },
+  {
+    "id": "yle-places-and-directions-zoo",
+    "word": "zoo",
+    "normalizedWord": "zoo",
+    "meaningZh": "动物园",
+    "example": "The zoo is here.",
+    "exampleZh": "动物园在这里。",
+    "topic": "places-and-directions",
+    "tags": [
+      "places-and-directions"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 17
+  },
+  {
     "id": "yle-school-alphabet",
     "word": "alphabet",
     "normalizedWord": "alphabet",
@@ -2953,6 +3628,81 @@
     "level": "preA1",
     "source": "yle-core",
     "sortOrder": 52
+  },
+  {
+    "id": "yle-seasons-spring",
+    "word": "spring",
+    "normalizedWord": "spring",
+    "meaningZh": "春天",
+    "example": "Look at a spring.",
+    "exampleZh": "看这个春天。",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 1
+  },
+  {
+    "id": "yle-seasons-summer",
+    "word": "summer",
+    "normalizedWord": "summer",
+    "meaningZh": "夏天",
+    "example": "Look at a summer.",
+    "exampleZh": "看这个夏天。",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 2
+  },
+  {
+    "id": "yle-seasons-autumn",
+    "word": "autumn",
+    "normalizedWord": "autumn",
+    "meaningZh": "秋天",
+    "example": "Look at an autumn.",
+    "exampleZh": "看这个秋天。",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 3
+  },
+  {
+    "id": "yle-seasons-fall",
+    "word": "fall",
+    "normalizedWord": "fall",
+    "meaningZh": "秋天",
+    "example": "Look at a fall.",
+    "exampleZh": "看这个秋天。",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 4
+  },
+  {
+    "id": "yle-seasons-winter",
+    "word": "winter",
+    "normalizedWord": "winter",
+    "meaningZh": "冬天",
+    "example": "Look at a winter.",
+    "exampleZh": "看这个冬天。",
+    "topic": "seasons",
+    "tags": [
+      "seasons"
+    ],
+    "level": "preA1",
+    "source": "yle-core",
+    "sortOrder": 5
   },
   {
     "id": "yle-sports-and-leisure-badminton",
@@ -4230,366 +4980,6 @@
     "sortOrder": 15
   },
   {
-    "id": "yle-days-of-the-week-monday",
-    "word": "Monday",
-    "normalizedWord": "monday",
-    "meaningZh": "星期一",
-    "example": "Look at a Monday.",
-    "exampleZh": "看这个星期一。",
-    "topic": "days-of-the-week",
-    "tags": [
-      "days-of-the-week"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 1
-  },
-  {
-    "id": "yle-days-of-the-week-tuesday",
-    "word": "Tuesday",
-    "normalizedWord": "tuesday",
-    "meaningZh": "星期二",
-    "example": "Look at a Tuesday.",
-    "exampleZh": "看这个星期二。",
-    "topic": "days-of-the-week",
-    "tags": [
-      "days-of-the-week"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 2
-  },
-  {
-    "id": "yle-days-of-the-week-wednesday",
-    "word": "Wednesday",
-    "normalizedWord": "wednesday",
-    "meaningZh": "星期三",
-    "example": "Look at a Wednesday.",
-    "exampleZh": "看这个星期三。",
-    "topic": "days-of-the-week",
-    "tags": [
-      "days-of-the-week"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 3
-  },
-  {
-    "id": "yle-days-of-the-week-thursday",
-    "word": "Thursday",
-    "normalizedWord": "thursday",
-    "meaningZh": "星期四",
-    "example": "Look at a Thursday.",
-    "exampleZh": "看这个星期四。",
-    "topic": "days-of-the-week",
-    "tags": [
-      "days-of-the-week"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 4
-  },
-  {
-    "id": "yle-days-of-the-week-friday",
-    "word": "Friday",
-    "normalizedWord": "friday",
-    "meaningZh": "星期五",
-    "example": "Look at a Friday.",
-    "exampleZh": "看这个星期五。",
-    "topic": "days-of-the-week",
-    "tags": [
-      "days-of-the-week"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 5
-  },
-  {
-    "id": "yle-days-of-the-week-saturday",
-    "word": "Saturday",
-    "normalizedWord": "saturday",
-    "meaningZh": "星期六",
-    "example": "Look at a Saturday.",
-    "exampleZh": "看这个星期六。",
-    "topic": "days-of-the-week",
-    "tags": [
-      "days-of-the-week"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 6
-  },
-  {
-    "id": "yle-days-of-the-week-sunday",
-    "word": "Sunday",
-    "normalizedWord": "sunday",
-    "meaningZh": "星期日",
-    "example": "Look at a Sunday.",
-    "exampleZh": "看这个星期日。",
-    "topic": "days-of-the-week",
-    "tags": [
-      "days-of-the-week"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 7
-  },
-  {
-    "id": "yle-months-january",
-    "word": "January",
-    "normalizedWord": "january",
-    "meaningZh": "一月",
-    "example": "Look at a January.",
-    "exampleZh": "看这个一月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 1
-  },
-  {
-    "id": "yle-months-february",
-    "word": "February",
-    "normalizedWord": "february",
-    "meaningZh": "二月",
-    "example": "Look at a February.",
-    "exampleZh": "看这个二月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 2
-  },
-  {
-    "id": "yle-months-march",
-    "word": "March",
-    "normalizedWord": "march",
-    "meaningZh": "三月",
-    "example": "Look at a March.",
-    "exampleZh": "看这个三月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 3
-  },
-  {
-    "id": "yle-months-april",
-    "word": "April",
-    "normalizedWord": "april",
-    "meaningZh": "四月",
-    "example": "Look at an April.",
-    "exampleZh": "看这个四月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 4
-  },
-  {
-    "id": "yle-months-may",
-    "word": "May",
-    "normalizedWord": "may",
-    "meaningZh": "五月",
-    "example": "Look at a May.",
-    "exampleZh": "看这个五月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 5
-  },
-  {
-    "id": "yle-months-june",
-    "word": "June",
-    "normalizedWord": "june",
-    "meaningZh": "六月",
-    "example": "Look at a June.",
-    "exampleZh": "看这个六月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 6
-  },
-  {
-    "id": "yle-months-july",
-    "word": "July",
-    "normalizedWord": "july",
-    "meaningZh": "七月",
-    "example": "Look at a July.",
-    "exampleZh": "看这个七月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 7
-  },
-  {
-    "id": "yle-months-august",
-    "word": "August",
-    "normalizedWord": "august",
-    "meaningZh": "八月",
-    "example": "Look at an August.",
-    "exampleZh": "看这个八月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 8
-  },
-  {
-    "id": "yle-months-september",
-    "word": "September",
-    "normalizedWord": "september",
-    "meaningZh": "九月",
-    "example": "Look at a September.",
-    "exampleZh": "看这个九月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 9
-  },
-  {
-    "id": "yle-months-october",
-    "word": "October",
-    "normalizedWord": "october",
-    "meaningZh": "十月",
-    "example": "Look at an October.",
-    "exampleZh": "看这个十月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 10
-  },
-  {
-    "id": "yle-months-november",
-    "word": "November",
-    "normalizedWord": "november",
-    "meaningZh": "十一月",
-    "example": "Look at a November.",
-    "exampleZh": "看这个十一月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 11
-  },
-  {
-    "id": "yle-months-december",
-    "word": "December",
-    "normalizedWord": "december",
-    "meaningZh": "十二月",
-    "example": "Look at a December.",
-    "exampleZh": "看这个十二月。",
-    "topic": "months",
-    "tags": [
-      "months"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 12
-  },
-  {
-    "id": "yle-seasons-spring",
-    "word": "spring",
-    "normalizedWord": "spring",
-    "meaningZh": "春天",
-    "example": "Look at a spring.",
-    "exampleZh": "看这个春天。",
-    "topic": "seasons",
-    "tags": [
-      "seasons"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 1
-  },
-  {
-    "id": "yle-seasons-summer",
-    "word": "summer",
-    "normalizedWord": "summer",
-    "meaningZh": "夏天",
-    "example": "Look at a summer.",
-    "exampleZh": "看这个夏天。",
-    "topic": "seasons",
-    "tags": [
-      "seasons"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 2
-  },
-  {
-    "id": "yle-seasons-autumn",
-    "word": "autumn",
-    "normalizedWord": "autumn",
-    "meaningZh": "秋天",
-    "example": "Look at an autumn.",
-    "exampleZh": "看这个秋天。",
-    "topic": "seasons",
-    "tags": [
-      "seasons"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 3
-  },
-  {
-    "id": "yle-seasons-fall",
-    "word": "fall",
-    "normalizedWord": "fall",
-    "meaningZh": "秋天",
-    "example": "Look at a fall.",
-    "exampleZh": "看这个秋天。",
-    "topic": "seasons",
-    "tags": [
-      "seasons"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 4
-  },
-  {
-    "id": "yle-seasons-winter",
-    "word": "winter",
-    "normalizedWord": "winter",
-    "meaningZh": "冬天",
-    "example": "Look at a winter.",
-    "exampleZh": "看这个冬天。",
-    "topic": "seasons",
-    "tags": [
-      "seasons"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 5
-  },
-  {
     "id": "yle-weather-cloud",
     "word": "cloud",
     "normalizedWord": "cloud",
@@ -4768,261 +5158,6 @@
     "level": "preA1",
     "source": "yle-core",
     "sortOrder": 12
-  },
-  {
-    "id": "yle-places-and-directions-behind",
-    "word": "behind",
-    "normalizedWord": "behind",
-    "meaningZh": "在...后面",
-    "example": "The behind is here.",
-    "exampleZh": "在...后面在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 1
-  },
-  {
-    "id": "yle-places-and-directions-between",
-    "word": "between",
-    "normalizedWord": "between",
-    "meaningZh": "在...之间",
-    "example": "The between is here.",
-    "exampleZh": "在...之间在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 2
-  },
-  {
-    "id": "yle-places-and-directions-bookshop",
-    "word": "bookshop",
-    "normalizedWord": "bookshop",
-    "meaningZh": "书店",
-    "example": "The bookshop is here.",
-    "exampleZh": "书店在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 3
-  },
-  {
-    "id": "yle-places-and-directions-end",
-    "word": "end",
-    "normalizedWord": "end",
-    "meaningZh": "结束",
-    "example": "The end is here.",
-    "exampleZh": "结束在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 4
-  },
-  {
-    "id": "yle-places-and-directions-here",
-    "word": "here",
-    "normalizedWord": "here",
-    "meaningZh": "这里",
-    "example": "The here is here.",
-    "exampleZh": "这里在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 5
-  },
-  {
-    "id": "yle-places-and-directions-in",
-    "word": "in",
-    "normalizedWord": "in",
-    "meaningZh": "在...里面",
-    "example": "The in is here.",
-    "exampleZh": "在...里面在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 6
-  },
-  {
-    "id": "yle-places-and-directions-in-front-of",
-    "word": "in front of",
-    "normalizedWord": "in front of",
-    "meaningZh": "在...前面",
-    "example": "The in front of is here.",
-    "exampleZh": "在...前面在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 7
-  },
-  {
-    "id": "yle-places-and-directions-next-to",
-    "word": "next to",
-    "normalizedWord": "next to",
-    "meaningZh": "紧邻",
-    "example": "The next to is here.",
-    "exampleZh": "紧邻在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 8
-  },
-  {
-    "id": "yle-places-and-directions-on",
-    "word": "on",
-    "normalizedWord": "on",
-    "meaningZh": "在...上面",
-    "example": "The on is here.",
-    "exampleZh": "在...上面在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 9
-  },
-  {
-    "id": "yle-places-and-directions-park",
-    "word": "park",
-    "normalizedWord": "park",
-    "meaningZh": "公园",
-    "example": "The park is here.",
-    "exampleZh": "公园在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 10
-  },
-  {
-    "id": "yle-places-and-directions-playground",
-    "word": "playground",
-    "normalizedWord": "playground",
-    "meaningZh": "操场",
-    "example": "The playground is here.",
-    "exampleZh": "操场在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 11
-  },
-  {
-    "id": "yle-places-and-directions-shop",
-    "word": "shop",
-    "normalizedWord": "shop",
-    "meaningZh": "商店",
-    "example": "The shop is here.",
-    "exampleZh": "商店在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 12
-  },
-  {
-    "id": "yle-places-and-directions-store",
-    "word": "store",
-    "normalizedWord": "store",
-    "meaningZh": "商店",
-    "example": "The store is here.",
-    "exampleZh": "商店在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 13
-  },
-  {
-    "id": "yle-places-and-directions-street",
-    "word": "street",
-    "normalizedWord": "street",
-    "meaningZh": "街道",
-    "example": "The street is here.",
-    "exampleZh": "街道在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 14
-  },
-  {
-    "id": "yle-places-and-directions-there",
-    "word": "there",
-    "normalizedWord": "there",
-    "meaningZh": "那里",
-    "example": "The there is here.",
-    "exampleZh": "那里在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 15
-  },
-  {
-    "id": "yle-places-and-directions-under",
-    "word": "under",
-    "normalizedWord": "under",
-    "meaningZh": "在...下面",
-    "example": "The under is here.",
-    "exampleZh": "在...下面在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 16
-  },
-  {
-    "id": "yle-places-and-directions-zoo",
-    "word": "zoo",
-    "normalizedWord": "zoo",
-    "meaningZh": "动物园",
-    "example": "The zoo is here.",
-    "exampleZh": "动物园在这里。",
-    "topic": "places-and-directions",
-    "tags": [
-      "places-and-directions"
-    ],
-    "level": "preA1",
-    "source": "yle-core",
-    "sortOrder": 17
   },
   {
     "id": "yle-work-actor",
