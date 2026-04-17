@@ -19,6 +19,32 @@
 - Reference: `docs/superpowers/reference/visual-design-system.md`
 - Reference: `docs/superpowers/reference/interaction-feedback-system.md`
 
+## Research Integration Update (2026-04-18)
+
+The latest external research should influence this project in a selective way. The goal is not to turn the app into a generic flashcard site, but to strengthen the current mission-based PWA with the patterns that work best for young children.
+
+### What to borrow
+
+- **Image-first flashcard discovery:** Borrow the clarity of LearnEnglish Kids, printable flashcards, and simple HTML flashcard demos. New words should feel like digital picture cards: clear art first, then tap to flip for the answer side.
+- **Cute, consistent illustration direction:** Borrow the bright, simple, cartoon-like visual language that children can parse in under a second. In this codebase, prefer extending `src/components/ui/WordVisual.tsx` and `src/components/ui/wordVisualMap.ts` before adding a separate media system.
+- **High-frequency child topics:** Prioritize high-recognition packs such as daily routines, animals, food, and school, because they support repetition across listening, speaking, matching, and light spelling.
+- **Repeatable audio exposure:** Borrow the “tap to hear again” rhythm from children’s vocabulary products. Use optional custom audio when present, and fall back to browser-native speech where acceptable.
+- **Game variety around one word card core:** Borrow the cadence from sites like LearnEnglish Kids, ESL Games Plus, and Starfall: flashcard discovery -> picture recognition -> audio recognition -> matching -> light spelling -> mixed review.
+
+### What not to borrow
+
+- Do not clone third-party layouts, branding, or downloadable flashcard art.
+- Do not turn MVP scope into a flashcard creator, template editor, or printable export tool.
+- Do not replace the current Leitner-style scheduler just because FSRS exists; keep FSRS as a later upgrade path.
+- Do not rewrite the app around Firebase or a new stack when the current React + Vite + local-first structure already fits the use case.
+
+### Implementation consequences
+
+- Every word should support **image, example, and optional audio** in the content contract, with stable fallbacks when assets are missing.
+- At least one topic deck should reach **“flashcard quality” polish** with curated visuals and repeated exposure flow. `daily-routines`, `animals`, `food`, and `school` are the best candidates.
+- Media ingestion must include a **licensing/provenance rule**: only use self-made assets, properly licensed Canva exports, repo-owned illustrations, or allowed external URLs provided by the user.
+- TTS should be treated as a **graceful fallback**, not a hard dependency. Browser voice differences are acceptable for MVP if the interaction loop remains clear.
+
 ## Proposed File Structure
 
 ### App Shell
@@ -65,6 +91,8 @@
 
 - Create: `src/components/lesson/NewWordCard.tsx`
 - Create: `src/components/lesson/LessonFlow.tsx`
+- Create or refine: `src/components/ui/WordVisual.tsx`
+- Create or refine: `src/components/ui/wordVisualMap.ts`
 - Create: `src/components/game/PictureChoice.tsx`
 - Create: `src/components/game/AudioChoice.tsx`
 - Create: `src/components/game/MatchPairs.tsx`
@@ -83,6 +111,7 @@
 - Create: `src/components/feedback/ComboMeter.tsx`
 - Create: `src/components/feedback/CelebrationBurst.tsx`
 - Create: `src/hooks/useSound.ts`
+- Create or extend: `src/hooks/useSpeech.ts`
 - Create: `src/hooks/useReducedMotionPreference.ts`
 
 ### Tests
@@ -104,7 +133,9 @@
 - Phase 1: Bootstrap and data contracts
 - Phase 1.5: Design tokens, motion rules, and touch-safe interaction primitives
 - Phase 2: Scheduler and daily missions
-- Phase 3: Lesson flow, surprise variety, and game modes
+- Phase 2.5: Word media contract, asset provenance, and theme-deck priorities
+- Phase 3: Lesson flow, flashcard discovery, surprise variety, and game modes
+- Phase 3.5: Theme-deck polish for high-frequency child topics such as daily routines
 - Phase 4: Rewards, progress, parent view
 - Phase 5: PWA polish, offline, validation
 
@@ -223,7 +254,7 @@ Expected: FAIL because the loader and pack files do not exist.
 
 - [ ] **Step 3: Write the minimal types and starter pack**
 
-Use the contracts from `docs/superpowers/reference/word-pack-schema.md`. Keep the starter pack intentionally small and coherent.
+Use the contracts from `docs/superpowers/reference/word-pack-schema.md`. Keep the starter pack intentionally small and coherent, but make sure each word can carry a visual key, example sentence, and optional audio. Seed at least one high-recognition topic such as `daily-routines` or strengthen existing `animals` / `school` packs so one deck can later be polished to “flashcard quality”.
 
 - [ ] **Step 4: Run test to verify it passes**
 
@@ -354,7 +385,7 @@ Expected: FAIL because the builder does not exist.
 
 - [ ] **Step 3: Write the minimal session builder**
 
-Enforce daily caps, due-word priority, and a challenge pool assembled from new, review, and wrong words. Add controlled randomness so mode order is not identical every day, and reserve one light surprise slot that can be enabled without breaking time limits.
+Enforce daily caps, due-word priority, and a challenge pool assembled from new, review, and wrong words. Add controlled randomness so mode order is not identical every day, reserve one light surprise slot that can be enabled without breaking time limits, and allow a quick flashcard recap slot for words with weak retention signals.
 
 - [ ] **Step 4: Run test to verify it passes**
 
@@ -368,12 +399,14 @@ git add src/engine/sessionBuilder.ts src/engine/sessionBuilder.test.ts
 git commit -m "Shape daily learning sessions around due review while preserving variety and surprise"
 ```
 
-### Task 6: Build the Today flow and interactive word-discovery orchestrator
+### Task 6: Build the Today flow, flashcard discovery, and interactive word-discovery orchestrator
 
 **Files:**
 - Create: `src/pages/TodayPage.tsx`
 - Create: `src/components/lesson/NewWordCard.tsx`
 - Create: `src/components/lesson/LessonFlow.tsx`
+- Create or refine: `src/components/ui/WordVisual.tsx`
+- Create or refine: `src/components/ui/wordVisualMap.ts`
 - Test: `src/pages/TodayPage.test.tsx`
 - Test: `src/components/lesson/LessonFlow.test.tsx`
 
@@ -394,7 +427,7 @@ Expected: FAIL because the page and flow components do not exist.
 
 - [ ] **Step 3: Write the minimal Today page and lesson state machine**
 
-Keep the child flow linear, but replace passive preview with interactive discovery: mission -> word discovery -> games -> boss -> complete. The first 10 seconds of learning must include a tap, flip, or audio interaction.
+Keep the child flow linear, but replace passive preview with interactive discovery: mission -> word discovery -> games -> boss -> complete. The first 10 seconds of learning must include a tap, flip, or audio interaction. The discovery card should behave like a digital flashcard: front side shows an illustration-first prompt, the child taps to flip, then sees the word, Chinese meaning, short example, and a replay-audio control.
 
 - [ ] **Step 4: Run tests to verify they pass**
 
@@ -415,6 +448,7 @@ git commit -m "Make the daily mission interactive from the first second instead 
 - Create: `src/components/feedback/ComboMeter.tsx`
 - Create: `src/components/feedback/CelebrationBurst.tsx`
 - Create: `src/hooks/useSound.ts`
+- Create or extend: `src/hooks/useSpeech.ts`
 - Test: `src/components/feedback/AnswerFeedback.test.tsx`
 
 - [ ] **Step 1: Write the failing feedback test**
@@ -433,7 +467,7 @@ Expected: FAIL because the feedback layer does not exist.
 
 - [ ] **Step 3: Write the minimal feedback system**
 
-Use `docs/superpowers/reference/interaction-feedback-system.md` as the contract. Include correct, wrong-soft, combo, and mission-complete states. Respect reduced motion and make audio optional, not blocking.
+Use `docs/superpowers/reference/interaction-feedback-system.md` as the contract. Include correct, wrong-soft, combo, and mission-complete states. Respect reduced motion and make audio optional, not blocking. If a word has no custom audio URL, allow a browser-native speech fallback so the child can still tap to hear the word again.
 
 - [ ] **Step 4: Run tests to verify they pass**
 
@@ -447,7 +481,7 @@ git add src/components/feedback src/hooks/useSound.ts
 git commit -m "Turn encouragement, combo, and celebration into a first-class learning system"
 ```
 
-### Task 7: Implement Picture Choice and Audio Choice
+### Task 7: Implement Picture Choice, Audio Choice, and repeatable recall loops
 
 **Files:**
 - Create: `src/components/game/PictureChoice.tsx`
@@ -472,7 +506,7 @@ Expected: FAIL
 
 - [ ] **Step 3: Write the minimal components**
 
-Ensure tap targets are large, feedback is immediate, and failure does not feel punitive. Different sessions should be able to reuse the same mode with different visual presentation so the experience stays fresh.
+Ensure tap targets are large, feedback is immediate, and failure does not feel punitive. Different sessions should be able to reuse the same mode with different visual presentation so the experience stays fresh. Keep the interaction density close to child vocabulary products: replay audio quickly, reuse the same word across image and audio prompts, and let the game layer feel like repeated exposure rather than one-shot testing.
 
 - [ ] **Step 4: Run tests to verify they pass**
 
@@ -512,7 +546,7 @@ Expected: FAIL
 
 - [ ] **Step 3: Write the minimal remaining game modes**
 
-Keep spelling scoped to missing letters or draggable letter blocks. Do not introduce full dictation. Reserve one lightweight surprise mode such as a flip-memory mini challenge only if the base lesson time budget still holds.
+Keep spelling scoped to missing letters or draggable letter blocks. Do not introduce full dictation. Reserve one lightweight surprise mode such as a flip-memory mini challenge only if the base lesson time budget still holds. The surprise mode should feel like a natural extension of the flashcard system, not a disconnected arcade game.
 
 - [ ] **Step 4: Run tests to verify they pass**
 
@@ -599,7 +633,7 @@ Expected: FAIL
 
 - [ ] **Step 3: Write the minimal import seam and parent page**
 
-The parent page only needs to preview progress and reserve a future slot for import actions. Do not build a full admin console. Let the child keep limited choice power in the main experience while the parent panel stays observational.
+The parent page only needs to preview progress and reserve a future slot for import actions. Do not build a full admin console. Let the child keep limited choice power in the main experience while the parent panel stays observational. The import seam must remain friendly to externally prepared assets such as user-provided image URLs, custom audio URLs, or properly licensed Canva-exported PNGs.
 
 - [ ] **Step 4: Run tests to verify they pass**
 
@@ -702,6 +736,7 @@ git commit -m "Record how to validate the MVP before putting it in front of a re
 
 - A child can open the app and reach today's lesson in at most 2 taps.
 - The first meaningful interaction happens within 10 seconds of starting the lesson.
+- New-word discovery behaves like a digital flashcard: image-first front, tap-to-flip answer side, and replayable audio.
 - A full mission includes new words, review words, and a mixed final challenge.
 - Mode order varies within safe limits instead of repeating one rigid sequence every day.
 - Wrong answers trigger same-day recovery and next-day priority review.
@@ -711,11 +746,15 @@ git commit -m "Record how to validate the MVP before putting it in front of a re
 - Feedback, motion, and sound can be reduced or muted without breaking clarity.
 - Parent import supports example sentences and optional image/audio URLs.
 - Daily task generation uses previous learning records instead of a fixed starter list.
+- Every learning word can render through either curated art, imported image, or a stable built-in fallback visual.
+- At least one topic deck reaches a higher-polish, child-friendly “flashcard quality” standard for images and repetition flow.
 
 ## Risks to Watch During Execution
 
 - UI polish overtaking memory value
 - Visual inconsistency from ad-hoc styling decisions
+- Licensing drift or unclear provenance for third-party illustrations
+- Browser-to-browser variance in speech synthesis voice quality
 - Spelling becoming too hard for the age group
 - Too many new words per day
 - Data contracts drifting away from the documentation
@@ -728,6 +767,7 @@ git commit -m "Record how to validate the MVP before putting it in front of a re
 - PWA installs successfully
 - Offline shell and starter content load correctly
 - First pack supports at least 2 usable topics
+- One topic deck is polished enough to demonstrate the target flashcard interaction quality
 - Daily mission stays within the target time budget
 
 Plan complete and saved to `docs/superpowers/plans/2026-04-12-kids-vocabulary-pwa.md`. Two execution options:

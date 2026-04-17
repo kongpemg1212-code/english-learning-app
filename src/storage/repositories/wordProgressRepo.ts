@@ -1,5 +1,6 @@
 import type { WordProgress } from '../../types/progress'
-import { getCurrentUser, listCloudWordProgress, saveCloudWordProgress } from '../../lib/supabase'
+import { listCloudWordProgress, saveCloudWordProgress } from '../../lib/supabase'
+import { useAppStore } from '../../store/useAppStore'
 import { createObjectStoreRepository } from '../db'
 
 const localWordProgressRepo = createObjectStoreRepository<WordProgress>({
@@ -12,10 +13,10 @@ const localWordProgressRepo = createObjectStoreRepository<WordProgress>({
 export function getWordProgressRepo() {
   return {
     async get(key: string) {
-      const user = await getCurrentUser()
-      if (user) {
+      const profileId = useAppStore.getState().cloudProfileId
+      if (profileId) {
         try {
-          const records = await listCloudWordProgress(user)
+          const records = await listCloudWordProgress(profileId)
           const found = records.find((record) => record.wordId === key)
           if (found) {
             return found
@@ -29,26 +30,26 @@ export function getWordProgressRepo() {
     },
     async save(value: WordProgress) {
       await localWordProgressRepo.save(value)
-      const user = await getCurrentUser()
-      if (user) {
-        await saveCloudWordProgress(user, value)
+      const profileId = useAppStore.getState().cloudProfileId
+      if (profileId) {
+        await saveCloudWordProgress(profileId, value)
       }
     },
     async clear() {
       await localWordProgressRepo.clear()
     },
     async list() {
-      const user = await getCurrentUser()
-      if (user) {
+      const profileId = useAppStore.getState().cloudProfileId
+      if (profileId) {
         try {
-          const records = await listCloudWordProgress(user)
+          const records = await listCloudWordProgress(profileId)
           if (records.length > 0) {
             return records
           }
 
           const localRecords = await localWordProgressRepo.list()
           if (localRecords.length > 0) {
-            await Promise.all(localRecords.map((record) => saveCloudWordProgress(user, record)))
+            await Promise.all(localRecords.map((record) => saveCloudWordProgress(profileId, record)))
           }
 
           return localRecords

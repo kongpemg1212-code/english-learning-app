@@ -1,4 +1,5 @@
 import animals from '../../data/word-packs/yle-core/topics/animals.json'
+import allWords from '../../data/word-packs/yle-core/all-words.json'
 import colours from '../../data/word-packs/yle-core/topics/colours.json'
 import foodAndDrink from '../../data/word-packs/yle-core/topics/food-and-drink.json'
 import home from '../../data/word-packs/yle-core/topics/home.json'
@@ -23,5 +24,10 @@ test('provides built-in visuals for all priority Cambridge topic words', () => {
   ]
 
   const missing = priorityWords.filter((word) => !getBuiltInVisualToken(word))
+  expect(missing).toEqual([])
+})
+
+test('provides a stable visual token for every default Cambridge word', () => {
+  const missing = (allWords as WordItem[]).filter((word) => !getBuiltInVisualToken(word))
   expect(missing).toEqual([])
 })

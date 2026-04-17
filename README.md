@@ -1,35 +1,113 @@
 # 少儿单词背诵
 
-一个面向低龄儿童的英语单词闯关 PWA。当前默认词库为 Cambridge YLE Pre A1 Starters，核心目标是把“有趣、可视化、每天能坚持、不会轻易忘”做成一个轻量网页应用。
+一个面向低龄儿童的英语单词闯关 PWA。当前默认词库为 Cambridge YLE Pre A1 Starters，目标是把“图片化、可重复听、每天几分钟、不会轻易忘”做成一个单人自用也足够顺手的网页应用。
+
+## 你现在可以怎么用
+
+### 孩子端
+
+- 打开网站后直接进入 `今日任务`
+- 新词先走翻转闪卡：先看图，再翻面看英文、中文、例句，并可点击听单词/听例句
+- 后面进入小游戏：看图选词、听音点图、配对、拼写、Boss 复习
+
+### 家长端
+
+- 在 `进度 -> 家长页` 看当前词库、星星、连续学习
+- 可以输入一个简单名字作为学习账号，例如 `maya`
+- 换设备时输入同一个名字，就会尝试找回历史
+- 可以下载 CSV 模板、导入自己的词表、切换词库
 
 ## 当前产品形态
 
 - 孩子端：`今日任务 / 地图 / 花园 / 进度`
-- 家长端：CSV 模板下载、词表导入、词库切换
+- 家长端：轻量账号找回、CSV 模板下载、词表导入、词库切换
 - 默认内容：15 个 Cambridge 主题、361 个词
 - 记忆机制：每日新词 + 历史复习 + 错词回流
 - 本地入口：可直接双击 `index.html`
 - 线上地址：[GitHub Pages](https://kongpemg1212-code.github.io/english-learning-app/)
 
-## 项目入口
+## 项目架构
 
-- 总控文档：[`docs/project-control.md`](/Users/kong/Downloads/少儿单词背诵/docs/project-control.md)
-- 文档索引：[`docs/superpowers/README.md`](/Users/kong/Downloads/少儿单词背诵/docs/superpowers/README.md)
-- 设计规格：[`docs/superpowers/specs/2026-04-12-kids-vocabulary-pwa-design.md`](/Users/kong/Downloads/少儿单词背诵/docs/superpowers/specs/2026-04-12-kids-vocabulary-pwa-design.md)
-- 实现计划：[`docs/superpowers/plans/2026-04-12-kids-vocabulary-pwa.md`](/Users/kong/Downloads/少儿单词背诵/docs/superpowers/plans/2026-04-12-kids-vocabulary-pwa.md)
+### 1. 页面层
 
-## 轻量工作流
+- `src/App.tsx`
+  应用入口，负责路由切换、当前词库展示、轻量账号同步入口。
+- `src/pages/TodayPage.tsx`
+  今日任务页，负责生成当天 session 并启动学习流。
+- `src/pages/MapPage.tsx`
+  地图选主题。
+- `src/pages/GardenPage.tsx`
+  成长奖励展示。
+- `src/pages/ProgressPage.tsx`
+  孩子/家长查看学习结果。
+- `src/pages/ParentPage.tsx`
+  轻量账号找回、词表导入、词库切换。
 
-这个仓库借鉴了 “best practice repo” 的组织方式，但只保留最有用的轻量部分，不引入重型 agent 编排。
+### 2. 学习流层
 
-- 固定总控文档：记录当前状态、约束、风险和文档入口
-- 固定 workflow 文档：把重复动作沉淀成短流程
-- 极简 MCP 配置：只保留最常用的浏览器验证工具
+- `src/components/lesson/LessonFlow.tsx`
+  把“发现新词 -> 小游戏 -> Boss”串成一条线。
+- `src/components/lesson/NewWordCard.tsx`
+  新词翻转闪卡。现在支持图片优先、翻面、听单词、听例句。
+- `src/components/game/*`
+  各种题型组件：看图、听音、配对、拼写、Boss。
 
-当前保留的 workflow：
+### 3. 内容与媒体层
 
-- [`docs/workflows/pack-import.md`](/Users/kong/Downloads/少儿单词背诵/docs/workflows/pack-import.md)
-- [`docs/workflows/release-checklist.md`](/Users/kong/Downloads/少儿单词背诵/docs/workflows/release-checklist.md)
+- `src/types/word.ts`
+  单词 contract。核心字段：`word / meaningZh / visualKey / image / audio / example / exampleZh`
+- `src/data/word-packs/`
+  默认词包与主题 JSON
+- `src/components/ui/WordVisual.tsx`
+  单词视觉渲染。优先图片，没有就走内置视觉兜底。
+- `src/components/ui/wordVisualMap.ts`
+  内置视觉 token 映射。
+
+### 4. 学习引擎层
+
+- `src/engine/scheduler.ts`
+  间隔复习与答题结果推进。
+- `src/engine/sessionBuilder.ts`
+  每日任务生成。
+- `src/engine/scoring.ts`
+  星星与任务奖励计算。
+
+### 5. 存储与同步层
+
+- `src/store/useAppStore.ts`
+  UI 级状态：星星、花园、当前主题、当前词库、声音开关、轻量账号等。
+- `src/storage/repositories/*.ts`
+  本地 IndexedDB + 云端同步仓库。
+- `src/lib/supabase.ts`
+  轻量账号云端同步。现在使用 `learning_profiles` 表，而不是匿名登录 metadata。
+- `src/features/profile/*`
+  轻量账号名处理与同步逻辑。
+
+## 轻量账号说明
+
+- 这是单人自用的“找回历史”方案，不是正式账号系统
+- 推荐用好记的名字，例如 `maya`
+- 知道这个名字的人，也可以切换到同一份记录
+- 如果你后面真的需要更强安全性，再升级成邮箱登录或恢复码
+
+## Supabase 需要什么
+
+项目使用下面 3 个环境变量：
+
+```bash
+VITE_SUPABASE_URL=...
+VITE_SUPABASE_ANON_KEY=...
+VITE_PUBLIC_APP_URL=https://kongpemg1212-code.github.io/english-learning-app/
+```
+
+还需要先创建 `learning_profiles` 表：
+
+```bash
+# SQL 文件已放在这里
+supabase/sql/learning_profiles.sql
+```
+
+如果没配 Supabase 或没建表，应用会退回本机保存，网站仍然能用，只是不能跨设备找回。
 
 ## 开发命令
 
@@ -46,21 +124,21 @@ npm run build
 - `src/`：应用源码
 - `src/data/word-packs/`：默认词库与主题数据
 - `docs/`：设计、计划、协议、工作流与总控文档
+- `supabase/sql/`：云端表结构 SQL
 - `scripts/`：词库导入与本地构建辅助脚本
 - `public/`：PWA 静态资源
 
-## 当前借鉴边界
+## 项目入口
 
-借鉴的是：
+- 总控文档：[`docs/project-control.md`](/Users/kong/Downloads/少儿单词背诵/docs/project-control.md)
+- 管理文档：[`docs/management/README.md`](/Users/kong/Downloads/少儿单词背诵/docs/management/README.md)
+- 文档索引：[`docs/superpowers/README.md`](/Users/kong/Downloads/少儿单词背诵/docs/superpowers/README.md)
+- 设计规格：[`docs/superpowers/specs/2026-04-12-kids-vocabulary-pwa-design.md`](/Users/kong/Downloads/少儿单词背诵/docs/superpowers/specs/2026-04-12-kids-vocabulary-pwa-design.md)
+- 实现计划：[`docs/superpowers/plans/2026-04-12-kids-vocabulary-pwa.md`](/Users/kong/Downloads/少儿单词背诵/docs/superpowers/plans/2026-04-12-kids-vocabulary-pwa.md)
 
-- 文档分层
-- 轻量工作流
-- 最小工具配置
+## 当前工作流
 
-没有引入的是：
+- [`docs/workflows/pack-import.md`](/Users/kong/Downloads/少儿单词背诵/docs/workflows/pack-import.md)
+- [`docs/workflows/release-checklist.md`](/Users/kong/Downloads/少儿单词背诵/docs/workflows/release-checklist.md)
 
-- 大量 subagents / commands / hooks
-- 重型 AI 编排目录
-- 过多环境与执行约定
-
-这个项目仍然是一个以业务交付为主的前端应用仓库，而不是 AI workflow showcase。
+这个仓库仍然是一个以业务交付为主的前端应用仓库，不会为了 AI 工作流而引入重型目录和复杂约定。

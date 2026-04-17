@@ -1,5 +1,6 @@
-import { createClient, type Session, type SupabaseClient, type User } from '@supabase/supabase-js'
+import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 
+import type { CloudAppState } from '../store/useAppStore'
 import type { WordPack } from '../types/word'
 import type { DailySession } from '../types/session'
 import type { WordProgress } from '../types/progress'
@@ -20,54 +21,7 @@ export const supabase: SupabaseClient | null = hasSupabaseConfig
   : null
 
 export async function getCurrentUser() {
-  if (!supabase) {
-    return null
-  }
-
-  const { data } = await supabase.auth.getUser()
-  return data.user ?? null
-}
-
-export async function getCurrentSession(): Promise<Session | null> {
-  if (!supabase) {
-    return null
-  }
-
-  const { data } = await supabase.auth.getSession()
-  return data.session ?? null
-}
-
-export async function ensureCloudSession() {
-  if (!supabase) {
-    throw new Error('Supabase is not configured')
-  }
-
-  const existingSession = await getCurrentSession()
-  if (existingSession) {
-    return existingSession
-  }
-
-  const { data, error } = await supabase.auth.signInAnonymously({
-    options: {
-      data: {
-        learning_app: {},
-      },
-    },
-  })
-
-  if (error) {
-    throw error
-  }
-
-  return data.session ?? null
-}
-
-export async function signOut() {
-  if (!supabase) {
-    return
-  }
-
-  await supabase.auth.signOut()
+  return null
 }
 
 type LearningCloudData = {
@@ -75,53 +29,76 @@ type LearningCloudData = {
   dailySessions?: Record<string, DailySession>
   importedPacks?: WordPack[]
   selectedPackId?: string
+  appState?: CloudAppState
 }
 
-async function getFreshUser(user: User) {
+type LearningProfileRow = {
+  profile_id: string
+  payload: LearningCloudData
+}
+
+async function getProfileRow(profileId: string): Promise<LearningProfileRow | null> {
   if (!supabase) {
-    return user
+    return null
   }
 
-  const { data } = await supabase.auth.getUser()
-  return data.user ?? user
-}
+  const { data, error } = await supabase
+    .from('learning_profiles')
+    .select('profile_id,payload')
+    .eq('profile_id', profileId)
+    .maybeSingle()
 
-function getLearningCloudData(user: User): LearningCloudData {
-  const raw = user.user_metadata?.learning_app
-  return raw && typeof raw === 'object' ? (raw as LearningCloudData) : {}
+  if (error) {
+    throw error
+  }
+
+  return (data as LearningProfileRow | null) ?? null
 }
 
 async function updateLearningCloudData(
-  user: User,
+  profileId: string,
   updater: (current: LearningCloudData) => LearningCloudData,
 ) {
   if (!supabase) {
     return
   }
 
-  const freshUser = await getFreshUser(user)
-  const current = getLearningCloudData(freshUser)
+  const current = (await getProfileRow(profileId))?.payload ?? {}
   const next = updater(current)
 
-  const { error } = await supabase.auth.updateUser({
-    data: {
-      ...freshUser.user_metadata,
-      learning_app: next,
+  const { error } = await supabase.from('learning_profiles').upsert(
+    {
+      profile_id: profileId,
+      payload: next,
     },
-  })
+    { onConflict: 'profile_id' },
+  )
 
   if (error) {
     throw error
   }
 }
 
-export async function listCloudWordProgress(user: User): Promise<WordProgress[]> {
-  const freshUser = await getFreshUser(user)
-  return Object.values(getLearningCloudData(freshUser).wordProgress ?? {})
+export async function getCloudAppState(profileId: string): Promise<CloudAppState | null> {
+  const payload = (await getProfileRow(profileId))?.payload
+  return payload?.appState ?? null
 }
 
-export async function saveCloudWordProgress(user: User, value: WordProgress) {
-  await updateLearningCloudData(user, (current) => ({
+export async function saveCloudAppState(profileId: string, value: CloudAppState) {
+  await updateLearningCloudData(profileId, (current) => ({
+    ...current,
+    importedPacks: value.importedPacks,
+    selectedPackId: value.selectedPackId,
+    appState: value,
+  }))
+}
+
+export async function listCloudWordProgress(profileId: string): Promise<WordProgress[]> {
+  return Object.values(((await getProfileRow(profileId))?.payload.wordProgress ?? {}))
+}
+
+export async function saveCloudWordProgress(profileId: string, value: WordProgress) {
+  await updateLearningCloudData(profileId, (current) => ({
     ...current,
     wordProgress: {
       ...(current.wordProgress ?? {}),
@@ -130,18 +107,17 @@ export async function saveCloudWordProgress(user: User, value: WordProgress) {
   }))
 }
 
-export async function listCloudDailySessions(user: User): Promise<DailySession[]> {
-  const freshUser = await getFreshUser(user)
-  return Object.values(getLearningCloudData(freshUser).dailySessions ?? {})
+export async function listCloudDailySessions(profileId: string): Promise<DailySession[]> {
+  return Object.values(((await getProfileRow(profileId))?.payload.dailySessions ?? {}))
 }
 
-export async function getCloudDailySession(user: User, date: string) {
-  const sessions = await listCloudDailySessions(user)
+export async function getCloudDailySession(profileId: string, date: string) {
+  const sessions = await listCloudDailySessions(profileId)
   return sessions.find((item) => item.date === date)
 }
 
-export async function saveCloudDailySession(user: User, value: DailySession) {
-  await updateLearningCloudData(user, (current) => ({
+export async function saveCloudDailySession(profileId: string, value: DailySession) {
+  await updateLearningCloudData(profileId, (current) => ({
     ...current,
     dailySessions: {
       ...(current.dailySessions ?? {}),

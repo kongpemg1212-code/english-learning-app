@@ -6,6 +6,16 @@ import type { WordItem } from '../../types/word'
 
 import { AudioChoice } from './AudioChoice'
 
+const speechMocks = vi.hoisted(() => ({
+  speak: vi.fn(),
+}))
+
+vi.mock('../../hooks/useSpeech', () => ({
+  useSpeech: () => ({
+    speak: speechMocks.speak,
+  }),
+}))
+
 const promptWord: WordItem = {
   id: 'yle-animals-cat',
   word: 'cat',
@@ -40,18 +50,17 @@ const options: WordItem[] = [
 test('submits a correct audio choice', async () => {
   const user = userEvent.setup()
   const onAnswer = vi.fn()
-  const speak = vi.fn()
-  function FakeUtterance(this: { text?: string }, text: string) {
-    this.text = text
-  }
-  vi.stubGlobal('speechSynthesis', { cancel: vi.fn(), speak })
-  vi.stubGlobal('SpeechSynthesisUtterance', FakeUtterance)
+  speechMocks.speak.mockReset()
 
   render(<AudioChoice promptWord={promptWord} options={options} onAnswer={onAnswer} />)
-  expect(screen.getByText(/常用句：This is a cat\./)).toBeInTheDocument()
+  expect(screen.getByRole('button', { name: '听单词' })).toBeInTheDocument()
+  expect(screen.getByRole('button', { name: '听例句' })).toBeInTheDocument()
 
-  await user.click(screen.getByRole('button', { name: '播放发音' }))
-  expect(speak).toHaveBeenCalled()
+  await user.click(screen.getByRole('button', { name: '听单词' }))
+  expect(speechMocks.speak).toHaveBeenCalledWith('cat', {
+    audioUrl: '/cat.mp3',
+    kind: 'word',
+  })
   await user.click(screen.getByRole('button', { name: /cat/i }))
 
   expect(onAnswer).toHaveBeenCalledWith(expect.objectContaining({ correct: true }))

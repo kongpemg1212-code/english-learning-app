@@ -4,6 +4,33 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
   base: './',
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('all-words.json')) {
+            return 'word-pack-core'
+          }
+
+          if (id.includes('@supabase')) {
+            return 'vendor-supabase'
+          }
+
+          if (id.includes('framer-motion')) {
+            return 'vendor-motion'
+          }
+
+          if (id.includes('react-router')) {
+            return 'vendor-router'
+          }
+
+          if (id.includes('node_modules/react')) {
+            return 'vendor-react'
+          }
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     VitePWA({

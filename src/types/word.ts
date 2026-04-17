@@ -14,6 +14,7 @@ export type WordItem = {
   id: string
   word: string
   normalizedWord: string
+  visualKey?: string
   meaningZh: string
   phonics?: string
   ipa?: string

@@ -1,32 +1,29 @@
 import { beforeEach, expect, test, vi } from 'vitest'
 
 const supabaseMocks = vi.hoisted(() => ({
-  getCurrentUser: vi.fn(),
   getCloudDailySession: vi.fn(),
   listCloudDailySessions: vi.fn(),
   saveCloudDailySession: vi.fn(),
 }))
 
 vi.mock('../../lib/supabase', () => ({
-  getCurrentUser: supabaseMocks.getCurrentUser,
   getCloudDailySession: supabaseMocks.getCloudDailySession,
   listCloudDailySessions: supabaseMocks.listCloudDailySessions,
   saveCloudDailySession: supabaseMocks.saveCloudDailySession,
 }))
 
+import { useAppStore } from '../../store/useAppStore'
 import { getDailySessionRepo } from './dailySessionRepo'
 
 beforeEach(() => {
-  supabaseMocks.getCurrentUser.mockReset()
   supabaseMocks.getCloudDailySession.mockReset()
   supabaseMocks.listCloudDailySessions.mockReset()
   supabaseMocks.saveCloudDailySession.mockReset()
+  useAppStore.setState({ cloudProfileId: undefined })
 })
 
 test('persists and loads daily sessions by date', async () => {
   const repo = getDailySessionRepo()
-
-  supabaseMocks.getCurrentUser.mockResolvedValue(null)
 
   await repo.clear()
   await repo.save({
@@ -47,7 +44,6 @@ test('backfills local daily sessions into the cloud when a cloud profile appears
   const repo = getDailySessionRepo()
 
   await repo.clear()
-  supabaseMocks.getCurrentUser.mockResolvedValue(null)
 
   await repo.save({
     date: '2026-04-13',
@@ -59,14 +55,14 @@ test('backfills local daily sessions into the cloud when a cloud profile appears
     status: 'done',
   })
 
-  supabaseMocks.getCurrentUser.mockResolvedValue({ id: 'cloud-user-2' })
+  useAppStore.setState({ cloudProfileId: 'cloud-user-2' })
   supabaseMocks.listCloudDailySessions.mockResolvedValue([])
 
   const sessions = await repo.list()
 
   expect(sessions).toHaveLength(1)
   expect(supabaseMocks.saveCloudDailySession).toHaveBeenCalledWith(
-    { id: 'cloud-user-2' },
+    'cloud-user-2',
     expect.objectContaining({ date: '2026-04-13' }),
   )
 })

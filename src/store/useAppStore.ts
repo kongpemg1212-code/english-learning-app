@@ -6,7 +6,7 @@ import type { WordPack } from '../types/word'
 
 type TopicId = string
 
-type AppState = {
+export type CloudAppState = {
   totalStars: number
   currentStreak: number
   lastCompletedDate?: string
@@ -16,12 +16,33 @@ type AppState = {
   selectedPackId?: string
   importedPacks: WordPack[]
   soundEnabled: boolean
+}
+
+export function createDefaultCloudAppState(): CloudAppState {
+  return {
+    totalStars: 0,
+    currentStreak: 0,
+    lastCompletedDate: undefined,
+    gardenStage: 0,
+    selectedPlant: 'sunflower',
+    selectedTopicId: 'school',
+    selectedPackId: undefined,
+    importedPacks: [],
+    soundEnabled: true,
+  }
+}
+
+type AppState = CloudAppState & {
+  cloudProfileId?: string
   completeMission: (date: string, earnedStars: number) => void
   choosePlant: (plant: GardenPlant) => void
   chooseTopic: (topicId: TopicId) => void
   addImportedPack: (pack: WordPack) => void
   selectPack: (packId?: string) => void
   toggleSound: () => void
+  setCloudProfileId: (profileId: string) => void
+  applyCloudAppState: (snapshot: Partial<CloudAppState>) => void
+  resetCloudAppState: () => void
 }
 
 const memoryStorage = new Map<string, string>()
@@ -55,15 +76,8 @@ const safeStorage: StateStorage = {
 export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
-      totalStars: 0,
-      currentStreak: 0,
-      lastCompletedDate: undefined,
-      gardenStage: 0,
-      selectedPlant: 'sunflower',
-      selectedTopicId: 'school',
-      selectedPackId: undefined,
-      importedPacks: [],
-      soundEnabled: true,
+      ...createDefaultCloudAppState(),
+      cloudProfileId: undefined,
       completeMission: (date, earnedStars) => {
         const previousDate = get().lastCompletedDate
         if (previousDate === date) {
@@ -99,6 +113,14 @@ export const useAppStore = create<AppState>()(
           }
         }),
       toggleSound: () => set((state) => ({ soundEnabled: !state.soundEnabled })),
+      setCloudProfileId: (cloudProfileId) => set({ cloudProfileId }),
+      applyCloudAppState: (snapshot) =>
+        set((state) => ({
+          ...state,
+          ...snapshot,
+          importedPacks: snapshot.importedPacks ?? state.importedPacks,
+        })),
+      resetCloudAppState: () => set((state) => ({ ...state, ...createDefaultCloudAppState() })),
     }),
     {
       name: 'word-garden-ui-store',

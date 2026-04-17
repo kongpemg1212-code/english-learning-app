@@ -1,10 +1,12 @@
 import { useMemo, useState } from 'react'
 
 import { getActiveWordPack } from '../data/word-packs/activePack'
+import { normalizeProfileId } from '../features/profile/profileId'
 import { normalizeImportedPack } from '../features/import/normalizeImportedPack'
 import { parseCsv } from '../features/import/parseCsv'
 import { Card } from '../components/ui/Card'
 import { useAppStore } from '../store/useAppStore'
+import { hasSupabaseConfig } from '../lib/supabase'
 
 export function ParentPage() {
   const totalStars = useAppStore((state) => state.totalStars)
@@ -13,15 +15,30 @@ export function ParentPage() {
   const selectedPackId = useAppStore((state) => state.selectedPackId)
   const addImportedPack = useAppStore((state) => state.addImportedPack)
   const selectPack = useAppStore((state) => state.selectPack)
+  const cloudProfileId = useAppStore((state) => state.cloudProfileId)
+  const setCloudProfileId = useAppStore((state) => state.setCloudProfileId)
   const activePack = useMemo(
     () => getActiveWordPack(importedPacks, selectedPackId),
     [importedPacks, selectedPackId],
   )
+  const [profileInput, setProfileInput] = useState(cloudProfileId ?? '')
   const [packName, setPackName] = useState('My 词包')
   const [csvText, setCsvText] = useState(
     'word,meaningZh,topic,unit,example,exampleZh,image,audio\ncat,猫,animals,Unit 1,This is a cat.,这是一只猫。,,\n',
   )
   const [message, setMessage] = useState<string | null>(null)
+
+  function restoreProfile() {
+    const normalized = normalizeProfileId(profileInput)
+    if (!normalized) {
+      setMessage('先输入一个账号，再切换历史。')
+      return
+    }
+
+    setCloudProfileId(normalized)
+    setProfileInput(normalized)
+    setMessage(`已切换到账号 ${normalized}，会自动尝试找回这份历史。`)
+  }
 
   function downloadTemplate() {
     const template = [
@@ -75,6 +92,47 @@ export function ParentPage() {
         <p style={{ margin: 0 }}>总星星：{totalStars}</p>
         <p style={{ margin: 0 }}>连续学习：{currentStreak} 天</p>
         <p style={{ margin: 0 }}>当前词库：{activePack.meta.name}</p>
+        <div style={{ display: 'grid', gap: '8px' }}>
+          <strong>学习账号</strong>
+          <p style={{ margin: 0, color: 'var(--color-text-light)' }}>
+            当前账号：{cloudProfileId ?? '未生成'}。换设备时，只要输入同一个账号，就会尝试找回历史。
+          </p>
+          <label style={{ fontWeight: 700 }}>
+            输入账号找回历史
+            <input
+              value={profileInput}
+              onChange={(event) => setProfileInput(event.target.value)}
+              placeholder="例如 maya"
+              style={{
+                width: '100%',
+                marginTop: '6px',
+                minHeight: '44px',
+                borderRadius: 'var(--radius-md)',
+                border: '1px solid var(--color-surface-border)',
+                padding: '0 12px',
+              }}
+            />
+          </label>
+          <button
+            type="button"
+            onClick={restoreProfile}
+            style={{
+              minHeight: '48px',
+              borderRadius: 'var(--radius-pill)',
+              border: '1px solid var(--color-surface-border)',
+              background: 'rgba(255,255,255,0.86)',
+              cursor: 'pointer',
+              fontWeight: 700,
+            }}
+          >
+            切换账号并找回历史
+          </button>
+          <p style={{ margin: 0, color: 'var(--color-text-light)' }}>
+            {hasSupabaseConfig
+              ? '这是轻量账号，不是复杂登录。知道账号的人都能切换到这份记录，所以请只在自己家里使用。'
+              : '当前还没有配置 Supabase，所以现在仍然只是本机保存。配置好后，这个账号才会跨设备生效。'}
+          </p>
+        </div>
         <div style={{ display: 'grid', gap: '10px' }}>
           <button
             type="button"

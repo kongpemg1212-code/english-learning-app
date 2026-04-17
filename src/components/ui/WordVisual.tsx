@@ -28,7 +28,8 @@ export function WordVisual({ word, size = 'md' }: WordVisualProps) {
         width: `${config.box}px`,
         height: `${config.box}px`,
         borderRadius: 'var(--radius-lg)',
-        background: 'rgba(255,255,255,0.78)',
+        background:
+          'linear-gradient(180deg, rgba(255,255,255,0.98), rgba(255,246,237,0.92))',
         border: '1px solid var(--color-surface-border)',
         display: 'grid',
         placeItems: 'center',
@@ -46,7 +47,8 @@ export function WordVisual({ word, size = 'md' }: WordVisualProps) {
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'cover',
+            objectFit: 'contain',
+            padding: '10%',
           }}
         />
       ) : (

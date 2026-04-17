@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { AnswerFeedback } from '../feedback/AnswerFeedback'
 import { Button } from '../ui/Button'
 import { Card } from '../ui/Card'
+import { SpeakButton } from '../ui/SpeakButton'
+import { useSpeech } from '../../hooks/useSpeech'
 
 import type { GameAnswer } from '../../types/game'
 import type { WordItem } from '../../types/word'
@@ -15,6 +17,7 @@ type MatchPairsProps = {
 export function MatchPairs({ words, onAnswer }: MatchPairsProps) {
   const [selectedWordId, setSelectedWordId] = useState<string | null>(null)
   const [feedback, setFeedback] = useState<string | null>(null)
+  const { speak } = useSpeech()
 
   return (
     <Card style={{ display: 'grid', gap: '20px' }}>
@@ -22,7 +25,13 @@ export function MatchPairs({ words, onAnswer }: MatchPairsProps) {
         <p style={{ margin: 0, color: 'var(--color-text-light)' }}>拖拽配对</p>
         <h2 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>把单词和中文连起来</h2>
         {words[0]?.example ? (
-          <p style={{ margin: 0, color: 'var(--color-text-light)' }}>常用句：{words[0].example}</p>
+          <div style={{ display: 'grid', gap: '8px', justifyItems: 'center' }}>
+            <p style={{ margin: 0, color: 'var(--color-text-light)' }}>常用句：{words[0].example}</p>
+            <SpeakButton
+              label="听例句"
+              onClick={() => void speak(words[0].example ?? '', { kind: 'sentence' })}
+            />
+          </div>
         ) : null}
       </div>
 
@@ -30,9 +39,15 @@ export function MatchPairs({ words, onAnswer }: MatchPairsProps) {
 
       <div style={{ display: 'grid', gap: '10px' }}>
         {words.map((word) => (
-          <Button key={word.id} variant="ghost" onClick={() => setSelectedWordId(word.id)}>
-            {word.word}
-          </Button>
+          <div key={word.id} style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '8px' }}>
+            <Button variant="ghost" onClick={() => setSelectedWordId(word.id)}>
+              {word.word}
+            </Button>
+            <SpeakButton
+              label="听词"
+              onClick={() => void speak(word.word, { audioUrl: word.audio, kind: 'word' })}
+            />
+          </div>
         ))}
       </div>
 

@@ -20,6 +20,11 @@ function normalizeWord(word: string) {
   return word.trim().toLowerCase().replace(/\s+/g, ' ')
 }
 
+function normalizeOptionalText(value?: string) {
+  const next = value?.trim()
+  return next ? next : undefined
+}
+
 export function normalizeImportedPack({
   name,
   rows,
@@ -32,11 +37,12 @@ export function normalizeImportedPack({
       id: `textbook-${topic.toLowerCase().replace(/\s+/g, '-')}-${normalizedWord.replace(/\s+/g, '-')}`,
       word: row.word.trim(),
       normalizedWord,
+      visualKey: normalizedWord,
       meaningZh: row.meaningZh.trim(),
-      image: row.image,
-      audio: row.audio,
-      example: row.example,
-      exampleZh: row.exampleZh,
+      image: normalizeOptionalText(row.image),
+      audio: normalizeOptionalText(row.audio),
+      example: normalizeOptionalText(row.example),
+      exampleZh: normalizeOptionalText(row.exampleZh),
       topic,
       tags: [topic.toLowerCase()],
       level: 'preA1',

@@ -2,9 +2,9 @@ import { render, screen } from '@testing-library/react'
 
 import App from './App'
 
-test('renders the simple cloud archive entry when auth is not configured', () => {
+test('renders the today mission instead of a login gate', () => {
   render(<App />)
 
-  expect(screen.getByText('开启云端存档')).toBeInTheDocument()
-  expect(screen.getByRole('button', { name: '一键进入并保存进度' })).toBeInTheDocument()
+  expect(screen.getByText('一起开始今天的英语冒险')).toBeInTheDocument()
+  expect(screen.getByRole('button', { name: '开始今天的冒险' })).toBeInTheDocument()
 })

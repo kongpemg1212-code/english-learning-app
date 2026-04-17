@@ -14,6 +14,7 @@ type AppShellProps = PropsWithChildren<{
   onNavigate: (route: AppRoute) => void
   profileLabel?: string
   currentPackName?: string
+  cloudEnabled?: boolean
 }>
 
 export function AppShell({
@@ -22,6 +23,7 @@ export function AppShell({
   onNavigate,
   profileLabel,
   currentPackName,
+  cloudEnabled = false,
 }: AppShellProps) {
   return (
     <div style={{ minHeight: '100vh', paddingBottom: '92px' }}>
@@ -32,6 +34,7 @@ export function AppShell({
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'space-between',
+              flexWrap: 'wrap',
               gap: '12px',
               padding: '14px 16px',
               marginBottom: '12px',
@@ -47,7 +50,9 @@ export function AppShell({
                 <span style={{ color: 'var(--color-text-light)' }}>当前词库：{currentPackName}</span>
               ) : null}
             </div>
-            <span style={{ color: 'var(--color-text-light)', fontWeight: 700 }}>自动云端保存中</span>
+            <span style={{ color: 'var(--color-text-light)', fontWeight: 700 }}>
+              {cloudEnabled ? '轻量云端同步中' : '当前仅本机保存'}
+            </span>
           </header>
         ) : null}
         {children}
@@ -59,7 +64,7 @@ export function AppShell({
           left: '50%',
           bottom: '12px',
           transform: 'translateX(-50%)',
-          width: 'min(720px, calc(100% - 24px))',
+          width: 'min(720px, calc(100% - 16px))',
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
           gap: '8px',

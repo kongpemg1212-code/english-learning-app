@@ -42,7 +42,7 @@ test('submits a correct picture choice', async () => {
   const onAnswer = vi.fn()
 
   render(<PictureChoice promptWord={promptWord} options={options} onAnswer={onAnswer} />)
-  expect(screen.getByRole('img', { name: 'cat' })).toBeInTheDocument()
+  expect(screen.getAllByRole('img', { name: 'cat' }).length).toBeGreaterThan(0)
   expect(screen.getByText(/常用句：This is a cat\./)).toBeInTheDocument()
   await user.click(screen.getByRole('button', { name: /cat/i }))
 

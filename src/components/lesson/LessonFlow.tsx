@@ -28,26 +28,46 @@ export function LessonFlow({ session, words, onNavigate }: LessonFlowProps) {
   const [correctAnswers, setCorrectAnswers] = useState(0)
   const currentWord = words.find((word) => word.id === session.newWords[0]) ?? words[0]
   const completeMission = useAppStore((state) => state.completeMission)
-  const optionWords = useMemo(() => {
-    const firstTwo = words.slice(0, 2)
-    return firstTwo.some((word) => word.id === currentWord?.id)
-      ? firstTwo
-      : [currentWord, ...firstTwo].filter(Boolean).slice(0, 2)
-  }, [currentWord, words])
   const lessonWords = useMemo(
     () => words.filter((word) => session.newWords.includes(word.id)),
     [session.newWords, words],
+  )
+  const reviewLessonWords = useMemo(
+    () => words.filter((word) => session.reviewWords.includes(word.id)),
+    [session.reviewWords, words],
+  )
+  const practiceWords = useMemo(() => {
+    const merged = [...lessonWords, ...reviewLessonWords]
+    return merged.filter((word, index) => merged.findIndex((item) => item.id === word.id) === index)
+  }, [lessonWords, reviewLessonWords])
+  const relatedTopicWords = useMemo(() => {
+    if (!session.topicId) {
+      return words
+    }
+
+    const sameTopic = words.filter((word) => word.topic === session.topicId)
+    return sameTopic.length > 0 ? sameTopic : words
+  }, [session.topicId, words])
+
+  const currentMode = session.modeSequence[stepIndex - 1]
+  const activeWord =
+    practiceWords[(Math.max(stepIndex - 1, 0)) % Math.max(practiceWords.length, 1)] ?? currentWord
+  const optionWords = useMemo(() => {
+    const seedWord = activeWord ?? relatedTopicWords[0]
+    if (!seedWord) {
+      return []
+    }
+
+    const distractors = relatedTopicWords.filter((word) => word.id !== seedWord.id)
+    return [seedWord, ...distractors].slice(0, 4)
+  }, [activeWord, relatedTopicWords])
+  const bossWords = words.filter(
+    (word) => session.challengeWords.includes(word.id) || session.newWords.includes(word.id),
   )
 
   if (!currentWord) {
     return null
   }
-
-  const currentMode = session.modeSequence[stepIndex - 1]
-  const activeWord = lessonWords[(Math.max(stepIndex - 1, 0)) % Math.max(lessonWords.length, 1)] ?? currentWord
-  const bossWords = words.filter(
-    (word) => session.challengeWords.includes(word.id) || session.newWords.includes(word.id),
-  )
 
   async function recordPractice(wordId: string, correct: boolean) {
     const repo = getWordProgressRepo()

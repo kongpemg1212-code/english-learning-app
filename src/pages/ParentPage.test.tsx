@@ -16,6 +16,7 @@ beforeEach(() => {
     selectedPackId: undefined,
     importedPacks: [],
     soundEnabled: true,
+    cloudProfileId: 'kid-home-1234',
   })
 })
 
@@ -35,4 +36,17 @@ test('imports a csv word pack and switches to it', async () => {
 
   expect(screen.getByText(/已导入 1 个词/)).toBeInTheDocument()
   expect(useAppStore.getState().importedPacks).toHaveLength(1)
+})
+
+test('switches to a typed lightweight account for history recovery', async () => {
+  const user = userEvent.setup()
+
+  render(<ParentPage />)
+
+  await user.clear(screen.getByLabelText('输入账号找回历史'))
+  await user.type(screen.getByLabelText('输入账号找回历史'), 'My Kid Account')
+  await user.click(screen.getByRole('button', { name: '切换账号并找回历史' }))
+
+  expect(useAppStore.getState().cloudProfileId).toBe('my-kid-account')
+  expect(screen.getByText(/已切换到账号 my-kid-account/)).toBeInTheDocument()
 })

@@ -9,7 +9,7 @@ export function Card({ children, style }: CardProps) {
     <section
       style={{
         borderRadius: 'var(--radius-lg)',
-        padding: '24px',
+        padding: 'clamp(18px, 4vw, 24px)',
         background: 'var(--color-surface)',
         border: '1px solid var(--color-surface-border)',
         boxShadow: 'var(--shadow-card)',

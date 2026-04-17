@@ -1,5 +1,6 @@
 import type { DailySession } from '../../types/session'
-import { getCloudDailySession, getCurrentUser, listCloudDailySessions, saveCloudDailySession } from '../../lib/supabase'
+import { getCloudDailySession, listCloudDailySessions, saveCloudDailySession } from '../../lib/supabase'
+import { useAppStore } from '../../store/useAppStore'
 import { createObjectStoreRepository } from '../db'
 
 const localDailySessionRepo = createObjectStoreRepository<DailySession>({
@@ -12,10 +13,10 @@ const localDailySessionRepo = createObjectStoreRepository<DailySession>({
 export function getDailySessionRepo() {
   return {
     async get(key: string) {
-      const user = await getCurrentUser()
-      if (user) {
+      const profileId = useAppStore.getState().cloudProfileId
+      if (profileId) {
         try {
-          return (await getCloudDailySession(user, key)) ?? localDailySessionRepo.get(key)
+          return (await getCloudDailySession(profileId, key)) ?? localDailySessionRepo.get(key)
         } catch {
           return localDailySessionRepo.get(key)
         }
@@ -25,26 +26,26 @@ export function getDailySessionRepo() {
     },
     async save(value: DailySession) {
       await localDailySessionRepo.save(value)
-      const user = await getCurrentUser()
-      if (user) {
-        await saveCloudDailySession(user, value)
+      const profileId = useAppStore.getState().cloudProfileId
+      if (profileId) {
+        await saveCloudDailySession(profileId, value)
       }
     },
     async clear() {
       await localDailySessionRepo.clear()
     },
     async list() {
-      const user = await getCurrentUser()
-      if (user) {
+      const profileId = useAppStore.getState().cloudProfileId
+      if (profileId) {
         try {
-          const sessions = await listCloudDailySessions(user)
+          const sessions = await listCloudDailySessions(profileId)
           if (sessions.length > 0) {
             return sessions
           }
 
           const localSessions = await localDailySessionRepo.list()
           if (localSessions.length > 0) {
-            await Promise.all(localSessions.map((session) => saveCloudDailySession(user, session)))
+            await Promise.all(localSessions.map((session) => saveCloudDailySession(profileId, session)))
           }
 
           return localSessions

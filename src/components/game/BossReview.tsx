@@ -1,3 +1,5 @@
+import { SpeakButton } from '../ui/SpeakButton'
+import { useSpeech } from '../../hooks/useSpeech'
 import { Card } from '../ui/Card'
 
 import type { WordItem } from '../../types/word'
@@ -8,6 +10,8 @@ type BossReviewProps = {
 }
 
 export function BossReview({ words, onComplete }: BossReviewProps) {
+  const { speak } = useSpeech()
+
   return (
     <Card style={{ display: 'grid', gap: '20px' }}>
       <div style={{ display: 'grid', gap: '6px', textAlign: 'center' }}>
@@ -37,6 +41,12 @@ export function BossReview({ words, onComplete }: BossReviewProps) {
           >
             <strong>{word.word}</strong>
             <p style={{ margin: '8px 0 0', color: 'var(--color-text-light)' }}>{word.meaningZh}</p>
+            <div style={{ marginTop: '10px' }}>
+              <SpeakButton
+                label="听单词"
+                onClick={() => void speak(word.word, { audioUrl: word.audio, kind: 'word' })}
+              />
+            </div>
           </div>
         ))}
       </div>
