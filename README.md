@@ -39,7 +39,8 @@
 - 当前已实现最小可上线版：StoryPage、SQLite 缓存、本地 fallback 故事、storyProvider 接口
 - `.env.local` 不放 AI API Key，只能放代理地址，例如 `VITE_AI_STORY_PROXY_URL`
 - 真正的 AI API Key 应该放在你自己的后端代理里，不进入 GitHub，也不进入浏览器包
-- 如果没有配置代理，网站也能正常给孩子生成一个本地模板小故事
+- 当前线上代理地址：`https://kids-word-story-api.kongpemg1212.workers.dev/`
+- 如果代理不可用，网站也能正常给孩子生成一个本地模板小故事
 
 ## 项目架构
 

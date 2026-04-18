@@ -1,10 +1,14 @@
 import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 
+const aiStoryProxyUrl =
+  process.env.VITE_AI_STORY_PROXY_URL ||
+  'https://kids-word-story-api.kongpemg1212.workers.dev/'
+
 export default defineConfig({
   base: './',
   define: {
-    __AI_STORY_PROXY_URL__: JSON.stringify(process.env.VITE_AI_STORY_PROXY_URL || ''),
+    __AI_STORY_PROXY_URL__: JSON.stringify(aiStoryProxyUrl),
   },
   build: {
     rollupOptions: {
