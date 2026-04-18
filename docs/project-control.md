@@ -28,6 +28,7 @@
 - `daily-routines` 已加入默认词包
 - 五个高频主题已切到统一儿童化内置插画包：`animals`、`family-and-friends`、`food-and-drink`、`school`、`daily-routines`
 - 轻量账号用于区分同一台设备上的不同学习记录，不做跨设备同步
+- AI 故事模式已落最小骨架：完成任务后可进入 StoryPage，优先读 SQLite 缓存，未配置代理时走本地 fallback 故事
 
 ## 当前约束
 

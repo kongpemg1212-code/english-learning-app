@@ -11,10 +11,11 @@ import {
   TULIP_UNLOCK_STREAK,
   type GardenPlant,
 } from '../features/garden/rules'
+import type { AppRoute } from '../routes'
 import { useAppStore } from '../store/useAppStore'
 
 type GardenPageProps = {
-  onNavigate: (route: 'today' | 'map' | 'garden' | 'progress' | 'parent') => void
+  onNavigate: (route: AppRoute) => void
 }
 
 export function GardenPage({ onNavigate }: GardenPageProps) {
@@ -126,6 +127,11 @@ export function GardenPage({ onNavigate }: GardenPageProps) {
             {getPlantUnlockText('tulip', stats)}
           </div>
         </div>
+        {totalStars > 0 ? (
+          <Button variant="secondary" onClick={() => onNavigate('story')}>
+            听今天的小故事
+          </Button>
+        ) : null}
         <Button onClick={() => onNavigate('today')}>回到今日任务</Button>
       </Card>
     </main>

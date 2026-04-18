@@ -20,6 +20,8 @@ const result = await build({
   jsx: 'automatic',
   define: {
     'import.meta.env.VITE_PUBLIC_APP_URL': 'undefined',
+    'import.meta.env.VITE_AI_STORY_PROXY_URL': 'undefined',
+    __AI_STORY_PROXY_URL__: 'undefined',
   },
   outdir,
   write: false,

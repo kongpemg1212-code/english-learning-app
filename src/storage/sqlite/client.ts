@@ -4,6 +4,7 @@ import sqlWasmUrl from 'sql.js/dist/sql-wasm.wasm?url'
 import type { CloudAppState } from '../../store/useAppStore'
 import type { WordProgress } from '../../types/progress'
 import type { DailySession } from '../../types/session'
+import type { StoryChatMessage, StoryPayload } from '../../types/story'
 
 const DATABASE_STORAGE_KEY = 'word-garden-sqlite'
 
@@ -91,6 +92,25 @@ async function getDatabase() {
           session_date text not null,
           payload text not null,
           primary key (profile_id, session_date)
+        );
+
+        create table if not exists ai_story_cache (
+          profile_id text not null,
+          story_date text not null,
+          topic_id text not null,
+          payload text not null,
+          primary key (profile_id, story_date, topic_id)
+        );
+
+        create table if not exists ai_chat_history (
+          profile_id text not null,
+          story_date text not null,
+          topic_id text not null,
+          message_id text not null,
+          role text not null,
+          content text not null,
+          created_at text not null,
+          primary key (profile_id, story_date, topic_id, message_id)
         );
       `)
 
@@ -216,4 +236,83 @@ export async function saveDailySession(profileId: string, value: DailySession) {
 
 export async function clearDailySessions(profileId: string) {
   await runMutation('delete from daily_sessions where profile_id = ?', [profileId])
+}
+
+export async function getCachedStory(
+  profileId: string,
+  date: string,
+  topicId: string,
+): Promise<StoryPayload | undefined> {
+  const payload = await selectPayload(
+    'select payload from ai_story_cache where profile_id = ? and story_date = ? and topic_id = ?',
+    [profileId, date, topicId],
+  )
+  return payload ? (JSON.parse(payload) as StoryPayload) : undefined
+}
+
+export async function saveCachedStory(
+  profileId: string,
+  date: string,
+  topicId: string,
+  story: StoryPayload,
+) {
+  await runMutation(
+    `
+      insert into ai_story_cache(profile_id, story_date, topic_id, payload)
+      values(?, ?, ?, ?)
+      on conflict(profile_id, story_date, topic_id) do update set payload = excluded.payload
+    `,
+    [profileId, date, topicId, JSON.stringify(story)],
+  )
+}
+
+export async function listStoryChatMessages(
+  profileId: string,
+  date: string,
+  topicId: string,
+): Promise<StoryChatMessage[]> {
+  const db = await getDatabase()
+  const statement = db.prepare(
+    `
+      select message_id, role, content, created_at
+      from ai_chat_history
+      where profile_id = ? and story_date = ? and topic_id = ?
+      order by created_at asc
+      limit 20
+    `,
+  )
+  statement.bind([profileId, date, topicId])
+  const messages: StoryChatMessage[] = []
+
+  while (statement.step()) {
+    const row = statement.getAsObject()
+    messages.push({
+      messageId: String(row.message_id),
+      role: row.role === 'child' ? 'child' : 'assistant',
+      content: String(row.content),
+      createdAt: String(row.created_at),
+    })
+  }
+
+  statement.free()
+  return messages
+}
+
+export async function saveStoryChatMessage(
+  profileId: string,
+  date: string,
+  topicId: string,
+  message: StoryChatMessage,
+) {
+  await runMutation(
+    `
+      insert into ai_chat_history(profile_id, story_date, topic_id, message_id, role, content, created_at)
+      values(?, ?, ?, ?, ?, ?, ?)
+      on conflict(profile_id, story_date, topic_id, message_id) do update set
+        role = excluded.role,
+        content = excluded.content,
+        created_at = excluded.created_at
+    `,
+    [profileId, date, topicId, message.messageId, message.role, message.content, message.createdAt],
+  )
 }

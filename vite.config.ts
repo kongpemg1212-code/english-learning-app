@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: './',
+  define: {
+    __AI_STORY_PROXY_URL__: JSON.stringify(process.env.VITE_AI_STORY_PROXY_URL || ''),
+  },
   build: {
     rollupOptions: {
       output: {

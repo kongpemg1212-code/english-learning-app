@@ -1,4 +1,4 @@
-export type AppRoute = 'today' | 'map' | 'garden' | 'progress' | 'parent'
+export type AppRoute = 'today' | 'map' | 'garden' | 'progress' | 'parent' | 'story'
 
 const routeMap: Record<string, AppRoute> = {
   '/': 'today',
@@ -7,6 +7,7 @@ const routeMap: Record<string, AppRoute> = {
   '/garden': 'garden',
   '/progress': 'progress',
   '/parent': 'parent',
+  '/story': 'story',
 }
 
 export function getRouteFromHash(hash = window.location.hash): AppRoute {

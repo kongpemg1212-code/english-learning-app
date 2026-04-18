@@ -13,6 +13,10 @@ vi.mock('./pages/TodayPage', () => ({
   TodayPage: () => <div>today-page</div>,
 }))
 
+vi.mock('./pages/StoryPage', () => ({
+  StoryPage: () => <div>story-page</div>,
+}))
+
 import App from './App'
 
 test('shows entry choices before entering the app', () => {

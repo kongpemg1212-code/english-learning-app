@@ -8,6 +8,7 @@ import { GardenPage } from './pages/GardenPage'
 import { MapPage } from './pages/MapPage'
 import { ParentPage } from './pages/ParentPage'
 import { ProgressPage } from './pages/ProgressPage'
+import { StoryPage } from './pages/StoryPage'
 import { TodayPage } from './pages/TodayPage'
 import { getRouteFromHash, navigateToRoute, type AppRoute } from './routes'
 import { useAppStore } from './store/useAppStore'
@@ -60,6 +61,8 @@ function App() {
     content = <ProgressPage />
   } else if (route === 'parent') {
     content = <ParentPage />
+  } else if (route === 'story') {
+    content = <StoryPage onNavigate={navigateToRoute} />
   }
 
   const profileLabel = profile.profileId ? `账号：${profile.profileId}` : '账号：本机'

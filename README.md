@@ -32,6 +32,14 @@
 - `animals / family-and-friends / food-and-drink / school / daily-routines` 五个高频主题改成统一儿童化内置插画包
 - 首页不再默认直接进入某个账号，而是先选 `临时使用` 或 `继续我的记录`
 - 题面和候选项现在按当前主题/当前练习词对齐，不再乱配
+- 完成当天任务后可以进入 `听今天的小故事`，故事会先读本机 SQLite 缓存，没有缓存时使用可插拔 storyProvider，当前线上默认走本地 fallback 故事
+
+## AI 故事模式
+
+- 当前已实现最小可上线版：StoryPage、SQLite 缓存、本地 fallback 故事、storyProvider 接口
+- `.env.local` 不放 AI API Key，只能放代理地址，例如 `VITE_AI_STORY_PROXY_URL`
+- 真正的 AI API Key 应该放在你自己的后端代理里，不进入 GitHub，也不进入浏览器包
+- 如果没有配置代理，网站也能正常给孩子生成一个本地模板小故事
 
 ## 项目架构
 

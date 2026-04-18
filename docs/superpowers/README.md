@@ -13,6 +13,9 @@
 - [设计规格](./specs/2026-04-12-kids-vocabulary-pwa-design.md)
   定义产品目标、用户场景、玩法、记忆机制、页面结构、技术路线、风险与成功指标。
 
+- [AI 故事模式设计](./specs/2026-04-18-ai-story-mode-design.md)
+  定义完成任务后解锁的小故事奖励、storyProvider 接口、SQLite 缓存和 AI 代理边界。
+
 - [实现计划](./plans/2026-04-12-kids-vocabulary-pwa.md)
   将设计规格拆成可以直接执行的工程任务，包含建议文件结构、测试策略与阶段性验收标准。
 
